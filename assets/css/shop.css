@@ -2,7 +2,7 @@
 main .container .section.archive-products{padding:4rem 0; display:grid; grid-template-columns:1fr 1fr; gap:2rem;}
 main .container .section.archive-products:has(article:hover) > article:not(:hover){opacity:.25;}
     /* artículo */
-    article{display:grid; gap:1.7rem; grid-template-rows:1fr auto auto; color:var(--color-text); transition:all .3s ease;}
+    article{display:grid; gap:1.7rem; grid-template-rows:1fr auto auto; color:var(--color-main); transition:all .3s ease;}
     article a{text-decoration:none;}
     article a:hover{text-decoration:none;}
     article .content-wrapper{order:1; display:grid; gap:1.7rem; align-content:flex-start; text-align:center;}
