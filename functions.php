@@ -83,6 +83,29 @@ function deregister_polyfill(){
 add_filter( 'wpcf7_load_js', '__return_false' );
 add_filter( 'wpcf7_load_css', '__return_false' );
 
+// deshabilita woocommerce en todas las páginas excepto en páginas de woocommerce
+add_action( 'wp_enqueue_scripts', 'disable_woocommerce_loading_css_js' );
+function disable_woocommerce_loading_css_js() {
+    // Check if WooCommerce plugin is active
+    if( function_exists( 'is_woocommerce' ) ){
+        // Check if it's any of WooCommerce page
+        if(! is_woocommerce() && ! is_cart() && ! is_checkout() ) {         
+            
+            ## Dequeue WooCommerce styles
+            wp_dequeue_style('woocommerce-layout'); 
+            wp_dequeue_style('woocommerce-general'); 
+            wp_dequeue_style('woocommerce-smallscreen');     
+            ## Dequeue WooCommerce scripts
+            wp_dequeue_script('wc-cart-fragments');
+            wp_dequeue_script('woocommerce'); 
+            wp_dequeue_script('wc-add-to-cart'); 
+        
+            wp_deregister_script( 'js-cookie' );
+            wp_dequeue_script( 'js-cookie' );
+        }
+    }    
+}
+
 // activa woocommerce
 if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
     require_once(get_template_directory() . '/functions/woocommerce.php');
