@@ -39,6 +39,15 @@ require_once(get_template_directory() . '/functions/woocommerce/wc-components.ph
 add_filter( 'woocommerce_enqueue_styles', '__return_empty_array' );
 
 function disable_woocommerce_block_styles() {
-	wp_deregister_style( 'wc-blocks-packages-style-css' );
+	wp_deregister_style( 'wc-blocks-style' );
   }
   add_action( 'wp_enqueue_scripts', 'disable_woocommerce_block_styles' );
+
+  /**
+ * Disable WooCommerce block styles (back-end).
+ */
+function disable_woocommerce_block_editor_styles() {
+	wp_deregister_style( 'wc-block-editor' );
+	wp_deregister_style( 'wc-blocks-style' );
+  }
+  add_action( 'enqueue_block_assets', 'disable_woocommerce_block_editor_styles', 1, 1 );
