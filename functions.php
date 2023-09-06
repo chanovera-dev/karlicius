@@ -7,3 +7,8 @@ function load_parts_header() {
     wp_enqueue_style( 'global' );
 }
 add_action( 'wp_enqueue_scripts', 'load_parts_header' );
+
+// activa woocommerce
+if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
+    require_once(get_template_directory() . '/functions/woocommerce.php');
+} else {}
