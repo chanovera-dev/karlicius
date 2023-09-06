@@ -51,11 +51,3 @@ function disable_wp_blocks() {
 	}
 }
 add_action( "init", "disable_wp_blocks",100 );
-
-// deshabilita woocommerce en páginas donde no es necesario
-function disable_woocommerce() { 
-    if ( is_page_template('resume.php') ) { 
-        deactivate_plugins('woocommerce/woocommerce.php'); 
-    } 
-} 
-add_action('wp', 'disable_woocommerce');
