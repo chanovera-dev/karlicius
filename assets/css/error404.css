@@ -1,0 +1,27 @@
+.message > *:not(:last-child){margin-bottom:1.7rem;}
+.message h1{
+    margin: 0;
+    color: #fff;
+    font-size: 15rem;
+    font-weight: bold;
+    text-shadow: 
+        0 .005em 0 #ccc, 
+        0 .01em 0 #c9c9c9, 
+        0 .015em 0 #bbb, 
+        0 .02em 0 #b9b9b9, 
+        0 .025em 0 #aaa, 
+        0 .03em .005em rgba(0,0,0,.1), 
+        0 0 .025em rgba(0,0,0,.1), 
+        0 .005em .015em rgba(0,0,0,.3), 
+        0 .015em .025em rgba(0,0,0,.2), 
+        0 .025em .05em rgba(0,0,0,.25), 
+        0 .05em .05em rgba(0,0,0,.2), 
+        0 .1em .1em rgba(0,0,0,.15);
+}
+.message h3{margin-top:3rem; font-weight:600;}
+.message a{color:var(--color-link); display:inline-flex; align-items:center;}
+.message a svg{position:relative; top:.15rem;}
+.message .searchform .searchform-wrapper{position:relative; display:flex; justify-content:flex-end;}
+.message .searchform .searchform-wrapper .input-search{width:100%; padding-left:4rem;}
+.message .searchform .searchform-wrapper svg{position:absolute; top:0; left:0; width:1.7rem; height:1.7rem; padding:1.15rem; cursor:pointer;}
+.message .searchform .searchform-wrapper .bi-x-circle{display:none;}

@@ -1,0 +1,24 @@
+:root{
+    --color-link:#8CC63F!important;
+}
+.resume-content{display:grid; gap:4rem;}
+.resume-content .text-colored{color:var(--color-link);}
+.resume-content :is(.name-and-contact-data,.skills,.tech){display:inline-flex; align-items:center; flex-wrap:wrap;}
+.resume-content :is(.name-and-contact-data,.skills,.tech) :is(li,a,p){display:inline-flex; align-items:center; gap:.7rem; line-height:1.7;}
+
+/* datos de contacto */
+.resume-content .name-and-contact-data{gap:0 3rem;}
+.resume-content .name-and-contact-data li a svg{color:var(--color-main); transition:all .3s ease;}
+.resume-content .name-and-contact-data li a:hover svg{color:var(--color-link);}
+.resume-content .name-and-contact-data li a:focus svg{color:var(--color-link-focus);}
+
+/* aprendizaje & experiencia laboral */
+:is(.non-academy-training,.work-experience) > *:not(:last-child){margin-bottom:2rem;}
+
+/* habilidades blandas */
+.resume-content .skills{gap:.7rem;}
+.resume-content .skills li{height:3rem; padding:0 1rem; background-color:var(--color-link); color:#088B00; border-radius:.3rem;}
+
+/* technical skills */
+.resume-content .tech{gap:3rem; align-items:baseline;}
+.resume-content .tech li ul{display:grid;}

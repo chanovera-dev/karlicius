@@ -1,0 +1,10 @@
+/* cabecera */
+.post-template-default main{padding-top:0;}
+.title-section-wrapper{position:relative; padding-top:6rem; color:#fff;}
+.background-blur{position:absolute; top:0; left:0; right:0; bottom:0;}
+.title-section{position:relative;}
+.title-section > *:not(:last-child, .publicate-date_widget){margin-bottom:2rem;}
+.title-section .share-social{position:absolute; right:0; bottom:4rem;}
+
+/* cuerpo */
+.content-section .content > *:not(:last-child){margin-bottom:2rem;}
