@@ -5,16 +5,15 @@ function load_parts_header() {
     // Estilos globales
     wp_register_style( 'global', get_template_directory_uri() . '/style.css', '', 1, 'all' );
     wp_enqueue_style( 'global' );
-    /* estilos css para los formularios */
-    wp_register_style( 'forms', get_template_directory_uri() . '/assets/css/forms.css', '', 1, 'all' );
-    wp_enqueue_style( 'forms' );
 }
 add_action( 'wp_enqueue_scripts', 'load_parts_header' );
 
 // Carga componentes (estilos, javascript, etc) en el footer
 function load_parts_footer(){
     // JS de efectos en la cabecera
-    wp_enqueue_script( 'header', get_template_directory_uri() . '/assets/js/header.js', '', 1, true );  
+    wp_enqueue_script( 'header', get_template_directory_uri() . '/assets/js/header.js', '', 1, true ); 
+    /* estilos css para los formularios */
+    wp_enqueue_style( 'forms-styles', get_template_directory_uri() . '/assets/css/forms.css' ); 
 }
 add_action( 'get_footer', 'load_parts_footer' );
 
