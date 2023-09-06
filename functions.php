@@ -32,6 +32,17 @@ require_once(get_template_directory() . '/functions/colors.php');
 // Anexo para establecer los componentes de los templates
 require_once(get_template_directory() . '/functions/components.php');
 
+// Agrega soporte para los siguientes componentes
+function theme_support(){
+    // Carga el título de la página en el head
+    add_theme_support( 'title-tag' );
+    // Permite agregar un logo personalizado al sitio
+    add_theme_support( 'custom-logo' );  
+    // Activa las miniaturas en los artículos en portada
+    add_theme_support( 'post-thumbnails' );  
+}
+add_action( 'after_setup_theme', 'theme_support' );
+
 // activa woocommerce
 if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
     require_once(get_template_directory() . '/functions/woocommerce.php');
