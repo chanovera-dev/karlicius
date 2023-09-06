@@ -72,6 +72,13 @@ function time_ago_text($date, $format, $post) {
 	return sprintf( 'Publicado hace %s.', human_time_diff($post_date, current_time( 'U' ) ) );
 }
 
+// desactiva polyfill
+function deregister_polyfill(){
+    wp_deregister_script( 'wp-polyfill' );
+    wp_deregister_script( 'regenerator-runtime' );
+  }
+  add_action( 'wp_enqueue_scripts', 'deregister_polyfill');
+
 // activa woocommerce
 if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
     require_once(get_template_directory() . '/functions/woocommerce.php');
