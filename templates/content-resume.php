@@ -207,5 +207,31 @@
                 </li>
             </ul>
         </div>
+        <?php
+/**
+ * @package active-plugins
+ * @version 1.0
+ *
+ * Plugin Name: Active Plugins
+ * Plugin URI: http://wordpress.org/extend/plugins/#
+ * Description: This is a development plugin 
+ * Author: Your Name
+ * Version: 1.0
+ * Author URI: https://example.com/
+ */
+
+add_shortcode( 'activeplugins', function(){
+	
+	$active_plugins = get_option( 'active_plugins' );
+	$plugins = "";
+	if( count( $active_plugins ) > 0 ){
+		$plugins = "<ul>";
+		foreach ( $active_plugins as $plugin ) {
+			$plugins .= "<li>" . $plugin . "</li>";
+		}
+		$plugins .= "</ul>";
+	}
+	return $plugins;
+});
     </article>
 </main>

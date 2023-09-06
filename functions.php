@@ -79,7 +79,7 @@ function deregister_polyfill(){
   }
   add_action( 'wp_enqueue_scripts', 'deregister_polyfill');
 
-// ajustes para contact form 7
+// deshabilita contact form 7 en todas las páginas
 add_filter( 'wpcf7_load_js', '__return_false' );
 add_filter( 'wpcf7_load_css', '__return_false' );
 

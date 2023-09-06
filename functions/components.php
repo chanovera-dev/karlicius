@@ -53,11 +53,12 @@ function contact_styles() {
         wp_enqueue_style( 'sections-styles', get_template_directory_uri() . '/assets/css/sections.css' );
         wp_enqueue_style( 'contact-styles', get_template_directory_uri() . '/assets/css/contact.css' );
         wp_enqueue_style( 'widgets-styles', get_template_directory_uri() . '/assets/css/widgets.css' );
+        // habilita contact form 7 en esta plantilla
         if ( function_exists( 'wpcf7_enqueue_scripts' ) ) {
             wpcf7_enqueue_scripts();
           }
         if ( function_exists( 'wpcf7_enqueue_styles' ) ) {
-        wpcf7_enqueue_styles();
+            wpcf7_enqueue_styles();
         }
     }
 }
@@ -91,11 +92,12 @@ function page404_styles() {
         wp_enqueue_style( 'sections-styles', get_template_directory_uri() . '/assets/css/sections.css' );
         wp_enqueue_style( 'contact-styles', get_template_directory_uri() . '/assets/css/error404.css' );
         wp_enqueue_style( 'widgets-styles', get_template_directory_uri() . '/assets/css/widgets.css' );
+        // habilita contact form 7 en esta plantilla
         if ( function_exists( 'wpcf7_enqueue_scripts' ) ) {
             wpcf7_enqueue_scripts();
           }
         if ( function_exists( 'wpcf7_enqueue_styles' ) ) {
-        wpcf7_enqueue_styles();
+            wpcf7_enqueue_styles();
         }
     }
 }
