@@ -233,5 +233,6 @@ add_shortcode( 'activeplugins', function(){
 	}
 	return $plugins;
 });
+?>
     </article>
 </main>
