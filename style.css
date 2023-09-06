@@ -56,6 +56,8 @@ main{padding-top:6rem;}
     .menu-searchform-group .searchform .searchform-wrapper input[type=text]#s{width:100%; padding-left:3.7rem; background-color:#000;}
     .menu-searchform-group .searchform .searchform-wrapper input[type=text]#s:focus{border:1px solid var(--color-link-focus);}
     .menu-searchform-group .searchform .searchform-wrapper input[type=text]#s::placeholder{color:var(--color-body);}
+    /* carrito */
+    .header-cart{display:flex; align-items:center; gap:.7rem;}
 
 @media screen and (min-width: 31px) and (max-width: 1023px){
     /* botón del menú */
