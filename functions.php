@@ -47,6 +47,19 @@ add_action( 'after_setup_theme', 'theme_support' );
 function limite_excerpt($limite) { return 15; }
 add_filter ('excerpt_length', 'limite_excerpt', 999);
 
+// salida de wp_archive_list() personalizada
+function custom_archives_link($link_html, $url, $text, $format, $before, $after) {
+    // Modify the $link_html to customize the link structure
+    $custom_link = '<li><a href="' . esc_url($url) . '">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-archive" viewBox="0 0 16 16">
+        <path d="M0 2a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1v7.5a2.5 2.5 0 0 1-2.5 2.5h-9A2.5 2.5 0 0 1 1 12.5V5a1 1 0 0 1-1-1V2zm2 3v7.5A1.5 1.5 0 0 0 3.5 14h9a1.5 1.5 0 0 0 1.5-1.5V5H2zm13-3H1v2h14V2zM5 7.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"/>
+    </svg>
+    ' . $text . '</a></li>';
+    // Return the modified link HTML
+    return $before . $custom_link . $after;
+}
+add_filter('get_archives_link', 'custom_archives_link', 10, 6);
+
 // activa woocommerce
 if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
     require_once(get_template_directory() . '/functions/woocommerce.php');
