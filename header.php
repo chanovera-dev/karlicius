@@ -11,10 +11,15 @@ echo '<!DOCTYPE html>
     <body '; body_class(); echo '>
         <header class="container main-header">
             <section class="section header-content">';
-                if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
-                    echo '<p>WooCommerce activo</p>';
-                } else {
-
-                }
+            if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
+                include(TEMPLATEPATH . '/parts/header/brand.php');
+                include(TEMPLATEPATH . '/parts/header/menu.php');
+                include(TEMPLATEPATH . '/parts/header/header-cart.php');
+                include(TEMPLATEPATH . '/parts/header/menu-button.php');
+            } else {
+                include(TEMPLATEPATH . '/parts/header/brand.php');
+                include(TEMPLATEPATH . '/parts/header/menu.php');
+                include(TEMPLATEPATH . '/parts/header/menu-button.php');
+            }
             echo '</section>
         </header>';
