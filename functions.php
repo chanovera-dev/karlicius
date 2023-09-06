@@ -79,6 +79,10 @@ function deregister_polyfill(){
   }
   add_action( 'wp_enqueue_scripts', 'deregister_polyfill');
 
+// ajustes para contact form 7
+add_filter( 'wpcf7_load_js', '__return_false' );
+add_filter( 'wpcf7_load_css', '__return_false' );
+
 // activa woocommerce
 if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
     require_once(get_template_directory() . '/functions/woocommerce.php');
