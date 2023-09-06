@@ -8,6 +8,22 @@ function load_parts_header() {
 }
 add_action( 'wp_enqueue_scripts', 'load_parts_header' );
 
+// Carga componentes (estilos, javascript, etc) en el footer
+function load_parts_footer(){
+    // JS de efectos en la cabecera
+    wp_enqueue_script( 'header', get_template_directory_uri() . '/assets/js/header.js', '', 1, true );   
+}
+add_action( 'get_footer', 'load_parts_footer' );
+
+// Registro de menús
+register_nav_menus( 
+    array(
+        'primary' => __( 'Primary', 'renata' ),
+        'secondary' => __( 'Secondary', 'renata' ),
+        'social' => __( 'Social', 'renata' ), 
+    ) 
+);
+
 // activa woocommerce
 if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
     require_once(get_template_directory() . '/functions/woocommerce.php');
