@@ -31,3 +31,9 @@ function replace_star_ratings($html, $rating) {
     }
     return $html;
 }
+
+// Estilos particulares
+require_once(get_template_directory() . '/functions/woocommerce/wc-components.php');
+
+//Disable all woocommerce stylesheets
+add_filter( 'woocommerce_enqueue_styles', '__return_empty_array' );
