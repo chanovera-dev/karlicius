@@ -60,6 +60,18 @@ function custom_archives_link($link_html, $url, $text, $format, $before, $after)
 }
 add_filter('get_archives_link', 'custom_archives_link', 10, 6);
 
+// Cambia la fecha a fecha relativa
+add_filter( 'get_the_date', 'time_ago_text', 10, 3 );
+function time_ago_text($date, $format, $post) {
+	$post_date = str_contains( current_filter(), 'modified' ) ?
+        strtotime( $post->post_modified ) :
+        strtotime( $post->post_date );
+	if ( (time() - YEAR_IN_SECONDS ) > $post_date || date(DATE_W3C, $post_date) === $date ){
+		return $date;
+	}
+	return sprintf( 'Publicado hace %s.', human_time_diff($post_date, current_time( 'U' ) ) );
+}
+
 // activa woocommerce
 if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
     require_once(get_template_directory() . '/functions/woocommerce.php');
