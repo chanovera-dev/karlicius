@@ -83,14 +83,6 @@ function deregister_polyfill(){
 add_filter( 'wpcf7_load_js', '__return_false' );
 add_filter( 'wpcf7_load_css', '__return_false' );
 
-// deshabilita woocommerce en páginas donde no es necesario
-function disable_woocommerce() { 
-    if ( is_page_template('resume.php') ) { 
-        deactivate_plugins('woocommerce/woocommerce.php'); 
-    } 
-} 
-add_action('wp', 'disable_woocommerce');
-
 // activa woocommerce
 if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
     require_once(get_template_directory() . '/functions/woocommerce.php');
