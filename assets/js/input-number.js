@@ -22,7 +22,11 @@ inputQty.insertAdjacentElement("beforebegin", buttonLess);
 window.addEventListener('DOMContentLoaded', function () {
     var reviewFormWrapper = document.getElementById('review_form_wrapper');
     if (reviewFormWrapper) {
-        // Puedes agregar el código HTML que desees dentro del elemento aquí.
-        reviewFormWrapper.innerHTML = '<p>Contenido HTML agregado mediante JavaScript.</p>';
+        // Crea un nuevo elemento y agrega contenido HTML a él.
+        var nuevoContenido = document.createElement('div');
+        nuevoContenido.innerHTML = '<p>Contenido HTML agregado con JavaScript.</p>';
+
+        // Agrega el nuevo contenido al final del elemento existente.
+        reviewFormWrapper.appendChild(nuevoContenido);
     }
 });
