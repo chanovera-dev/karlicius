@@ -38,7 +38,7 @@ aside ul li a{display:inline-flex; align-items:center; gap:.7rem;}
     :is(.archive,.search,.home,.blog,.post-template-default) :is(.posts-wrapper,.title-section .title,.content-section,.comments-section){grid-template-columns:1fr 330px; gap:0 7.5rem;}
 
     /* contacto & 404 */
-    :is(#error404-group,#contact-group) .contact-section{grid-template-columns:1fr 250px; gap:0 5rem;}
-    :is(#error404-group,#contact-group) .contact-section .sites-and-form,
-    #review_form_wrapper{grid-template-columns:1fr 342px; gap:0 5rem;}
+    :is(#error404-group,#contact-group) .contact-section,
+    #review_form_wrapper{grid-template-columns:1fr 250px; gap:0 5rem;}
+    :is(#error404-group,#contact-group) .contact-section .sites-and-form{grid-template-columns:1fr 342px; gap:0 5rem;}
 }

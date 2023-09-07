@@ -26,7 +26,7 @@ function template_redirect_action() {
             wp_enqueue_style( 'sections-styles', get_template_directory_uri() . '/assets/css/sections.css' );
             wp_enqueue_style( 'contact-styles', get_template_directory_uri() . '/assets/css/contact.css' );
             // JS de ajustes
-            wp_enqueue_script( 'ajustes', get_template_directory_uri() . '/assets/js/input-number.js', '', 1, true );
+            wp_enqueue_script( 'ajustes', get_template_directory_uri() . '/assets/js/single-product.js', '', 1, true );
             // JS de ajustes para swatches
             // wp_enqueue_script( 'swatches', get_template_directory_uri() . '/assets/js/swatches.js', '', 1, true );
             return array_merge( $classes, array( $tipo ) );
