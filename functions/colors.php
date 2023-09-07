@@ -29,6 +29,12 @@ function theme_colors() {
                                     0 2px 4px hsl(0deg 0% 0% / 0.1),
                                     0 6px 8px hsl(0deg 0% 0% / 0.1),
                                     0 8px 16px hsl(0deg 0% 0% / 0.1);
+
+                /* producto */
+                -box-shadow-onsale: 0 4px  30px  rgba(21, 80, 120, .1),
+                                    0 4px  8px  rgba(21, 80, 120, .08),
+                                    0 16px  16px  rgba(21, 80, 120, .09),
+                                    0 24px  64px  rgba(21, 80, 120, .08);
             }
 
             /* cabecera */
