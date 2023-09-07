@@ -22,11 +22,23 @@ inputQty.insertAdjacentElement("beforebegin", buttonLess);
 window.addEventListener('DOMContentLoaded', function () {
     var reviewFormWrapper = document.getElementById('review_form_wrapper');
     if (reviewFormWrapper) {
-        // Crea un nuevo elemento y agrega contenido HTML a él.
-        var nuevoContenido = document.createElement('div');
-        nuevoContenido.innerHTML = '<p>Contenido HTML agregado con JavaScript.</p>';
+        // Crea un nuevo elemento para el contenido.
+        var nuevoContenido = document.createElement('aside');
 
-        // Agrega el nuevo contenido al final del elemento existente.
-        reviewFormWrapper.appendChild(nuevoContenido);
+        // Realiza una solicitud AJAX al archivo address.php en tu tema.
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', '/wp-content/themes/karlicius/assets/widgets/address.php', true);
+
+        xhr.onload = function () {
+            if (xhr.status === 200) {
+                // El contenido de respuesta contiene el resultado PHP.
+                nuevoContenido.innerHTML = xhr.responseText;
+
+                // Agrega el nuevo contenido al final del elemento existente.
+                reviewFormWrapper.appendChild(nuevoContenido);
+            }
+        };
+
+        xhr.send();
     }
 });
