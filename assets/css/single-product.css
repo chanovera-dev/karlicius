@@ -48,8 +48,7 @@
         #input-qty{width:4rem; height:2.2rem; border:none; border-radius:0; border-bottom:1px solid translarent; background-color:transparent; color:var(--color-text); padding:0 1rem; margin:0 .7rem; text-align:right; transition:all .3s ease;}
         #input-qty:focus{outline:none; border-bottom:1px solid var(--color-emphasis);}
         #button-less,
-        #button-plus,
-        .single_add_to_cart_button{
+        #button-plus{
             display:grid; place-content:center; 
             width:2.4rem; height:2.4rem; 
             border:1px solid var(--border-color-input); 
@@ -59,10 +58,7 @@
             transition:all .3s ease;
         }
         #button-less:focus, 
-        #button-plus:focus, 
-        .single_add_to_cart_button:focus{outline:none; box-shadow:var(--box-shadow-focus);}
-        .single_add_to_cart_button{width:auto; padding:0 2rem;}
-        .single_add_to_cart_button:hover{background-color:var();}
+        #button-plus:focus{outline:none; box-shadow:var(--box-shadow-focus);}
 
 /* container aside product */
 .container-aside-product{background-color:var(--background-color-contact-section); padding:3rem 0;}
