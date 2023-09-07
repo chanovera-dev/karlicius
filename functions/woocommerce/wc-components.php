@@ -23,7 +23,7 @@ function template_redirect_action() {
             /* estilos para los widgets */
             wp_enqueue_style( 'widgets-styles', get_template_directory_uri() . '/assets/css/widgets.css' );
             /* estilos para las secciones */
-            wp_enqueue_style( 'sections-styles', get_template_directory_uri() . '/assets/css/sections.css' ); 
+            wp_enqueue_style( 'sections-styles', get_template_directory_uri() . '/assets/css/sections.css' );
             // JS de ajustes
             wp_enqueue_script( 'ajustes', get_template_directory_uri() . '/assets/js/input-number.js', '', 1, true );
             // JS de ajustes para swatches
