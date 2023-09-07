@@ -15,7 +15,7 @@
         </div>
     </section>
     <section id="contact-group" class="container container-aside-product">
-        <div class="section contact-section">
+        <div class="section">
             <?php do_action( 'woocommerce_after_single_product_summary' );
                 do_action( 'woocommerce_after_main_content' );
             ?>

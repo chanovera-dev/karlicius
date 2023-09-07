@@ -17,7 +17,7 @@ aside ul li a{display:inline-flex; align-items:center; gap:.7rem;}
 /* contacto & 404 */
 #contact-group{position:relative; overflow:hidden; color:#fff;}
 #error404-group{position:relative; overflow:hidden;}
-:is(#error404-group, #contact-group) :is(.contact-section,#review_form_wrapper),
+:is(#error404-group, #contact-group) .contact-section,
 :is(#error404-group, #contact-group) .contact-section .sites-and-form{display:grid; gap:5rem;}
 :is(#error404-group, #contact-group) .contact-section .sites-and-form :is(.services-pictures,.message){position:relative;}
 #contact-group .contact-section .sites-and-form .services-pictures figure{position:relative; width:100%; border-radius:.8rem; overflow:hidden;}
@@ -36,6 +36,6 @@ aside ul li a{display:inline-flex; align-items:center; gap:.7rem;}
     :is(.archive,.search,.home,.blog,.post-template-default) :is(.posts-wrapper,.title-section .title,.content-section,.comments-section){grid-template-columns:1fr 330px; gap:0 7.5rem;}
 
     /* contacto & 404 */
-    :is(#error404-group,#contact-group) :is(.contact-section,#review_form_wrapper){grid-template-columns:1fr 250px; gap:0 5rem;}
+    :is(#error404-group,#contact-group) .contact-section{grid-template-columns:1fr 250px; gap:0 5rem;}
     :is(#error404-group,#contact-group) .contact-section .sites-and-form{grid-template-columns:1fr 342px; gap:0 5rem;}
 }
