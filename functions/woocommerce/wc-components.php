@@ -18,6 +18,8 @@ function template_redirect_action() {
             $product = wc_get_product( $post->ID );
             $tipo    = $product->get_type();
             wp_enqueue_style( 'single-product-styles', get_template_directory_uri() . '/assets/css/single-product.css' );
+            /* estilos css para los formularios */
+            wp_enqueue_style( 'forms-styles', get_template_directory_uri() . '/assets/css/forms.css' ); 
             // JS de ajustes
             // wp_enqueue_script( 'ajustes', get_template_directory_uri() . '/assets/js/input-number.js', '', 1, true );
             // JS de ajustes para swatches
