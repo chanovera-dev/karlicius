@@ -62,7 +62,7 @@ input[type=number]{-moz-appearance:textfield;}
 #button-less:active:hover,
 #button-plus:active:hover{filter:brightness(1);}
 #button-less:focus, 
-#button-plus:focus{outline:none; box-shadow:var(--main-link-outline-focus);}
+#button-plus:focus{outline:none;}
 
 /* contact-form 7 */
 .wpcf7-form{position:relative; display:grid; gap:1rem;}
