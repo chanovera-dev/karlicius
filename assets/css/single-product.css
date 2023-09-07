@@ -42,7 +42,7 @@
         
 
 /* container aside product */
-.container-aside-product{background-color:var(--background-color-contact-section); padding:3rem 0;}
+.container-aside-product{background-color:var(--background-forms); padding:3rem 0;}
         /* tabs de contenido extra */
         .tabs.wc-tabs{margin:0; padding:0; list-style:none; display:flex; align-items:center;}
         /* descripción del producto */
