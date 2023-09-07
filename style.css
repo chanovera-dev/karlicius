@@ -112,6 +112,8 @@ main{padding-top:6rem;}
     .menu-searchform-group .searchform{order:1;}
     /* navegación principal */
     .menu-searchform-group nav{order:2;}
+    /* carrito */
+    .header-cart{margin-left:auto;}
 }
 
 @media(min-width:1024px){
