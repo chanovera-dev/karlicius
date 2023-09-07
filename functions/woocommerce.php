@@ -53,7 +53,8 @@ function disable_wp_blocks() {
 add_action( "init", "disable_wp_blocks",100 );
 
 
-function QL_add_text_above_add_to_cart() {
-  echo 'prueba';
+// Change 'add to cart' text on single product page
+add_filter( 'woocommerce_product_single_add_to_cart_text', 'bryce_add_to_cart_text' );
+function bryce_add_to_cart_text() {
+        return __( 'Yes! I WANT this!', 'karlicius' );
 }
-add_action( 'woocommerce_single_product_summary', 'QL_add_text_above_add_to_cart', 20 );
