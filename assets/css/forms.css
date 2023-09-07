@@ -71,4 +71,4 @@ input[type=number]{-moz-appearance:textfield;}
 .wpcf7 form .wpcf7-response-output{margin: 0; border-radius:0.4rem; padding:1rem; background-color:#ffb900; color:#000;}
 
 /* ajustes a comentarios */
-#commentform > *:not(:last-child){margin-bottom:2rem;}
+#commentform > *:not(:last-child){margin-bottom:1rem;}
