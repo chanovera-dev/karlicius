@@ -58,3 +58,15 @@ function custom_address_shortcode() {
     return ob_get_clean();
 }
 add_shortcode('custom_address', 'custom_address_shortcode');
+
+// En functions.php o en un plugin personalizado
+
+// Agregar la acción para manejar la solicitud AJAX.
+add_action('wp_ajax_get_custom_address', 'get_custom_address_callback');
+add_action('wp_ajax_nopriv_get_custom_address', 'get_custom_address_callback');
+
+// Callback para manejar la solicitud AJAX y devolver el resultado del shortcode.
+function get_custom_address_callback() {
+    echo do_shortcode('[custom_address]');
+    wp_die();
+}
