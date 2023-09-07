@@ -64,4 +64,4 @@ function bryce_archive_add_to_cart_link($link)
     $link = '<a href="' . esc_url(get_permalink()) . '" class="add-to-cart-link">' . $icon_svg . 'Agregar al carrito</a>';
 
     return $link;
-}x
+}
