@@ -23,7 +23,7 @@ window.addEventListener('DOMContentLoaded', function () {
     var reviewFormWrapper = document.getElementById('review_form_wrapper');
     if (reviewFormWrapper) {
         // Crea un nuevo elemento para el contenido.
-        var nuevoContenido = document.createElement('div');
+        var nuevoContenido = document.createElement('aside');
 
         // Realiza una solicitud AJAX al servidor de WordPress para obtener el contenido del shortcode.
         var xhr = new XMLHttpRequest();
