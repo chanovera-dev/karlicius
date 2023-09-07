@@ -52,4 +52,10 @@ function disable_wp_blocks() {
 }
 add_action( "init", "disable_wp_blocks",100 );
 
+add_filter( 'woocommerce_product_single_add_to_cart_text', 'bbloomer_add_symbol_add_cart_button_single' );
+ 
+function bbloomer_add_symbol_add_cart_button_single( $button ) {
+   $button_new = '» ' . $button;
+   return $button_new;
+}
 
