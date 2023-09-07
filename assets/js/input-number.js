@@ -18,3 +18,11 @@ buttonPlus.onclick = up
 
 inputQty.insertAdjacentElement("afterend", buttonPlus);
 inputQty.insertAdjacentElement("beforebegin", buttonLess);
+
+window.addEventListener('DOMContentLoaded', function () {
+    var reviewFormWrapper = document.getElementById('review_form_wrapper');
+    if (reviewFormWrapper) {
+        // Puedes agregar el código HTML que desees dentro del elemento aquí.
+        reviewFormWrapper.innerHTML = '<p>Contenido HTML agregado mediante JavaScript.</p>';
+    }
+});
