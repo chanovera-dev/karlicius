@@ -69,3 +69,6 @@ input[type=number]{-moz-appearance:textfield;}
 .wpcf7-form{position:relative; display:grid; gap:1rem;}
 .wpcf7-form p:has(label) label:has(span){display:grid; gap:.5rem;}
 .wpcf7 form .wpcf7-response-output{margin: 0; border-radius:0.4rem; padding:1rem; background-color:#ffb900; color:#000;}
+
+/* ajustes a comentarios */
+#commentform > *:not(:last-child){margin-bottom:2rem;}
