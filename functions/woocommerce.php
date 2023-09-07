@@ -54,7 +54,7 @@ add_action( "init", "disable_wp_blocks",100 );
 
 add_filter('woocommerce_product_add_to_cart_text', 'bryce_archive_add_to_cart_text');
 
-function bryce_archive_add_to_cart_text($text)
+function bryce_archive_add_to_cart_text($link)
 {
     $icon_svg = '<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
 	<path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z"/>
