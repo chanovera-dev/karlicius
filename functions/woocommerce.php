@@ -52,18 +52,32 @@ function disable_wp_blocks() {
 }
 add_action( "init", "disable_wp_blocks",100 );
 
-add_filter('woocommerce_product_add_to_cart_text', 'bryce_archive_add_to_cart_text');
-
-function bryce_archive_add_to_cart_text($button)
-{
-    $icon_svg = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
-        <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
-        <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
-      </svg>';
-
-    $button_new = $icon_svg . ' ' . $button;
-
-    return $button_new;
+add_filter('woocommerce_loop_add_to_cart_link', 'flywithwp_woo_add_to_cart_replace', 10, 2 ); // shop
+function flywithwp_woo_add_to_cart_replace() {
+    global $product;
+    $link = $product->get_permalink();
+    echo do_shortcode('<a href="'.$link.'" class="button add_to_cart_button flywithwp_cart_btn ajax_add_to_cart"><img class="flywithwp_cart_btn_img" src="https://cdn-icons-png.flaticon.com/512/263/263142.png" /></a>');
 }
 
+add_action( 'woocommerce_single_product_summary', 'flywithwp_woo_add_to_cart_replace_single', 1 );
+function flywithwp_woo_add_to_cart_replace_single() {
+	global $product;
 
+	// For variable product types
+	if( $product->is_type( 'variable' ) ) {
+		remove_action( 'woocommerce_single_variation', 'woocommerce_single_variation_add_to_cart_button', 20 );
+		add_action( 'woocommerce_single_variation', 'flywithwp_woo_add_to_cart_button', 20 );
+	}
+	// For all other product types
+	else {
+		remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 30 );
+		add_action( 'woocommerce_single_product_summary', 'flywithwp_woo_add_to_cart_button', 30 );
+	}
+
+}
+
+function flywithwp_woo_add_to_cart_button(){
+	global $product;
+    $link = $product->get_permalink();
+	echo '<a href="'.$link.'" class="button add_to_cart_button flywithwp_cart_btn"><img class="flywithwp_cart_btn_img" src="https://cdn-icons-png.flaticon.com/512/263/263142.png" /></a>';
+}
