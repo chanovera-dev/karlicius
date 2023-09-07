@@ -18,23 +18,3 @@ buttonPlus.onclick = up
 
 inputQty.insertAdjacentElement("afterend", buttonPlus);
 inputQty.insertAdjacentElement("beforebegin", buttonLess);
-
-document.addEventListener('DOMContentLoaded', function() {
-    const reviewFormWrapper = document.getElementById('review_form_wrapper');
-
-    // Obtén la URL de la carpeta del tema actual
-    const themeUrl = '<?php echo esc_url(get_template_directory_uri()); ?>';
-
-    // Construye la URL completa al archivo datos.php
-    const datosPhpUrl = themeUrl + '/assets/php/datos.php';
-
-    // Realiza una solicitud fetch para obtener los datos de datos.php
-    fetch(datosPhpUrl)
-      .then(response => response.text())
-      .then(data => {
-        reviewFormWrapper.innerHTML = data;
-      })
-      .catch(error => {
-        console.error('Error al obtener datos de PHP', error);
-      });
-  });
