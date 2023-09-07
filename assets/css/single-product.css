@@ -10,7 +10,7 @@
 /* galería */
 .woocommerce-product-gallery{position:relative;}
     /* cinta de oferta */
-    .onsale{position:absolute; background-color:red; color:#fff; left:-40px; top:23px; padding:.5rem 5rem; transform:rotate(-45deg); box-shadow:var(--box-shadow-main-content); z-index:2;}
+    .onsale{position:absolute; background-color:red; color:#fff; left:-40px; top:23px; padding:.5rem 5rem; transform:rotate(-45deg); box-shadow:var(--box-shadow-picure); z-index:2;}
     /* botón zoom */
     .woocommerce-product-gallery__trigger{position:absolute; display:grid; place-content:center; width:4rem; height:4rem; background-color:var(--background-color-title-section); top:1rem; right:1rem; z-index:1;}
     .woocommerce-product-gallery__trigger:before{position:absolute; padding:8.5px; display:inline-block; top:50%; left:50%; transform:translate(-50%, -50%); background-color:var(--background-color-title-section); border:2px solid var(--background-color-title-section);}
