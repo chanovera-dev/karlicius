@@ -52,9 +52,8 @@ function disable_wp_blocks() {
 }
 add_action( "init", "disable_wp_blocks",100 );
 
-
-// Change 'add to cart' text on single product page
-add_filter( 'woocommerce_product_single_add_to_cart_text', 'bryce_add_to_cart_text' );
-function bryce_add_to_cart_text() {
-        return __( 'Yes! I WANT this!', 'karlicius' );
+// Change 'add to cart' text on archive product page
+add_filter( 'woocommerce_product_add_to_cart_text', 'bryce_archive_add_to_cart_text' );
+function bryce_archive_add_to_cart_text() {
+        return __( 'YES! I NEED this!', 'karlicius' );
 }
