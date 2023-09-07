@@ -19,7 +19,7 @@ const header = document.querySelector(".main-header");
 const menu = document.querySelector(".main-header .menu");
 const scrollUp = "scroll-up";
 const scrollDown = "scroll-down";
-const scrollThreshold = 1.5; // Umbral de desplazamiento en píxeles
+const scrollThreshold = 1.75; // Umbral de desplazamiento en píxeles
 let lastScroll = 0;
 
 window.addEventListener("scroll", () => {
