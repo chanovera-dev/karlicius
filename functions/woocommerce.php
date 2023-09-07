@@ -51,3 +51,9 @@ function disable_wp_blocks() {
 	}
 }
 add_action( "init", "disable_wp_blocks",100 );
+
+add_action( 'comment_form_top', 'address_on_reviews', 30 );
+
+function address_on_reviews() {
+	echo 'prueba';
+}
