@@ -21,7 +21,8 @@ function template_redirect_action() {
             /* estilos css para los formularios */
             wp_enqueue_style( 'forms-styles', get_template_directory_uri() . '/assets/css/forms.css' ); 
             /* estilos para los widgets */
-            wp_enqueue_style( 'widgets-styles', get_template_directory_uri() . '/assets/css/widgets.css' ); 
+            wp_enqueue_style( 'widgets-styles', get_template_directory_uri() . '/assets/css/widgets.css' );
+            /* estilos para las secciones */
             wp_enqueue_style( 'sections-styles', get_template_directory_uri() . '/assets/css/sections.css' ); 
             // JS de ajustes
             wp_enqueue_script( 'ajustes', get_template_directory_uri() . '/assets/js/input-number.js', '', 1, true );
