@@ -18,3 +18,20 @@ buttonPlus.onclick = up
 
 inputQty.insertAdjacentElement("afterend", buttonPlus);
 inputQty.insertAdjacentElement("beforebegin", buttonLess);
+
+// Obtén el elemento con el id "review_form_wrapper"
+const reviewFormWrapper = document.getElementById("review_form_wrapper");
+
+// Ruta completa al archivo datos.php
+const phpScriptUrl = 'assets/php/datos.php';
+
+// Hacer una solicitud fetch para obtener los datos de PHP
+fetch(phpScriptUrl)
+  .then(response => response.text())
+  .then(data => {
+    // Agregar el contenido de PHP al elemento HTML
+    reviewFormWrapper.innerHTML = data;
+  })
+  .catch(error => {
+    console.error('Error al obtener datos de PHP', error);
+  });
