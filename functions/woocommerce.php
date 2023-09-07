@@ -52,8 +52,32 @@ function disable_wp_blocks() {
 }
 add_action( "init", "disable_wp_blocks",100 );
 
-add_action( 'comment_form_top', 'address_on_reviews', 30 );
+add_filter( 'comment_form_defaults', 'render_pros_cons_fields_for_anonymous_users', 10, 1 );
+add_action( 'comment_form_top', 'render_pros_cons_fields_for_authorized_users' );
+function get_pros_cons_fields_html() {
+	ob_start();
+	?>
 
-function address_on_reviews() {
-	echo 'prueba';
+	<p>Prueba</p>
+
+	<?php
+	return ob_get_clean();
+}
+
+function render_pros_cons_fields_for_authorized_users() {
+	if ( ! is_product() || ! is_user_logged_in() ) {
+		return;
+	}
+	
+	echo get_pros_cons_fields_html();
+}
+
+function render_pros_cons_fields_for_anonymous_users( $defaults ) {
+	if ( ! is_product() || is_user_logged_in() ) {
+		return;
+	}
+	
+	$defaults['comment_notes_before'] .= get_pros_cons_fields_html();
+	
+	return $defaults;
 }
