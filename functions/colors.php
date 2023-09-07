@@ -22,6 +22,12 @@ function theme_colors() {
                 --border-color-input:#ddd;
                 --background-color-input:#fff;
                 --box-shadow-input-focus:0 0 0 .3rem rgba(255,87,51,.5);
+                --button-shadow:rgba(255, 255, 255, .15) 0 -2px 0 inset,
+                                0 1px 1px hsl(0deg 0% 0% / 0.05),
+                                0 1px 2px hsl(0deg 0% 0% / 0.05),
+                                0 2px 4px hsl(0deg 0% 0% / 0.05),
+                                0 6px 8px hsl(0deg 0% 0% / 0.05),
+                                0 8px 16px hsl(0deg 0% 0% / 0.05);
 
                 /* contacto */
                 --box-shadow-picure:0 1px 1px hsl(0deg 0% 0% / 0.1),
