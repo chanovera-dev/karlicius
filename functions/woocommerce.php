@@ -52,19 +52,17 @@ function disable_wp_blocks() {
 }
 add_action( "init", "disable_wp_blocks",100 );
 
+// crea un shortcode para poder llamarlo desde javascript (ver single-product.js)
 function custom_address_shortcode() {
     ob_start();
     include(TEMPLATEPATH . '/parts/widgets/address.php');
     return ob_get_clean();
 }
 add_shortcode('custom_address', 'custom_address_shortcode');
-
 // En functions.php o en un plugin personalizado
-
 // Agregar la acción para manejar la solicitud AJAX.
 add_action('wp_ajax_get_custom_address', 'get_custom_address_callback');
 add_action('wp_ajax_nopriv_get_custom_address', 'get_custom_address_callback');
-
 // Callback para manejar la solicitud AJAX y devolver el resultado del shortcode.
 function get_custom_address_callback() {
     echo do_shortcode('[custom_address]');
