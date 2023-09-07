@@ -19,19 +19,22 @@ buttonPlus.onclick = up
 inputQty.insertAdjacentElement("afterend", buttonPlus);
 inputQty.insertAdjacentElement("beforebegin", buttonLess);
 
-// Obtén el elemento con el id "review_form_wrapper"
-const reviewFormWrapper = document.getElementById("review_form_wrapper");
+document.addEventListener('DOMContentLoaded', function() {
+    const reviewFormWrapper = document.getElementById('review_form_wrapper');
 
-// Ruta completa al archivo datos.php
-const phpScriptUrl = 'assets/php/datos.php';
+    // Obtén la URL de la carpeta del tema actual
+    const themeUrl = '<?php echo esc_url(get_template_directory_uri()); ?>';
 
-// Hacer una solicitud fetch para obtener los datos de PHP
-fetch(phpScriptUrl)
-  .then(response => response.text())
-  .then(data => {
-    // Agregar el contenido de PHP al elemento HTML
-    reviewFormWrapper.innerHTML = data;
-  })
-  .catch(error => {
-    console.error('Error al obtener datos de PHP', error);
+    // Construye la URL completa al archivo datos.php
+    const datosPhpUrl = themeUrl + '/assets/php/datos.php';
+
+    // Realiza una solicitud fetch para obtener los datos de datos.php
+    fetch(datosPhpUrl)
+      .then(response => response.text())
+      .then(data => {
+        reviewFormWrapper.innerHTML = data;
+      })
+      .catch(error => {
+        console.error('Error al obtener datos de PHP', error);
+      });
   });
