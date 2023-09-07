@@ -52,8 +52,9 @@ function disable_wp_blocks() {
 }
 add_action( "init", "disable_wp_blocks",100 );
 
-add_action( 'woocommerce_comment_pagination_args', 'address_on_reviews', 30 );
-
-function address_on_reviews() {
-	echo 'prueba';
+function custom_address_shortcode() {
+    ob_start();
+    include(TEMPLATEPATH . '/parts/widgets/address.php');
+    return ob_get_clean();
 }
+add_shortcode('custom_address', 'custom_address_shortcode');

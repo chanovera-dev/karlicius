@@ -23,15 +23,15 @@ window.addEventListener('DOMContentLoaded', function () {
     var reviewFormWrapper = document.getElementById('review_form_wrapper');
     if (reviewFormWrapper) {
         // Crea un nuevo elemento para el contenido.
-        var nuevoContenido = document.createElement('aside');
+        var nuevoContenido = document.createElement('div');
 
-        // Realiza una solicitud AJAX al archivo address.php en tu tema.
+        // Realiza una solicitud AJAX al servidor de WordPress para obtener el contenido del shortcode.
         var xhr = new XMLHttpRequest();
-        xhr.open('GET', '/wp-content/themes/karlicius/parts/widgets/address.php', true);
+        xhr.open('GET', '/wp-admin/admin-ajax.php?action=get_custom_address', true);
 
         xhr.onload = function () {
             if (xhr.status === 200) {
-                // El contenido de respuesta contiene el resultado PHP.
+                // El contenido de respuesta contiene el resultado del shortcode.
                 nuevoContenido.innerHTML = xhr.responseText;
 
                 // Agrega el nuevo contenido al final del elemento existente.
