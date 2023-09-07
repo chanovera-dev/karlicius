@@ -47,10 +47,11 @@ input[type=number]{-moz-appearance:textfield;}
 #button-less,
 #button-plus{
     display:grid; place-content:center; 
-    width:4.1rem; height:4.1rem; 
+    width:4.1rem; height:4.1rem;
+    font-size:2rem;
     border:1px solid var(--border-color-input);
     box-shadow:var(--button-shadow); 
-    background-color:#f6f6f6; 
+    background-color:#f1f1f1; 
     color:var(--color-main); 
     border-radius:.3rem;
     transition:all .3s ease;
