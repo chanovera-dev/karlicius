@@ -27,7 +27,7 @@ window.addEventListener('DOMContentLoaded', function () {
 
         // Realiza una solicitud AJAX al archivo address.php en tu tema.
         var xhr = new XMLHttpRequest();
-        xhr.open('GET', '/wp-content/themes/karlicius/assets/widgets/address.php', true);
+        xhr.open('GET', '/wp-content/themes/karlicius/parts/widgets/address.php', true);
 
         xhr.onload = function () {
             if (xhr.status === 200) {
