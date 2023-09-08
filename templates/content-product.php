@@ -14,8 +14,8 @@
             </div>
         </div>
     </section>
-    <section id="contact-group" class="container container-aside-product">
-        <div class="section">
+    <section id="contact-group" class="container">
+        <div class="section wc-tabs_wrapper">
             <?php do_action( 'woocommerce_after_single_product_summary' );
                 do_action( 'woocommerce_after_main_content' );
             ?>
