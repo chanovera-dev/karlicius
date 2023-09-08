@@ -40,3 +40,29 @@ window.addEventListener('DOMContentLoaded', function () {
         xhr.send();
     }
 });
+
+window.addEventListener('DOMContentLoaded', function () {
+    var contactGroup = document.getElementById('contact-group');
+    if (contactGroup) {
+        // Crea el nuevo contenido HTML.
+        var nuevoContenidoHTML = `
+            <div class="area">
+                <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        `;
+
+        // Inserta el nuevo contenido junto al contenido existente.
+        contactGroup.insertAdjacentHTML('beforeend', nuevoContenidoHTML);
+    }
+});
