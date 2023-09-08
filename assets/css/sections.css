@@ -27,7 +27,7 @@ aside ul li a{display:inline-flex; align-items:center; gap:.7rem;}
 #contact-group .contact-section .sites-and-form .services-pictures figure figcaption{position:absolute; bottom:.2rem; left:.2rem; padding:.5rem 1rem; border-radius:.6rem;}
 #contact-group .contact-section .sites-and-form .services-pictures figure:nth-child(1) figcaption{top:0; bottom:inherit;}
 #contact-group .contact-section .sites-and-form .services-pictures figure:nth-child(3){width:80%; position:relative; bottom:3rem;}
-.wc-tabs_wrapper{position:relative;}
+.wc-tabs_wrapper{position:relative; z-index:2;}
 
 @media(min-width:768px){
     /* contacto & 404 */
