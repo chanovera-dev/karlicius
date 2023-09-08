@@ -1,7 +1,6 @@
 .single-product main .main-content{display:grid;}
 
 .single-product main .container.container-data-product{position:relative; overflow:hidden;}
-.single-product main .container .section{padding:0;}
 .single-product main .container .section.data-product{display:grid; gap:4rem; padding:4rem 0;}
 .woocommerce-notices-wrapper{background-color:#f0faf5; color:#367c5c;}
 .woocommerce-message{width:min(100% - 4rem, 1096px); margin-inline:auto; padding:2rem 0;}
