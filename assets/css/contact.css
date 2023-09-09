@@ -9,7 +9,7 @@
 
 /* animación de fondo */
 .area {position:absolute; background:#4e54c8; background-image:var(--background-forms); top:0; left:0; right:0; bottom:0;}
- .circles {position:absolute; top:0; left:0; width:100%; height:100%; overflow:hidden;}
+ .circles {position:absolute; top:0; left:0; width:100%; height:100%; margin:0; overflow:hidden;}
  .circles li{position:absolute; display:block; list-style:none; width:20px; height:20px; background:rgba(255, 255, 255, 0.2); animation:animate 25s linear infinite; bottom:-150px;}
  .circles li:nth-child(1){left:25%; width:80px; height:80px; animation-delay:0s;}
  .circles li:nth-child(2){left:10%; width:20px; height:20px; animation-delay:2s; animation-duration:12s;}
