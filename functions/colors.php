@@ -54,7 +54,7 @@ function theme_colors() {
             }
 
             .woocommerce p.stars a:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/star.svg');}
-            .woocommerce p.stars a:before:hover{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/star-fill.svg');}
+            .woocommerce p.stars a:hover:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/star-fill.svg');}
             /* blog-v0.css + content-archive.v0.php
             @media screen and (min-width: 31px) and (max-width: 767px){
                 @supports ( (-webkit-backdrop-filter:saturate(180%) blur(20px)) or (backdrop-filter:saturate(180%) blur(20px)) ){
