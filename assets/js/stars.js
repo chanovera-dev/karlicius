@@ -3,16 +3,18 @@ document.addEventListener("DOMContentLoaded", function() {
 
     stars.forEach(function(star, index) {
         star.addEventListener("mouseenter", function() {
-            // Cambia la imagen de fondo de todas las estrellas hasta la que se pasó el ratón
-            for (let i = 0; i <= index; i++) {
-                stars[i].style.backgroundImage = `url('<?php echo get_template_directory_uri(); ?>/assets/icons/star-fill.svg')`;
+            // Agregar una clase para marcar como estrella seleccionada
+            star.classList.add("selected");
+            // Remover clases de estrellas que no están seleccionadas
+            for (let i = 0; i < index; i++) {
+                stars[i].classList.remove("selected");
             }
         });
 
         star.addEventListener("mouseleave", function() {
-            // Restaura la imagen de fondo de todas las estrellas
+            // Remover todas las clases cuando se sale del área de calificación
             stars.forEach(function(star) {
-                star.style.backgroundImage = `url('<?php echo get_template_directory_uri(); ?>/assets/icons/star.svg')`;
+                star.classList.remove("selected");
             });
         });
     });
