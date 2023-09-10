@@ -50,6 +50,7 @@
 
 /* estrellas */
 .woocommerce p.stars a{font-size:0; display:inline-flex;}
+.woocommerce p.stars a:not(:last-child){margin-right:.7rem;}
 .woocommerce p.stars a:before{position:relative; padding:8.5px; display:inline-block; transition:all .3s ease;}
 .woocommerce p.stars a:focus{box-shadow:none;}
 
