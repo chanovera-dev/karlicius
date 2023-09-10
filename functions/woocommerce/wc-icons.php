@@ -15,6 +15,8 @@ function theme_icons() {
             .woocommerce p.stars a.star-3.active:before,
             .woocommerce p.stars a.star-4.active:before,
             .woocommerce p.stars a.star-5.active:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/star-fill.svg');}
+
+            .woocommerce p.stars a.star-2:hover ~ a.star-1:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/star-fill.svg');}
         </style>
     <?php
 }
