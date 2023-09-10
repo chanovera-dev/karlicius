@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
             star.classList.add("filled");
 
             // Agregar una clase 'filled' a las estrellas anteriores
-            for (let i = 0; i < index; i++) {
+            for (let i = 0; i <= index; i++) {
                 stars[i].classList.add("filled");
             }
         });
