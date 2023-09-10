@@ -5,17 +5,20 @@ document.addEventListener("DOMContentLoaded", function() {
         star.addEventListener("mouseenter", function() {
             // Agregar una clase 'hover' a la estrella actual
             star.classList.add("hover");
-            
-            // Quitar la clase 'hover' de las estrellas anteriores
+
+            // Cambiar el icono de fondo de las estrellas anteriores
             for (let i = 0; i < index; i++) {
-                stars[i].classList.add("hover");
+                stars[i].classList.add("filled");
             }
         });
 
         star.addEventListener("mouseleave", function() {
-            // Quitar la clase 'hover' de todas las estrellas
+            // Quitar la clase 'hover' de la estrella actual
+            star.classList.remove("hover");
+
+            // Quitar la clase 'filled' de todas las estrellas
             stars.forEach(function(star) {
-                star.classList.remove("hover");
+                star.classList.remove("filled");
             });
         });
     });
