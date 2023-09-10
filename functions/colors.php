@@ -51,7 +51,7 @@ function theme_colors() {
                 .menu-searchform-group.active{background:rgba(0,0,0,.8); backdrop-filter:saturate(180%) blur(20px); -webkit-backdrop-filter:saturate(180%) blur(20px);}
                 .background-blur,
                 #contact-group .contact-section .sites-and-form .services-pictures figure figcaption{background:rgba(0,0,0,.4); backdrop-filter:saturate(180%) blur(20px); -webkit-backdrop-filter:saturate(180%) blur(20px);}
-                #contact-group input[type=text]{background:rgba(255,255,0,.4); backdrop-filter:saturate(180%) blur(20px); -webkit-backdrop-filter:saturate(180%) blur(20px);}
+                #contact-group input[type=text]{background:rgba(255,255,255,.4); backdrop-filter:saturate(180%) blur(20px); -webkit-backdrop-filter:saturate(180%) blur(20px);}
             }
 
             /* blog-v0.css + content-archive.v0.php
