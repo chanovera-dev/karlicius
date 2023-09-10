@@ -1,10 +1,10 @@
 #contact-group{
-    --color-main:#fff!important;
-    --background-color-input:rgba(255,255,255,.1)!important;
-    --box-shadow-input-focus:0 0 0 .3rem rgba(173,255,47,.3)!important;
-    --line-color:rgba(255,255,255,.1)!important;
-    --color-link-focus:greenyellow!important;
-    --main-link-outline-focus:0 0 0 .3rem greenyellow!important;
+    --color-main:#fff;
+    --background-color-input:rgba(255,255,255,.1); 
+    --box-shadow-input-focus:0 0 0 .3rem rgba(173,255,47,.3);
+    --line-color:rgba(255,255,255,.1);
+    --color-link-focus:greenyellow;
+    --main-link-outline-focus:0 0 0 .3rem greenyellow;
 }
 
 /* animación de fondo */
