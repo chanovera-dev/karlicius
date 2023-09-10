@@ -53,6 +53,7 @@ function theme_colors() {
                 #contact-group .contact-section .sites-and-form .services-pictures figure figcaption{background:rgba(0,0,0,.4); backdrop-filter:saturate(180%) blur(20px); -webkit-backdrop-filter:saturate(180%) blur(20px);}
             }
 
+            .woocommerce p.stars a::before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/star.svg');}
             /* blog-v0.css + content-archive.v0.php
             @media screen and (min-width: 31px) and (max-width: 767px){
                 @supports ( (-webkit-backdrop-filter:saturate(180%) blur(20px)) or (backdrop-filter:saturate(180%) blur(20px)) ){
