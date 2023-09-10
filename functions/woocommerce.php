@@ -44,7 +44,7 @@ function custom_wc_get_star_rating_html($html, $rating, $count = 0) {
     return $html;
 }
 
-add_filter('wc_get_star_rating_html', 'custom_wc_get_star_rating_html', 10, 3);
+add_filter('woocommerce_get_star_rating_html', 'custom_wc_get_star_rating_html', 10, 3);
 
 // Estilos particulares
 require_once(get_template_directory() . '/functions/woocommerce/wc-components.php');
