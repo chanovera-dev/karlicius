@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const stars = document.querySelectorAll(".woocommerce p.stars a");
+    const stars = document.querySelectorAll(".woocommerce p.stars span a");
 
     stars.forEach(function(star, index) {
         star.addEventListener("mouseover", function() {
