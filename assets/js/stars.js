@@ -3,18 +3,19 @@ document.addEventListener("DOMContentLoaded", function() {
 
     stars.forEach(function(star, index) {
         star.addEventListener("mouseenter", function() {
-            // Agregar una clase para marcar como estrella seleccionada
-            star.classList.add("selected");
-            // Remover clases de estrellas que no están seleccionadas
+            // Agregar una clase 'hover' a la estrella actual
+            star.classList.add("hover");
+            
+            // Quitar la clase 'hover' de las estrellas anteriores
             for (let i = 0; i < index; i++) {
-                stars[i].classList.remove("selected");
+                stars[i].classList.add("hover");
             }
         });
 
         star.addEventListener("mouseleave", function() {
-            // Remover todas las clases cuando se sale del área de calificación
+            // Quitar la clase 'hover' de todas las estrellas
             stars.forEach(function(star) {
-                star.classList.remove("selected");
+                star.classList.remove("hover");
             });
         });
     });
