@@ -48,6 +48,9 @@
         .woocommerce-Tabs-panel--description > *{line-height:1.7;}
         .woocommerce-Tabs-panel--description > *:not(:last-child){margin-bottom:1.7rem;}
 
+/* estrellas */
+.woocommerce p.stars a::before{}
+
 @media(min-width:768px){
     /* datos del producto */
     .single-product main .container .section.data-product{grid-template-columns:1fr 1fr;}
