@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener('DOMContentLoaded', () => {
     const stars = document.querySelectorAll(".woocommerce p.stars a");
 
     stars.forEach(function(star, index) {
