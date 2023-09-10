@@ -54,7 +54,21 @@ function theme_colors() {
             }
 
             .woocommerce p.stars a:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/star.svg');}
-            .woocommerce p.stars a:hover:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/star-fill.svg');}
+            .woocommerce p.stars a.star-1:hover:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/star-fill.svg');}
+            .woocommerce p.stars a.star-1:before,
+            .woocommerce p.stars a.star-2:hover:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/star-fill.svg');}
+            .woocommerce p.stars a.star-1:before,
+            .woocommerce p.stars a.star-2:before,
+            .woocommerce p.stars a.star-3:hover:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/star-fill.svg');}
+            .woocommerce p.stars a.star-1:before,
+            .woocommerce p.stars a.star-2:before,
+            .woocommerce p.stars a.star-3:before,
+            .woocommerce p.stars a.star-4:hover:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/star-fill.svg');}
+            .woocommerce p.stars a.star-1:before,
+            .woocommerce p.stars a.star-2:before,
+            .woocommerce p.stars a.star-3:before,
+            .woocommerce p.stars a.star-4:before,
+            .woocommerce p.stars a.star-5:hover:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/star-fill.svg');}
             .woocommerce p.stars a.active:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/star-fill.svg');}
             /* blog-v0.css + content-archive.v0.php
             @media screen and (min-width: 31px) and (max-width: 767px){
