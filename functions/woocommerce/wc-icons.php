@@ -15,8 +15,8 @@ function theme_icons() {
             .woocommerce p.stars a.star-3.active:before,
             .woocommerce p.stars a.star-4.active:before,
             .woocommerce p.stars a.star-5.active:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/star-fill.svg');}
-
-            .woocommerce #commentform .comment-form-rating p.stars span a.star-2:hover ~ a:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/star-fill.svg');}
+            .woocommerce a.star-2:hover:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/star-fill.svg');}
+            .woocommerce a.star-2:hover ~ a:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/star-fill.svg');}
         </style>
     <?php
 }
