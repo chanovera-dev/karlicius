@@ -18,3 +18,4 @@ function theme_icons() {
         </style>
     <?php
 }
+add_action('wp_head', 'theme_icons');
