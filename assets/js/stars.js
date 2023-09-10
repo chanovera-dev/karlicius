@@ -3,19 +3,19 @@ const stars = document.querySelectorAll('.woocommerce p.stars a');
 
 // Itera a través de las estrellas
 stars.forEach((star, index) => {
-  // Agrega un evento hover a cada estrella
+  // Agrega un evento de mouseover a cada estrella
   star.addEventListener('mouseover', () => {
-    // Llena la estrella actual y las anteriores
+    // Llena las estrellas desde la actual hasta la primera
     for (let i = 0; i <= index; i++) {
-      stars[i].classList.add('active');
+      stars[i].classList.add('filled');
     }
   });
 
-  // Agrega un evento de mouseout
+  // Agrega un evento de mouseout a cada estrella
   star.addEventListener('mouseout', () => {
     // Remueve la clase 'active' de todas las estrellas
     stars.forEach((s) => {
-      s.classList.remove('active');
+      s.classList.remove('filled');
     });
   });
 });
