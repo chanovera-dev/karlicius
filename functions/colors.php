@@ -59,6 +59,11 @@ function theme_colors() {
             .woocommerce p.stars a.star-3:hover:before,
             .woocommerce p.stars a.star-4:hover:before,
             .woocommerce p.stars a.star-5:hover:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/star-fill.svg');}
+            .woocommerce p.stars a.star-1.active:before,
+            .woocommerce p.stars a.star-2.active:before,
+            .woocommerce p.stars a.star-3.active:before,
+            .woocommerce p.stars a.star-4.active:before,
+            .woocommerce p.stars a.star-5.active:before{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/star-fill.svg');}
             /* blog-v0.css + content-archive.v0.php
             @media screen and (min-width: 31px) and (max-width: 767px){
                 @supports ( (-webkit-backdrop-filter:saturate(180%) blur(20px)) or (backdrop-filter:saturate(180%) blur(20px)) ){
