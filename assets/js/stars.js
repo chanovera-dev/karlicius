@@ -1,18 +1,19 @@
-jQuery(document).ready(function($) {
-    // Cuando se pasa el ratón sobre una estrella
-    $('p.stars a').on('mouseenter', function() {
-        // Obtenemos el número de la estrella en la que se pasó el ratón
-        var starNumber = $(this).index() + 1;
+document.addEventListener("DOMContentLoaded", function() {
+    const stars = document.querySelectorAll(".woocommerce p.stars a");
 
-        // Cambiamos la imagen de fondo de todas las estrellas anteriores
-        for (var i = 1; i <= starNumber; i++) {
-            $('p.stars a.star-' + i + ':before').css('background-image', 'url(<?php echo get_template_directory_uri(); ?>/assets/icons/star-fill.svg)');
-        }
-    });
+    stars.forEach(function(star, index) {
+        star.addEventListener("mouseenter", function() {
+            // Cambia la imagen de fondo de todas las estrellas hasta la que se pasó el ratón
+            for (let i = 0; i <= index; i++) {
+                stars[i].style.backgroundImage = `url('<?php echo get_template_directory_uri(); ?>/assets/icons/star-fill.svg')`;
+            }
+        });
 
-    // Cuando se sale del área de calificación
-    $('p.stars').on('mouseleave', function() {
-        // Restauramos la imagen de fondo de todas las estrellas
-        $('p.stars a:before').css('background-image', 'url(<?php echo get_template_directory_uri(); ?>/assets/icons/star.svg)');
+        star.addEventListener("mouseleave", function() {
+            // Restaura la imagen de fondo de todas las estrellas
+            stars.forEach(function(star) {
+                star.style.backgroundImage = `url('<?php echo get_template_directory_uri(); ?>/assets/icons/star.svg')`;
+            });
+        });
     });
 });
