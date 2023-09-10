@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const stars = document.querySelectorAll(".woocommerce p.stars a");
 
     stars.forEach(function(star, index) {
-        star.addEventListener("mouseenter", function() {
+        star.addEventListener("mouseover", function() {
             // Agregar una clase 'filled' a la estrella actual
             star.classList.add("filled");
 
