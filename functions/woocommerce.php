@@ -49,6 +49,9 @@ add_filter('wp_star_rating', 'custom_wc_get_star_rating_html', 10, 3);
 // Estilos particulares
 require_once(get_template_directory() . '/functions/woocommerce/wc-components.php');
 
+// Iconos particulares
+require_once(get_template_directory() . '/functions/woocommerce/wc-icons.php');
+
 //Disable all woocommerce stylesheets
 add_filter( 'woocommerce_enqueue_styles', '__return_empty_array' );
 
