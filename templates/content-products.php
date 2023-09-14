@@ -47,7 +47,7 @@
                         echo '<span class="attribute-value">' . esc_html( $attribute_value ) . '</span>';
                     }
                     echo '</div>';   
-                    echo '</div';
+                    echo '</div>';
                 } 
                 echo '</div>';
                 echo '</td></tr></tbody></table>';
