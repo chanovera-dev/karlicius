@@ -29,7 +29,6 @@ main .container .section.archive-products:has(article:hover) > article:not(:hove
         .product_type_simple.added{font-size:0; gap:0;}
         /* variation swatches */
         .cfvsw_variations_form{order:2;}
-        .cfvsw-shop-variations tbody tr:last-child{display:none;}
         .cfvsw-shop-variations tbody .value{justify-content:center;}
         /* hipervínculo al artículo */
         .link-to-product{order:6; display:inline-flex; align-items:center; gap:.7rem; color:var(--color-link); margin-inline:auto;}
