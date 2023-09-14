@@ -43,7 +43,7 @@
                     // Display attribute values
                     echo '<span class="attribute-values">';
                     foreach ( $attribute_values as $attribute_value ) {
-                        echo '<div class="cfvsw-swatch-inner">' . esc_html( $attribute_value ) . '</div>';
+                        echo '<div class="cfvsw-swatches-option cfvsw-label-option" data-slug="'. wc_attribute_label( $attribute_name ) .'" data-title="'. wc_attribute_label( $attribute_name ) .'"><div class="cfvsw-swatch-inner">' . esc_html( $attribute_value ) . '</div></div>';
                     }
                     echo '</span>';
                     echo '</li>';
