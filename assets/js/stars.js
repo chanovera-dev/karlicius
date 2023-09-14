@@ -1,4 +1,5 @@
-var image_to_show = '';
+window.onload = function() {
+  var image_to_show = '';
 var variationsForm = document.querySelector(".variations_form");
 var variationsData = variationsForm.getAttribute("data-product_variations");
 
@@ -30,3 +31,5 @@ if (variationsData) {
         });
     });
 }
+
+};
