@@ -34,11 +34,25 @@
             global $product;
             if ( $product->is_type( 'variable' ) ) {
                 $default_attributes = $product->get_default_attributes();
-            
-            
-                woocommerce_variable_add_to_cart( $default_attributes, array(), true );
-            } else {
                 
+                // Display the variations without add to cart button and quantity
+                echo '<ul class="variations">';
+                
+                foreach ( $product->get_variation_attributes() as $attribute_name => $attribute_values ) {
+                    echo '<li class="' . esc_attr( sanitize_title( $attribute_name ) ) . '">';
+                    echo '<span class="attribute-name">' . wc_attribute_label( $attribute_name ) . ':</span> ';
+                    
+                    // Display attribute values
+                    echo '<span class="attribute-values">';
+                    foreach ( $attribute_values as $attribute_value ) {
+                        echo '<span class="attribute-value">' . esc_html( $attribute_value ) . '</span>';
+                    }
+                    echo '</span>';
+                    
+                    echo '</li>';
+                }
+                
+                echo '</ul>';
             }
             do_action( 'woocommerce_after_shop_loop_item_title' ); // Contiene woocommerce_template_loop_rating, woocommerce_show_product_loop_sale_flash, woocommerce_template_loop_price | Rating, Saldos y Precios
             echo '<div class="button-cart-wrapper">'; 
