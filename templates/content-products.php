@@ -30,7 +30,16 @@
             if (has_post_thumbnail( $loop->post->ID )) echo get_the_post_thumbnail($loop->post->ID, array(150,200)); else echo '<img src="'.wc_placeholder_img_src().'" alt="Placeholder" />'; // Imagen del producto
                 the_title('<h3 class="title">', '</h3>'); // Título del producto
                 echo '<div class="excerpt-wrapper">' . apply_filters( 'woocommerce_short_description', $product->post->post_excerpt ) . '</div>'; // Descripción corta del producto
-            echo '</div>';    
+            echo '</div>';
+            global $product;
+            if ( $product->is_type( 'variable' ) ) {
+                $default_attributes = $product->get_default_attributes();
+            
+            
+                woocommerce_variable_add_to_cart( $product, $default_attributes, array(), true );
+            } else {
+                
+            }
             do_action( 'woocommerce_after_shop_loop_item_title' ); // Contiene woocommerce_template_loop_rating, woocommerce_show_product_loop_sale_flash, woocommerce_template_loop_price | Rating, Saldos y Precios
             echo '<div class="button-cart-wrapper">'; 
                 woocommerce_template_loop_add_to_cart( $loop->post, $product );
