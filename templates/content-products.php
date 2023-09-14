@@ -40,7 +40,7 @@
                     // Display attribute values
                     echo '<table class="variations cfvsw-variation-disable-logic" cellspacing="0" role="presentation"><tbody><tr><td class="value disable-to-select"><div class="cfvsw-swatches-container cfvsw-product-container" swatches-attr="attribute_colores">';
                     foreach ( $attribute_values as $attribute_value ) {
-                        echo '<div class="cfvsw-swatches-option cfvsw-label-option" data-slug="'. wc_attribute_label( $attribute_name ) .'" data-title="'. wc_attribute_label( $attribute_name ) .'"><div class="cfvsw-swatch-inner">' . esc_html( $attribute_value ) . '</div></div>';
+                        echo '<div class="cfvsw-swatches-option" data-slug="'. wc_attribute_label( $attribute_name ) .'" data-title="'. wc_attribute_label( $attribute_name ) .'"><div class="cfvsw-swatch-inner">' . esc_html( $attribute_value ) . '</div></div>';
                     }
                     echo '</div></td></tr></tbody></table>';  
                 }
