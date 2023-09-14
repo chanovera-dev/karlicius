@@ -35,19 +35,24 @@
             if ( $product->is_type( 'variable' ) ) {
                 $default_attributes = $product->get_default_attributes();
                 
+                // Display the variations without add to cart button and quantity
+                echo '<div class="cfvsw-swatches-container cfvsw-product-container" swatches-attr="attribute_colores">';
+                
                 foreach ( $product->get_variation_attributes() as $attribute_name => $attribute_values ) {
                     
-                    
+                    echo '<div class="cfvsw-swatches-option cfvsw-label-option" style="min-width:24px;min-height:24px;border-radius:3px;">' . wc_attribute_label( $attribute_name ) . ':</div> ';
                     
                     // Display attribute values
-                    echo '<span class="attribute-values">';
+                    echo '<div class="cfvsw-swatch-inner">';
                     foreach ( $attribute_values as $attribute_value ) {
-                        echo '<span class="attribute-value">' . esc_html( $attribute_value ) . '</span>';
+                        echo '<div class="cfvsw-swatch-inner">' . esc_html( $attribute_value ) . '</div>';
                     }
-                    echo '</span>';
+                    echo '</div>';
                     
+                    echo '</div>';
                 }
-
+                
+                echo '</div>';
             }
             do_action( 'woocommerce_after_shop_loop_item_title' ); // Contiene woocommerce_template_loop_rating, woocommerce_show_product_loop_sale_flash, woocommerce_template_loop_price | Rating, Saldos y Precios
             echo '<div class="button-cart-wrapper">'; 
