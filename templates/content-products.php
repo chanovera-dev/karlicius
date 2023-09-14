@@ -44,7 +44,7 @@
                     // Display attribute values
                     echo '<span class="attribute-values">';
                     foreach ( $attribute_values as $attribute_value ) {
-                        echo '<span class="attribute-value">' . esc_html( $attribute_value ) . '</span>';
+                        echo '<div class="cfvsw-swatch-inner">' . esc_html( $attribute_value ) . '</div>';
                     }
                     echo '</div>';   
                     echo '</div>';
