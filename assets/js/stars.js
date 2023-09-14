@@ -34,7 +34,7 @@ if (variationsData) {
                     if (variation.image) {
                         image_to_show = variation.image.src;
                     } else {
-                        var mainImage = document.querySelector(".woocommerce-product-gallery__image img");
+                        var mainImage = document.querySelector(".woocommerce-product-gallery__image a img");
                         image_to_show = mainImage.getAttribute("src");
                     }
 
