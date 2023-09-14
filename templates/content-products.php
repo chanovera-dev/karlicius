@@ -39,7 +39,7 @@
                 
                 foreach ( $product->get_variation_attributes() as $attribute_name => $attribute_values ) {
                     
-                    echo '<span class="attribute-name">' . wc_attribute_label( $attribute_name ) . ':</span> ';
+                    
                     // Display attribute values
                     echo '<div class="cfvsw-swatches-container cfvsw-product-container" swatches-attr="attribute_colores">';
                     foreach ( $attribute_values as $attribute_value ) {
