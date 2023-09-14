@@ -36,7 +36,7 @@
                 $default_attributes = $product->get_default_attributes();
             
             
-                woocommerce_variable_add_to_cart( $product, $default_attributes, array(), true );
+                woocommerce_variable_add_to_cart( $default_attributes, array(), true );
             } else {
                 
             }
