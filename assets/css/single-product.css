@@ -38,6 +38,7 @@
 
     /* agregar al carrito */
     .cart{display:inline-flex; align-items:center; gap:2rem;}
+    .woocommerce-variation-add-to-cart.variations_button.woocommerce-variation-add-to-cart-enabled{display:flex; gap:2rem;}
         
 
 /* container aside product */
