@@ -39,15 +39,15 @@
                 echo '<div class="cfvsw-hidden-select"><select id="colores" class="" name="attribute_colores" data-attribute_name="attribute_colores" data-show_option_none="yes"><option value="">Elige una opción</option><option value="Gris espacial" class="attached enabled">Gris espacial</option><option value="Color oro" class="attached enabled">Color oro</option><option value="Color plata" class="attached enabled">Color plata</option></select></div>';
                 echo '<div class="cfvsw-swatches-container cfvsw-product-container" swatches-attr="attribute_colores">';
                 foreach ( $product->get_variation_attributes() as $attribute_name => $attribute_values ) {
-                    echo '<div class="cfvsw-swatches-option cfvsw-label-option" data-slug="'. esc_attr( sanitize_title( $attribute_name ) ) .'" data-title="'. esc_attr( sanitize_title( $attribute_name ) ) .'" style="min-width:24px;min-height:24px;border-radius:3px;">';
+
                           
                     // Display attribute values
-                    echo '<div class="cfvsw-swatch-inner">' . wc_attribute_label( $attribute_name ) . ':</div> ';
+                    echo '<div class="cfvsw-swatches-option cfvsw-label-option" data-slug="'. esc_attr( sanitize_title( $attribute_name ) ) .'" data-title="'. esc_attr( sanitize_title( $attribute_name ) ) .'" style="min-width:24px;min-height:24px;border-radius:3px;"><div class="cfvsw-swatch-inner">' . wc_attribute_label( $attribute_name ) . ':</div></div>';
                     foreach ( $attribute_values as $attribute_value ) {
                         echo '<div class="cfvsw-swatch-inner">' . esc_html( $attribute_value ) . '</div>';
                     }
                     echo '</div>';   
-                    echo '</div>';
+
                 } 
                 echo '</div>';
                 echo '</td></tr></tbody></table>';
