@@ -1,5 +1,5 @@
 window.onload = function() {
-  const stars = document.querySelectorAll('.stars span a');
+  const stars = document.querySelectorAll('.stars a');
 
   stars.forEach((star, index) => {
     star.addEventListener('mouseover', () => {
