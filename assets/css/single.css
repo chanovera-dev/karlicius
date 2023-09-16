@@ -22,3 +22,4 @@
 .has-global-padding{padding-right:0; padding-left:0;}
 body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width:100%;}
 .wp-block-code{margin:0;}
+.wp-block-code code{margin:0; overflow-y:hidden; overflow-wrap:inherit;}
