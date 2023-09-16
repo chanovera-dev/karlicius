@@ -9,4 +9,4 @@
 /* cuerpo */
 .content-section .content > *:not(:last-child){margin-bottom:2rem;}
 .card{background-color:var(--background-card); padding:2rem; border-radius:.6rem;}
-.card > *{width:100%;}
+.card > *{max-width:100%;}
