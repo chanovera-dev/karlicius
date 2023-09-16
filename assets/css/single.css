@@ -7,6 +7,7 @@
 .title-section .share-social{position:absolute; right:0; bottom:4rem;}
 
 /* cuerpo */
+.single-post .content{overflow:hidden;}
 .single-post .content > *:not(:last-child){margin-bottom:2rem;}
 .single-post .content > .title-wrapper{margin-top:4rem; margin-bottom:3rem;}
 .single-post .content .card{background-color:var(--background-card); padding:1rem; border-radius:.8rem;}
@@ -20,3 +21,4 @@
 /* ajustes a wordpress */
 .has-global-padding{padding-right:0; padding-left:0;}
 body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width:100%;}
+.wp-block-code{margin:0;}
