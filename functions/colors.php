@@ -30,6 +30,9 @@ function theme_colors() {
                                 0 8px 16px hsl(0deg 0% 0% / 0.05);
                 --background-forms:radial-gradient(circle at 50% -20.71%, #fe8f62 0, #ff8564 8.33%, #ff7967 16.67%, #ff6c6b 25%, #fd5e6e 33.33%, #f84e73 41.67%, #f23c78 50%, #ea287e 58.33%, #e10e86 66.67%, #d6008f 75%, #ca0098 83.33%, #bb00a3 98.67%, #aa00ae 100%);
 
+                /* artículos */
+                --background-card:#f6f6f6;
+
                 /* contacto */
                 --box-shadow-picure:0 1px 1px hsl(0deg 0% 0% / 0.1),
                                     0 1px 2px hsl(0deg 0% 0% / 0.1),
