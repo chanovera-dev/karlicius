@@ -11,6 +11,6 @@
 .single-post .content .card{background-color:var(--background-card); padding:2rem; border-radius:.8rem;}
 .single-post .content .card > *{max-width:100%;}
 .single-post .content .card > *:not(:last-child){margin-bottom:2rem;}
-.single-post .content .card{}
+.single-post .content .card .title{font-weight:600;}
 
 body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width:100%;}
