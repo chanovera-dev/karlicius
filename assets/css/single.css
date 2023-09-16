@@ -12,5 +12,6 @@
 .single-post .content .card > *{max-width:100%;}
 .single-post .content .card > *:not(:last-child){margin-bottom:2rem;}
 .single-post .content .card .title{font-weight:600;}
-
+.single-post .content .note{padding:2rem; background-color:var(--background-note);}
+/* ajustes a wordpress */
 body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width:100%;}

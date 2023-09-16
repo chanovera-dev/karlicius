@@ -32,6 +32,7 @@ function theme_colors() {
 
                 /* artículos */
                 --background-card:#f6f6f6;
+                --background-note:#e1e1e1;
 
                 /* contacto */
                 --box-shadow-picure:0 1px 1px hsl(0deg 0% 0% / 0.1),
