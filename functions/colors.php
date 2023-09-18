@@ -34,6 +34,9 @@ function theme_colors() {
                 --background-card:#f6f6f6;
                 --background-note:#e1e1e1;
 
+                /* archivo */
+                --background-color-tag-archive:#ff8564;
+
                 /* contacto */
                 --box-shadow-picure:0 1px 1px hsl(0deg 0% 0% / 0.1),
                                     0 1px 2px hsl(0deg 0% 0% / 0.1),
