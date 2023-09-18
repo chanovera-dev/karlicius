@@ -17,7 +17,7 @@ aside .tags a:before{content:'#';}
 
 /* etiquetas en archive */
 .post .tags{display:inline-flex; flex-wrap:wrap; gap:.5rem 1rem;}
-.post .tags a{font-size:1.3rem; color:#fff; background-color:var(--background-color-tag-archive);}
+.post .tags a{font-size:1.3rem; color:#fff; background-color:var(--background-color-tag-archive); padding:.5rem 1rem;}
 
 /* color de los links en categorías y en archivos */
 aside :is(.categories,.archive-list-widget) ul li a{color:var(--color-main);}
