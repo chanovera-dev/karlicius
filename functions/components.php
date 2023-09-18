@@ -43,6 +43,7 @@ function single_styles() {
         wp_enqueue_style( 'single-styles', get_template_directory_uri() . '/assets/css/single.css' );
         wp_enqueue_style( 'sections-styles', get_template_directory_uri() . '/assets/css/sections.css' );
         wp_enqueue_style( 'widgets-styles', get_template_directory_uri() . '/assets/css/widgets.css' );
+        wp_enqueue_style( 'contact-styles', get_template_directory_uri() . '/assets/css/contact.css' );
     }
 }
 add_action( 'wp_enqueue_scripts', 'single_styles' );

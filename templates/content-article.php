@@ -10,7 +10,7 @@ echo '<main id="main" class="main-content">
                 include(TEMPLATEPATH . '/parts/sidebars/post.php');
             echo '</div>
         </section>
-        <section class="container comments-section-wrapper">
+        <section id="contact-group" class="container comments-section-wrapper">
             <div class="section comments-section padding-section">
                 <div class="comments">';
                     comments_template();
