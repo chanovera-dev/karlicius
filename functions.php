@@ -44,7 +44,7 @@ function theme_support(){
 add_action( 'after_setup_theme', 'theme_support' );
 
 // Delimita el tamaño del excerpt 
-function limite_excerpt($limite) { return 15; }
+function limite_excerpt($limite) { return 20; }
 add_filter ('excerpt_length', 'limite_excerpt', 999);
 
 // salida de wp_archive_list() personalizada

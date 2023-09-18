@@ -12,5 +12,5 @@
 .post > p{color:var(--color-main);}
 
 @media(min-width:768px){
-    .post .thumbnail{margin-right:2rem; margin-bottom:1rem; float:left;}
+    .post .thumbnail{margin-right:2rem; margin-bottom:0; float:left;}
 }
