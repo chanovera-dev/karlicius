@@ -7,6 +7,7 @@
 .post .post-categories li a{color:#2075af;}
 .post .content .post-categories li a:focus{color:var(--color-link-focus);}
 .post .title{font-weight:500; border-radius:.4rem;}
+.post .permalink{margin-bottom:2rem;}
 .post .permalink:focus{outline:none; box-shadow:var(--main-link-outline-focus); display:inline;}
 .post .permalink:focus .title{display:inline;}
 .post > p{color:var(--color-main);}
