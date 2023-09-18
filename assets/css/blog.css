@@ -11,9 +11,5 @@
 .post .content p{color:var(--color-main);}
 
 @media(min-width:768px){
-    .posts{grid-template-columns:1fr 1fr;}
-    .post:first-child{grid-template-columns:1fr 1fr; grid-column:1/-1; gap:5rem;}
-    .post:first-child .thumbnail{height:100%;}
-    .post:first-child .content p{display:none;}
-    .post:first-child .content .title{font-size:3rem;}
+    
 }
