@@ -6,7 +6,7 @@ echo '<section class="container main-content"><div class="section padding-sectio
         echo '<div class="posts">';
         while( have_posts() ){            
             the_post();  
-            get_template_part( 'templates/content', 'archive' );    
+            get_template_part( 'templates/content', 'home' );    
         }
         the_posts_pagination();
         echo '</div>';     

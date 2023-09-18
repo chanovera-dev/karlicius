@@ -1,3 +1,4 @@
+/* archive, tags, search, etc */
 .posts{display:grid; gap:5rem; align-content:flex-start;}
 .post > *:not(:last-child){margin-bottom:2rem;}
 .post .thumbnail{width:100%; aspect-ratio:16/9; object-fit:cover; border-radius:.8rem;}
@@ -11,6 +12,10 @@
 .post .permalink:focus .title{display:inline;}
 .post > p{color:var(--color-main);}
 
+/* home posts */
+.home .posts{grid-template-columns:repeat(auto-fill, minmax(300px, 1fr))}
+
 @media(min-width:768px){
+    /* archive, tags, search, etc */
     .post .thumbnail{margin-right:2rem; margin-bottom:0; float:left; max-width:300px;}
 }
