@@ -12,7 +12,8 @@
 .share-social p a{display:flex; color:var(--color-text);}
 
 /* etiquetas */
-aside .tags{display:inline-flex; flex-wrap:wrap; gap:0 1.2rem;}
+aside .tags{display:inline-flex; flex-wrap:wrap; gap:0 2rem;}
+aside .tags a:before{content:'#';}
 
 /* color de los links en categorías y en archivos */
 aside :is(.categories,.archive-list-widget) ul li a{color:var(--color-main);}
