@@ -12,6 +12,7 @@ echo '<article class="post">';
             echo '</a>';
             include(TEMPLATEPATH . '/parts/widgets/author-post.php');
             the_excerpt();
+            include(TEMPLATEPATH . '/parts/widgets/tags.php');
             include(TEMPLATEPATH . '/parts/widgets/publicate-date.php');
     echo '
 </article>';
