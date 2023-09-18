@@ -31,8 +31,9 @@
     /* home posts */
     .blog .posts{grid-template-rows:auto 120px auto auto auto;}
     .blog .posts .home-post:nth-child(1){grid-column:span 2; grid-row:span 2;}
-    .blog .posts .home-post:nth-child(1) .home-post-content .post-categories li a{font-size:1.3rem;}
-    .blog .posts .home-post:nth-child(1) .home-post-content .permalink .title{font-size:2rem;}
+    .blog .posts .home-post:nth-child(1) .home-post-content .post-categories li a{font-size:1.6rem;}
+    .blog .posts .home-post:nth-child(1) .home-post-content .permalink .title{font-size:2.2rem;}
+    .blog .posts .home-post:nth-child(1) .home-post-content div > p{font-size:1.6rem;}
     .blog .posts .home-post:nth-child(3){grid-row:span 2;}
     .blog .posts .home-post:nth-child(4){grid-row:span 2;}
     .blog .posts .home-post:nth-child(6){grid-column:span 2;}
