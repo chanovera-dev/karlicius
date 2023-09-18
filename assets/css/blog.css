@@ -1,6 +1,6 @@
 .posts{display:grid; gap:5rem; align-content:flex-start;}
 .post > *:not(:last-child){margin-bottom:2rem;}
-.post .thumbnail{width:100%; aspect-ratio:16/9; object-fit:cover; border-radius:.8rem;}
+.post .thumbnail{width:100%; max-width:300px; aspect-ratio:16/9; object-fit:cover; border-radius:.8rem;}
 .post .content{display:grid; gap:2rem;}
 .post .post-categories{margin:0; padding:0; list-style:none;}
 .post .post-categories li a{color:#2075af;}
@@ -12,5 +12,5 @@
 .post > p{color:var(--color-main);}
 
 @media(min-width:768px){
-    
+    .post .thumbnail{margin-right:2rem; float:left;}
 }
