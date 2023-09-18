@@ -13,7 +13,7 @@
 .post > p{color:var(--color-main);}
 
 /* home posts */
-.home .posts{grid-template-columns:repeat(auto-fill, minmax(300px, 1fr))}
+.blog .posts{grid-template-columns:repeat(auto-fill, minmax(300px, 1fr))}
 
 @media(min-width:768px){
     /* archive, tags, search, etc */
