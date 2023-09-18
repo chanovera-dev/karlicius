@@ -5,4 +5,5 @@ if ( has_post_thumbnail() == false ) :
 else:
     echo '<img class="thumbnail" src="'; the_post_thumbnail_url( 'media' ); echo '" alt="Imagen del artículo" loading="lazy" width="300" height="200">';
 endif;
+echo '<div class="home-post-content"></div>';
 echo '</article>';
