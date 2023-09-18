@@ -11,6 +11,20 @@ echo '<main id="main" class="main-content">
             echo '</div>
         </section>
         <section id="contact-group" class="container comments-section-wrapper">
+            <div class="area">
+                <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
             <div class="section comments-section padding-section">
                 <div class="comments">';
                     comments_template();
