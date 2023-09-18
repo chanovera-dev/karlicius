@@ -5,5 +5,10 @@ if ( has_post_thumbnail() == false ) :
 else:
     echo '<img class="thumbnail" src="'; the_post_thumbnail_url( 'media' ); echo '" alt="Imagen del artículo" loading="lazy" width="300" height="200">';
 endif;
-echo '<div class="home-post-content"></div>';
+echo '<div class="home-post-content">';
+the_category();
+echo '<a class="permalink" href="'; the_permalink(); echo '" target="_blank">';
+    the_title( '<h3 class="title">', '</h3>' );
+echo '</a>';
+echo '</div>';
 echo '</article>';
