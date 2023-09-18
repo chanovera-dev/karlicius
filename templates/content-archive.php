@@ -10,6 +10,7 @@ echo '<article class="post">';
             echo '<div><a class="permalink" href="'; the_permalink(); echo '" target="_blank">';
                 the_title( '<h3 class="title">', '</h3>' );
             echo '</a></div>';
+            include(TEMPLATEPATH . '/parts/widgets/author-post.php');
             the_excerpt();
             include(TEMPLATEPATH . '/parts/widgets/publicate-date.php');
     echo '</div>
