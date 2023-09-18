@@ -10,5 +10,6 @@ the_category();
 echo '<a class="permalink" href="'; the_permalink(); echo '" target="_blank">';
     the_title( '<h3 class="title">', '</h3>' );
 echo '</a>';
+the_excerpt();
 echo '</div></div>';
 echo '</article>';
