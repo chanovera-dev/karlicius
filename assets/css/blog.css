@@ -13,7 +13,9 @@
 .post > p{color:var(--color-main);}
 
 /* home posts */
-.blog .posts{grid-template-columns:repeat(auto-fill, minmax(300px, 1fr))}
+.blog .posts{grid-template-columns:repeat(auto-fill, minmax(212px, 1fr)); gap:1rem;}
+.blog .posts .post{overflow:hidden; border-radius:.8rem;}
+.blog .posts .post .thumbnail{}
 
 @media(min-width:768px){
     /* archive, tags, search, etc */
