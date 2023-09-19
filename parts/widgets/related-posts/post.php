@@ -4,7 +4,9 @@
     <?php else: ?>
     <img class="thumbnail" src="<?php the_post_thumbnail_url( 'thumbnail' ); ?>" alt="Imagen del artículo" loading="lazy" width="100" height="70">
     <?php endif; ?>
-    <a class="permalink" href="<?php the_permalink() ?>" target="_blank">
-        <?php the_title( '<h4>', '</h4>' ); ?>
-    </a>
+    <div>
+        <a class="permalink" href="<?php the_permalink() ?>" target="_blank">
+            <?php the_title( '<h4>', '</h4>' ); ?>
+        </a>
+    </div>
 </article>
