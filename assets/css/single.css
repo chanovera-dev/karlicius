@@ -21,6 +21,7 @@
 .single-post .content .wp-block-code > code{padding:1rem; border-radius:.8rem; background-color:var(--background-card);}
 .single-post .content ul{margin:0; padding:0; list-style:none;}
 .single-post .content tbody td{border:none;}
+.single-post .content tbody tr{border-radius:.8rem;}
 .single-post .content tbody tr:nth-child(even){background-color:var(--background-card);}
 
 /* ajustes a wordpress */
