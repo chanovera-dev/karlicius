@@ -7,6 +7,7 @@
             echo '</div>';
             
         endif;
+        include (TEMPLATEPATH. '/parts/widgets/related-posts.php');
         include (TEMPLATEPATH. '/parts/widgets/latest-posts.php');
         include (TEMPLATEPATH. '/parts/widgets/latest-comments.php');
         if ( !comments_open() ) : include(TEMPLATEPATH . '/parts/widgets/address.php');
