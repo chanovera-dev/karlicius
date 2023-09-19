@@ -30,6 +30,7 @@ aside :is(.categories,.archive-list-widget) ul li a:focus{color:var(--color-link
 .related-posts_widget .post{position:relative;}
 .related-posts_widget .post .thumbnail{position:absolute; top:0; left:0; width:100%; height:100%;}
 .related-posts_widget .post .permalink{position:relative;}
+.related-posts_widget .post .permalink h4{color:#fff; font-size:1.4rem;}
 .latest-posts_widget .post .thumbnail{border-radius:.4rem; object-fit:cover; float:left; margin-right:2rem; position:relative; top:5px;}
 .latest-posts_widget .post :is(.permalink,.permalink h4){display:inline;}
 .latest-posts_widget .post .permalink, address ul li a{color:var(--color-main);}
