@@ -15,7 +15,7 @@
 
         if ($related_posts) { // Verificar si hay contenidos relacionados
 ?>
-<div class="latest-posts_widget">
+<div class="related-posts_widget">
     <div class="title-wrapper">
         <h3 class="title"><?= __('Artículos relacionados', 'karlicius') ?></h3>
     </div>
@@ -23,7 +23,7 @@
             foreach ($related_posts as $post) :
                 setup_postdata($post);
 
-                include(TEMPLATEPATH . '/parts/widgets/latest-posts/post.php');
+                include(TEMPLATEPATH . '/parts/widgets/related-posts/post.php');
 
             endforeach;
             wp_reset_postdata();
