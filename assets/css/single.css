@@ -8,8 +8,10 @@
 
 /* cuerpo */
 .single-post .content{overflow:hidden;}
+/* títulos */
 .single-post .content > *:not(:last-child){margin-bottom:2rem;}
 .single-post .content > .title-wrapper{margin-top:4rem; margin-bottom:3rem;}
+/* tarjetas */
 .single-post .content .card{background-color:var(--background-card); padding:1rem 0; border-radius:.8rem;}
 .single-post .content .card > *:not(ul,ol){max-width:100%; padding:0 1rem;}
 .single-post .content .card > *:not(:last-child){margin-bottom:2rem;}
@@ -17,9 +19,13 @@
 .single-post .content .card .title-wrapper .title{font-weight:600;}
 .single-post .content .card ul{padding:0 1rem;}
 .single-post .content .card .note{border-radius:.4rem; margin:0 2rem;}
+/* notas */
 .single-post .content .note{padding:1rem; background-color:var(--background-note); border-radius:.8rem;}
+/* código */
 .single-post .content .wp-block-code > code{padding:1rem; border-radius:.8rem; background-color:var(--background-card);}
+/* listas */
 .single-post .content ul{margin:0; padding:0; list-style:none;}
+/* tablas */
 .single-post .content tbody td{border:none;}
 .single-post .content tbody tr{border-radius:.8rem;}
 .single-post .content tbody tr:nth-child(odd) td{background-color:var(--background-card);}
