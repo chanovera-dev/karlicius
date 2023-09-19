@@ -25,7 +25,7 @@ aside :is(.categories,.archive-list-widget) ul li a{color:var(--color-main);}
 aside :is(.categories,.archive-list-widget) ul li a:hover{color:var(--color-link);}
 aside :is(.categories,.archive-list-widget) ul li a:focus{color:var(--color-link-focus);}
 
-/* últimos artículos & address */
+/* últimos artículos & artículos relacionados & address */
 :is(.latest-posts_widget,.related-posts_widget) > *:not(:last-child){margin-bottom:2rem;}
 .latest-posts_widget .post .thumbnail{border-radius:.4rem; object-fit:cover; float:left; margin-right:2rem; position:relative; top:5px;}
 .latest-posts_widget .post :is(.permalink,.permalink h4){display:inline;}
