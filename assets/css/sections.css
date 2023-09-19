@@ -35,6 +35,10 @@ aside ul li a{display:inline-flex; align-items:center; gap:.7rem;}
     #review_form_wrapper{grid-template-columns:1fr 1fr; gap:0 5rem;}
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    aside{grid-template-columns:1fr 1fr;}
+}
+
 @media(min-width:1024px){
     /* loop de artículos */
     :is(.archive,.search,.home,.blog,.post-template-default) :is(.posts-wrapper,.title-section .title,.content-section,.comments-section),
