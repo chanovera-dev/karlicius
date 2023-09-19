@@ -22,7 +22,8 @@
 .single-post .content ul{margin:0; padding:0; list-style:none;}
 .single-post .content tbody td{border:none;}
 .single-post .content tbody tr{border-radius:.8rem;}
-.single-post .content tbody tr:nth-child(even){background-color:var(--background-card);}
+.single-post .content tbody tr:nth-child(odd){background-color:var(--background-card);}
+.single-post .content tbody td:nth-child(1){font-weight:500;}
 
 /* ajustes a wordpress */
 .has-global-padding{padding-right:0; padding-left:0;}
