@@ -14,6 +14,7 @@ function theme_colors() {
                 --main-link-outline-focus:0 0 0 .3rem #FF5733;
                 --background-color-body:#1F1F1F;
                 --background-color-main:#fff;
+                --background-gradient:linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.75));
                 
                 /* líneas */
                 --line-color:#f1f1f1;
