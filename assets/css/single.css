@@ -22,8 +22,10 @@
 .single-post .content ul{margin:0; padding:0; list-style:none;}
 .single-post .content tbody td{border:none;}
 .single-post .content tbody tr{border-radius:.8rem;}
-.single-post .content tbody tr:nth-child(odd){background-color:var(--background-card);}
-.single-post .content tbody td:nth-child(1){font-weight:500;}
+.single-post .content tbody tr:nth-child(odd) td{background-color:var(--background-card);}
+.single-post .content tbody tr:nth-child(odd) td:first-child{border-radius:.8rem 0 0 .8rem;}
+.single-post .content tbody tr:nth-child(odd) td:last-child{border-radius:0 .8rem .8rem 0;}
+.single-post .content tbody td:nth-child(1){font-weight:600;}
 
 /* ajustes a wordpress */
 .has-global-padding{padding-right:0; padding-left:0;}
