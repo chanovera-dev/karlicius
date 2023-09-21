@@ -108,7 +108,7 @@
             </ul>
         </div>
         <div class="tech-skills padding-section" style="width:100%; overflow:hidden;">
-            <h2 class="section title">Tech Skills</h2>
+            <h2 class="section title">Tech <span>Skills</span></h2>
             <div class="marquee padding-section">
                 <div class="logos">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Windows.svg" alt="Windows Logo" width="244">
