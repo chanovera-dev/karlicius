@@ -111,7 +111,7 @@
             <h2 class="section title">Tech <span>Skills</span></h2>
             <div class="marquee padding-section">
                 <div class="logos">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Windows.svg" alt="Windows Logo" width="244">
+                    <a href="https://www.microsoft.com/es-mx/windows" target="__blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/Windows.svg" alt="Windows Logo" width="244"></a>
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/RedHat.svg" alt="Red Hat Logo" width="256">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/macOS.svg" alt="macOS Logo" width="132">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Wordpress.svg" alt="Wordpress Logo" width="328">
