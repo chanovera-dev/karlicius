@@ -123,6 +123,7 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/php.svg" alt="PHP Logo" width="58">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Github.svg" alt="Github Logo" width="60">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Git.svg" alt="Git Logo" width="56">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/MySQL.svg" alt="Git Logo" width="105">
             </div>
         </div>
     </article>
