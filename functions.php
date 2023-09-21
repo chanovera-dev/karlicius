@@ -33,7 +33,7 @@ require_once(get_template_directory() . '/functions/colors.php');
 require_once(get_template_directory() . '/functions/components.php');
 
 // Anexo para establecer los componentes de los iconos
-require_once(get_template_directory() . '/functions/icons.php');
+// require_once(get_template_directory() . '/functions/icons.php');
 
 // Agrega soporte para los siguientes componentes
 function theme_support(){
