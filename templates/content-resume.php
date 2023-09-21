@@ -111,32 +111,32 @@
             <h2 class="section title">Tech <span>Skills</span></h2>
             <div class="marquee padding-section">
                 <div class="logos">
-                    <a href="https://www.microsoft.com/es-mx/windows" target="__blank"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/Windows.svg" alt="Windows Logo" width="244"></a>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/RedHat.svg" alt="Red Hat Logo" width="256">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/macOS.svg" alt="macOS Logo" width="132">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Wordpress.svg" alt="Wordpress Logo" width="328">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Woocommerce.svg" alt="Woocommerce Logo" width="322">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/html.svg" alt="HTML Logo" width="64">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/css.svg" alt="CSS Logo" width="64">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Javascript.svg" alt="Javascript Logo" width="64">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/php.svg" alt="PHP Logo" width="116">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Github.svg" alt="Github Logo" width="120">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Git.svg" alt="Git Logo" width="112">
-                    <img style="position:relative; bottom:3.3rem;" src="<?php echo get_template_directory_uri(); ?>/assets/img/MySQL.svg" alt="Git Logo" width="210">
+                    <a href="https://www.microsoft.com/es-mx/windows" target="_blank" rel="noopener noreferrer"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/Windows.svg" alt="Windows Logo" width="244"></a>
+                    <a href="http://redhat.com" target="_blank" rel="noopener noreferrer"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/RedHat.svg" alt="Red Hat Logo" width="256"></a>
+                    <a href="https://www.apple.com/mx/macos/ventura/" target="_blank" rel="noopener noreferrer"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/macOS.svg" alt="macOS Logo" width="132"></a>
+                    <a href="http://wordpress.org" target="_blank" rel="noopener noreferrer"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/Wordpress.svg" alt="Wordpress Logo" width="328"></a>
+                    <a href="http://woocommerce.com" target="_blank" rel="noopener noreferrer"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/Woocommerce.svg" alt="Woocommerce Logo" width="322"></a>
+                    <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank" rel="noopener noreferrer"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/html.svg" alt="HTML Logo" width="64"></a>
+                    <a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank" rel="noopener noreferrer"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/css.svg" alt="CSS Logo" width="64"></a>
+                    <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/Javascript.svg" alt="Javascript Logo" width="64"></a>
+                    <a href="https://www.php.net/manual/es/intro-whatis.php" target="_blank" rel="noopener noreferrer"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/php.svg" alt="PHP Logo" width="116"></a>
+                    <a href="http://github.com" target="_blank" rel="noopener noreferrer"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/Github.svg" alt="Github Logo" width="120"></a>
+                    <a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/Git.svg" alt="Git Logo" width="112"></a>
+                    <a href="http://mysql.com" target="_blank" rel="noopener noreferrer"><img style="position:relative; bottom:3.3rem;" src="<?php echo get_template_directory_uri(); ?>/assets/img/MySQL.svg" alt="MySQL Logo" width="210"></a>
                 </div>
                 <div class="logos">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Windows.svg" alt="Windows Logo" width="244">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/RedHat.svg" alt="Red Hat Logo" width="256">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/macOS.svg" alt="macOS Logo" width="132">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Wordpress.svg" alt="Wordpress Logo" width="328">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Woocommerce.svg" alt="Woocommerce Logo" width="322">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/html.svg" alt="HTML Logo" width="64">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/css.svg" alt="CSS Logo" width="64">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Javascript.svg" alt="Javascript Logo" width="64">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/php.svg" alt="PHP Logo" width="116">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Github.svg" alt="Github Logo" width="120">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Git.svg" alt="Git Logo" width="112">
-                    <img style="position:relative; bottom:3.3rem;" src="<?php echo get_template_directory_uri(); ?>/assets/img/MySQL.svg" alt="Git Logo" width="210">
+                <a href="https://www.microsoft.com/es-mx/windows" target="_blank" rel="noopener noreferrer"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/Windows.svg" alt="Windows Logo" width="244"></a>
+                    <a href="http://redhat.com" target="_blank" rel="noopener noreferrer"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/RedHat.svg" alt="Red Hat Logo" width="256"></a>
+                    <a href="https://www.apple.com/mx/macos/ventura/" target="_blank" rel="noopener noreferrer"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/macOS.svg" alt="macOS Logo" width="132"></a>
+                    <a href="http://wordpress.org" target="_blank" rel="noopener noreferrer"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/Wordpress.svg" alt="Wordpress Logo" width="328"></a>
+                    <a href="http://woocommerce.com" target="_blank" rel="noopener noreferrer"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/Woocommerce.svg" alt="Woocommerce Logo" width="322"></a>
+                    <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank" rel="noopener noreferrer"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/html.svg" alt="HTML Logo" width="64"></a>
+                    <a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank" rel="noopener noreferrer"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/css.svg" alt="CSS Logo" width="64"></a>
+                    <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/Javascript.svg" alt="Javascript Logo" width="64"></a>
+                    <a href="https://www.php.net/manual/es/intro-whatis.php" target="_blank" rel="noopener noreferrer"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/php.svg" alt="PHP Logo" width="116"></a>
+                    <a href="http://github.com" target="_blank" rel="noopener noreferrer"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/Github.svg" alt="Github Logo" width="120"></a>
+                    <a href="https://git-scm.com/" target="_blank" rel="noopener noreferrer"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/Git.svg" alt="Git Logo" width="112"></a>
+                    <a href="http://mysql.com" target="_blank" rel="noopener noreferrer"><img style="position:relative; bottom:3.3rem;" src="<?php echo get_template_directory_uri(); ?>/assets/img/MySQL.svg" alt="MySQL Logo" width="210"></a>
                 </div>
             </div>
         </div>
