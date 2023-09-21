@@ -120,6 +120,7 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/html.svg" alt="HTML Logo" width="32">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/css.svg" alt="CSS Logo" width="32">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Javascript.svg" alt="Javascript Logo" width="32">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/php.svg" alt="PHP Logo" width="58">
             </div>
         </div>
     </article>
