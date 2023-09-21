@@ -113,6 +113,7 @@
             </div>
             <div class="logos">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Windows.svg" alt="Windows Logo" width="122">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/RedHat.svg" alt="Red Hat Logo" width="128">
             </div>
         </div>
     </article>
