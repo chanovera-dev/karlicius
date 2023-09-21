@@ -27,7 +27,7 @@
 .tech-skills .title{font-family:'IBM Plex Mono', monospace; text-align:center; opacity:.5;}
 .tech-skills .title span{background-color:var(--background-note);}
 .marquee{display:flex; align-items:center; gap:10rem; overflow:hidden; flex-wrap:nowrap;}
-.marquee:hover .logos{animation-play-state:paused;}
+.marquee:hover .logos{animation-play-state:paused; transition:all 1s ease;}
 .marquee:hover .logos img{filter:blur(.5rem);}
 .marquee:hover .logos a{transition:all 1s ease;}
 .marquee:hover .logos a:hover img{filter:unset;}
