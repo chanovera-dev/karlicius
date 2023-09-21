@@ -24,6 +24,7 @@
 .resume-content .tech li ul{display:grid;}
 */
 .tech-skills{background-color:var(--background-card);}
+.tech-skills .title{font-family:'IBM Plex Mono', monospace; text-align:center;}
 .marquee{display:flex; align-items:center; gap:10rem; overflow:hidden; flex-wrap:nowrap;}
 .marquee:hover .logos{animation-play-state:paused;}
 .marquee .logos{transition:all .3s ease; display:flex; align-items:center; gap:10rem; flex-shrink:0; animation:slide-left 100s linear infinite;}
