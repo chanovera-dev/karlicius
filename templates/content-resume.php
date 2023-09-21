@@ -111,7 +111,7 @@
             <div class="section title-wrapper">
                 <h2 class="title">Technical Skills</h2>
             </div>
-            <div class="marquee">
+            <div class="marquee padding-section">
                 <div class="logos">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Windows.svg" alt="Windows Logo" width="244">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/RedHat.svg" alt="Red Hat Logo" width="256">
