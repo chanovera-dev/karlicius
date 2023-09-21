@@ -108,7 +108,7 @@
             </ul>
         </div>
         <div class="padding-section">
-            <div class="title-wrapper">
+            <div class="section title-wrapper">
                 <h2 class="title">Technical Skills</h2>
             </div>
             <div class="logos">
