@@ -107,7 +107,7 @@
                 <li>Ethic</li>
             </ul>
         </div>
-        <div class="tech-skills padding-section" style="width:100%; overflow:hidden;">
+        <div class="tech-skills" style="width:100%; overflow:hidden;">
             <h2 class="section title">Tech <span>Skills</span></h2>
             <div class="marquee padding-section">
                 <div class="logos">
