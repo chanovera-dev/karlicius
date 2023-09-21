@@ -112,7 +112,7 @@
                 <h2 class="title">Technical Skills</h2>
             </div>
             <div class="logos">
-                <img src="<? echo get_bloginfo('template_url') . '/assets/img/Windows.svg'; ?>" alt="Windows Logo">
+                <img src="<? echo get_template_directory_uri() . '/assets/img/Windows.svg'; ?>" alt="Windows Logo">
             </div>
         </div>
     </article>
