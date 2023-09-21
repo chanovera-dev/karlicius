@@ -1,7 +1,7 @@
 :root{
     --color-link:#8CC63F!important;
 }
-.resume-content{display:grid; gap:4rem;}
+.resume-content{display:grid; gap:4rem; width:100%; overflow:hidden;}
 .resume-content .text-colored{color:var(--color-link);}
 .resume-content :is(.name-and-contact-data,.skills,.tech){display:inline-flex; align-items:center; flex-wrap:wrap;}
 .resume-content :is(.name-and-contact-data,.skills,.tech) :is(li,a,p){display:inline-flex; align-items:center; gap:.7rem; line-height:1.7;}
