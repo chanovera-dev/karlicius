@@ -32,6 +32,9 @@ require_once(get_template_directory() . '/functions/colors.php');
 // Anexo para establecer los componentes de los templates
 require_once(get_template_directory() . '/functions/components.php');
 
+// Anexo para establecer los componentes de los iconos
+require_once(get_template_directory() . '/functions/icons.php');
+
 // Agrega soporte para los siguientes componentes
 function theme_support(){
     // Carga el título de la página en el head
