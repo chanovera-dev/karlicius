@@ -112,18 +112,18 @@
                 <h2 class="title">Technical Skills</h2>
             </div>
             <div class="logos">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Windows.svg" alt="Windows Logo" width="122">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/RedHat.svg" alt="Red Hat Logo" width="128">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/macOS.svg" alt="macOS Logo" width="66">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Wordpress.svg" alt="Wordpress Logo" width="164">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Woocommerce.svg" alt="Woocommerce Logo" width="161">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/html.svg" alt="HTML Logo" width="32">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/css.svg" alt="CSS Logo" width="32">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Javascript.svg" alt="Javascript Logo" width="32">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/php.svg" alt="PHP Logo" width="58">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Github.svg" alt="Github Logo" width="60">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Git.svg" alt="Git Logo" width="56">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/MySQL.svg" alt="Git Logo" width="105">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Windows.svg" alt="Windows Logo" width="244">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/RedHat.svg" alt="Red Hat Logo" width="256">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/macOS.svg" alt="macOS Logo" width="132">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Wordpress.svg" alt="Wordpress Logo" width="328">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Woocommerce.svg" alt="Woocommerce Logo" width="322">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/html.svg" alt="HTML Logo" width="64">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/css.svg" alt="CSS Logo" width="64">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Javascript.svg" alt="Javascript Logo" width="64">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/php.svg" alt="PHP Logo" width="116">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Github.svg" alt="Github Logo" width="120">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Git.svg" alt="Git Logo" width="112">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/MySQL.svg" alt="Git Logo" width="210">
             </div>
         </div>
     </article>
