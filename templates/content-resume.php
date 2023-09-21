@@ -122,7 +122,7 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/php.svg" alt="PHP Logo" width="116">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Github.svg" alt="Github Logo" width="120">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Git.svg" alt="Git Logo" width="112">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/MySQL.svg" alt="Git Logo" width="210">
+                    <img style="position:relative; bottom:3.3rem;" src="<?php echo get_template_directory_uri(); ?>/assets/img/MySQL.svg" alt="Git Logo" width="210">
                 </div>
                 <div class="logos">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Windows.svg" alt="Windows Logo" width="244">
@@ -136,7 +136,7 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/php.svg" alt="PHP Logo" width="116">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Github.svg" alt="Github Logo" width="120">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Git.svg" alt="Git Logo" width="112">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/MySQL.svg" alt="Git Logo" width="210">
+                    <img style="position:relative; bottom:3.3rem;" src="<?php echo get_template_directory_uri(); ?>/assets/img/MySQL.svg" alt="Git Logo" width="210">
                 </div>
             </div>
         </div>
