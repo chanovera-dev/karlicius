@@ -116,6 +116,7 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/RedHat.svg" alt="Red Hat Logo" width="128">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/macOS.svg" alt="macOS Logo" width="66">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Wordpress.svg" alt="Wordpress Logo" width="164">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Woocommerce.svg" alt="Woocommerce Logo" width="161">
             </div>
         </div>
     </article>
