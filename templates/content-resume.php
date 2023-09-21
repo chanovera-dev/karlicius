@@ -121,6 +121,7 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/css.svg" alt="CSS Logo" width="32">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Javascript.svg" alt="Javascript Logo" width="32">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/php.svg" alt="PHP Logo" width="58">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/Github.svg" alt="Github Logo" width="60">
             </div>
         </div>
     </article>
