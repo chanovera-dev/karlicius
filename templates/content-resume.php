@@ -107,9 +107,9 @@
                 <li>Ethic</li>
             </ul>
         </div>
-        <div class="tech-skills" style="width:100%; overflow:hidden;">
+        <div class="tech-skills padding-section" style="width:100%; overflow:hidden;">
             <h2 class="section title">Tech <span>Skills</span></h2>
-            <div class="marquee padding-section">
+            <div class="marquee">
                 <div class="logos">
                     <a href="https://www.microsoft.com/es-mx/windows" target="_blank" rel="noopener noreferrer"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/Windows.svg" alt="Windows Logo" width="244"></a>
                     <a href="http://redhat.com" target="_blank" rel="noopener noreferrer"><img src="<?php echo get_template_directory_uri(); ?>/assets/img/RedHat.svg" alt="Red Hat Logo" width="256"></a>
