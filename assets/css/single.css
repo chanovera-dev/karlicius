@@ -12,8 +12,7 @@
 .single-post .content > *:not(:last-child){margin-bottom:2rem;}
 .single-post .content > .title-wrapper{margin-top:4rem; margin-bottom:3rem;}
 /* tarjetas */
-.single-post .content .card{position:relative; background-color:var(--background-card); padding:1rem 0; border-radius:.8rem;}
-.single-post .content .card:after{position:relative; content:'tarjeta'; font-family:monospace; font-size:1.3rem;}
+.single-post .content .card{background-color:var(--background-card); padding:1rem 0; border-radius:.8rem;}
 .single-post .content .card > *:not(ul,ol){max-width:100%; padding:0 1rem;}
 .single-post .content .card > *:not(:last-child){margin-bottom:2rem;}
 .single-post .content .card .title-wrapper{border-bottom:1px solid var(--background-note);}
