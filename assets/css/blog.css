@@ -39,5 +39,5 @@
     .blog .posts .home-post:nth-child(6){grid-column:span 2;}
     .blog .posts .home-post:nth-child(7){grid-column:span 2;}
     .blog .posts :is(:nth-child(2),:nth-child(5),:nth-child(8)) .home-post-content div > p{display:none;}
-    .blog .posts .home-post .home-post-content .post-categories li a{padding:.5rem 1rem;}
+    .blog .posts .home-post:nth-child(1) .home-post-content .post-categories li a{padding:.5rem 1rem;}
 }
