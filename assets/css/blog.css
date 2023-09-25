@@ -29,7 +29,7 @@
     .post .thumbnail{margin-right:2rem; margin-bottom:0; float:left; max-width:300px;}
 
     /* home posts */
-    .blog .posts{grid-template-rows:auto 120px auto auto auto;}
+    .blog .posts{grid-template-columns:repeat(3, 1fr); grid-template-rows:auto 120px auto auto auto;}
     .blog .posts .home-post:nth-child(1){grid-column:span 2; grid-row:span 2;}
     .blog .posts .home-post:nth-child(1) .home-post-content .post-categories li a{font-size:1.6rem;}
     .blog .posts .home-post:nth-child(1) .home-post-content .permalink .title{font-size:2.2rem;}
