@@ -37,8 +37,8 @@
 /* preguntas y respuestas */
 .single-post .content .question{border-radius:.8rem; box-shadow:var(--card-shadow); overflow:hidden;}
 .single-post .content .question p{padding:1rem;}
-.single-post .content .question :nth-child(1){background-color:var(--background-card);}
-.single-post .content .question :nth-child(2){background-color:var(--background-note);}
+.single-post .content .question :nth-child(1){background-color:var(--background-note); font-size:1.4rem;}
+.single-post .content .question :nth-child(2){background-color:var(--background-card);}
 /* ajustes a wordpress */
 .has-global-padding{padding-right:0; padding-left:0;}
 /* ancho ajustado al máximo */
