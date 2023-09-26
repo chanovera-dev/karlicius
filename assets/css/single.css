@@ -32,6 +32,8 @@
 .single-post .content tbody tr:nth-child(odd) td:first-child{border-radius:.8rem 0 0 .8rem;}
 .single-post .content tbody tr:nth-child(odd) td:last-child{border-radius:0 .8rem .8rem 0;}
 .single-post .content tbody td:nth-child(1){font-weight:600;}
+/* citas */
+.single-post .content .wp-block-quote{margin-bottom:3rem;}
 
 /* ajustes a wordpress */
 .has-global-padding{padding-right:0; padding-left:0;}
