@@ -34,6 +34,7 @@ function theme_colors() {
                 /* artículos */
                 --background-card:#f6f6f6;
                 --background-note:#e1e1e1;
+                --linear-gradient-question:linear-gradient(rgba(0,0,0,.07), rgba(0,0,0,0));
                 --card-shadow:rgba(0,0,0,.08) 0 -2px 0 inset,
                                 0 1px 1px hsl(0deg 0% 0% / 0.05),
                                 0 1px 2px hsl(0deg 0% 0% / 0.05),
