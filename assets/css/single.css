@@ -54,11 +54,10 @@ body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alig
 .wp-block-quote{position:relative; margin-left:0; margin-right:0; padding:1rem; border-radius:.8rem; background-color:var(--background-card); box-shadow:var(--card-shadow);}
 .wp-block-quote:after{position:absolute; content:"\201D"; font-family:auto; font-size:4rem; bottom:-3rem; right:.5rem;}
 .wp-block-image.aligncenter{margin-inline:auto;}
-.wp-block-image{position:relative;}
-.wp-block-image:after{position:absolute; width:16px; height:16px; bottom:4rem; right:1rem;}
-.wp-block-image.without-legend:after{bottom:1rem;}
-.wp-block-image img{border-radius:.8rem; border-bottom:2px solid rgba(0,0,0,0.14); box-shadow:var(--picture-shadow); background-color:var(--background-card);}
-.wp-block-image figcaption{margin-top:.8rem; margin-bottom:0; font-size:1.4rem;}
+.wp-block-image{position:relative; display:grid;}
+.wp-block-image:after{position:absolute; width:16px; height:16px; bottom:1rem; right:1rem;}
+.wp-block-image img{order:2; border-radius:.8rem; border-bottom:2px solid rgba(0,0,0,0.14); box-shadow:var(--picture-shadow); background-color:var(--background-card);}
+.wp-block-image figcaption{order:1; margin-top:0; margin-bottom:.8rem; font-size:1.4rem;}
 /* tablas */
 .wp-block-table .wp-element-caption{order:1; margin:.5rem 0; text-align:center; font-weight:600; font-size:var(--wp--preset--font-size--x-large);}
 .wp-block-table table{order:2;}
