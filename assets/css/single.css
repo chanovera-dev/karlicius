@@ -40,4 +40,4 @@ body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alig
 .wp-block-code code{margin:0; overflow-y:hidden; overflow-wrap:inherit;}
 .comments{position:relative;}
 .wp-block-quote{position:relative; margin-left:0; margin-right:0; padding:1rem; border-radius:.3rem; background-color:var(--background-card); box-shadow:var(--box-shadow-picture);}
-.wp-block-quote:after{position:absolute; content:"\U+201D";}
+.wp-block-quote:after{position:absolute; content:"\201D";}
