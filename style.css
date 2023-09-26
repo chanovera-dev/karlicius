@@ -18,7 +18,7 @@ Tags:
 html{font-size:62.5%; scroll-behavior:smooth;}
 body,header,main,footer,section,aside,article,div,nav,input,textarea,ul,ol,li,figure,figcaption,blockquote,pre,dl,dt,dd,a{box-sizing:border-box;}
 body{font-size:1.7rem; color:var(--color-body); background-color:var(--background-color-body);}
-:is(header,footer,section,div,article) :is(div,h1,h2,h3,h4,h5,h6,p,span,li,a,figure,blockquote){margin:0;}
+:is(header,footer,section,div,article) :is(div,h1,h2,h3,h4,h5,h6,p,span,li,a,figure,blockquote,figcaption){margin:0;}
 :is(header,footer,aside,.resume-content) :is(ol,ul){margin:0; padding:0; list-style:none;}
 a{color:var(--color-link); text-decoration:none; border-radius:.3rem; transition:all .3s ease;}
 a:hover{filter:brightness(1.2);}
