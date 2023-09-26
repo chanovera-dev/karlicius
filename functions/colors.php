@@ -40,6 +40,11 @@ function theme_colors() {
                                 0 2px 4px hsl(0deg 0% 0% / 0.05),
                                 0 6px 8px hsl(0deg 0% 0% / 0.05),
                                 0 8px 16px hsl(0deg 0% 0% / 0.05);
+                --picture-shadow:0 1px 1px hsl(0deg 0% 0% / 0.05),
+                                 0 1px 2px hsl(0deg 0% 0% / 0.05),
+                                 0 2px 4px hsl(0deg 0% 0% / 0.05),
+                                 0 6px 8px hsl(0deg 0% 0% / 0.05),
+                                 0 8px 16px hsl(0deg 0% 0% / 0.05);
 
                 /* archivo */
                 --background-color-tag-archive:#ea287e;
