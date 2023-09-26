@@ -34,7 +34,7 @@ function theme_colors() {
                 /* artículos */
                 --background-card:#f6f6f6;
                 --background-note:#e1e1e1;
-                --card-shadow:rgba(88,88,88, 1) 0 -2px 0 inset,
+                --card-shadow:rgba(0,0,0,.08) 0 -2px 0 inset,
                                 0 1px 1px hsl(0deg 0% 0% / 0.05),
                                 0 1px 2px hsl(0deg 0% 0% / 0.05),
                                 0 2px 4px hsl(0deg 0% 0% / 0.05),
