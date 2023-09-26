@@ -54,6 +54,7 @@ body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alig
 .wp-block-quote:after{position:absolute; content:"\201D"; font-family:auto; font-size:4rem; bottom:-3rem; right:.5rem;}
 .wp-block-image.aligncenter{margin-inline:auto;}
 .wp-block-image{position:relative;}
-.wp-block-image:after{position:absolute; width:16px; height:16px; bottom:4rem; right:1rem;}
+.wp-block-image:after{position:absolute; width:16px; height:16px; bottom:1rem; right:1rem;}
 .wp-block-image img{border-radius:.8rem; border-bottom:2px solid rgba(0,0,0,0.14); box-shadow:var(--picture-shadow); background-color:var(--background-card);}
+.wp-block-image:after img ~ figcaption{bottom:4rem;}
 .wp-block-image figcaption{margin-top:.8rem; margin-bottom:0; font-size:1.4rem;}
