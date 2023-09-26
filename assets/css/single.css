@@ -35,7 +35,7 @@
 /* citas */
 .single-post .content .wp-block-quote{margin-bottom:3rem;}
 /* preguntas y respuestas */
-.single-post .content .question{border-radius:.8rem; box-shadow:var(--card-shadow);}
+.single-post .content .question{border-radius:.8rem; box-shadow:var(--card-shadow); overflow:hidden;}
 .single-post .content .question p{padding:1rem;}
 .single-post .content .question :nth-child(1){background-color:var(--background-card);}
 .single-post .content .question :nth-child(2){background-color:var(--background-note);}
