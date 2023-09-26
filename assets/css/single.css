@@ -39,4 +39,4 @@ body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alig
 .wp-block-code{margin:0;}
 .wp-block-code code{margin:0; overflow-y:hidden; overflow-wrap:inherit;}
 .comments{position:relative;}
-.wp-block-quote{margin-left:0; margin-right:0; padding-left:0; padding-right:0;}
+.wp-block-quote{margin-left:0; margin-right:0; padding-left:0; padding-right:0; box-shadow:var(--box-shadow-picture);}
