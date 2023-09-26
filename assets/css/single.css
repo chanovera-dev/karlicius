@@ -62,5 +62,4 @@ body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alig
 .wp-block-image figcaption{margin-top:.8rem; margin-bottom:0; font-size:1.4rem;}
 /* tablas */
 .wp-block-table thead{border-bottom:none;}
-.wp-block-table th{border:none; border-top:2px solid #000;}
-.wp-block-table tr :nth-child(1){border-radius:.8rem 0 0 .8rem;}
+.wp-block-table th{border:none;}
