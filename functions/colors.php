@@ -88,6 +88,8 @@ function theme_colors() {
                 }
             }
             */
+
+            .single-post .content .question:after{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/patch-question-day.svg');}
         </style>
     <?php
 }
