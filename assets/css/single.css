@@ -37,12 +37,15 @@
 
 /* ajustes a wordpress */
 .has-global-padding{padding-right:0; padding-left:0;}
+/* ancho ajustado al máximo */
 body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width:100%;}
+/* código */
 .wp-block-code{margin:0;}
 .wp-block-code code{margin:0; overflow-y:hidden; overflow-wrap:inherit;}
 .comments{position:relative;}
+/* citas */
 .wp-block-quote{position:relative; margin-left:0; margin-right:0; padding:1rem; border-radius:.3rem; background-color:var(--background-card); box-shadow:var(--card-shadow);}
 .wp-block-quote:after{position:absolute; content:"\201D"; font-family:auto; font-size:4rem; bottom:-3rem; right:.5rem;}
 .wp-block-image.aligncenter{margin-inline:auto;}
-.wp-block-image.aligncenter img{border-radius:.3rem; border-bottom:2px solid rgba(0,0,0,0.14); box-shadow:var(--picture-shadow);}
-.wp-block-image.aligncenter figcaption{margin-top:.8rem; font-size:1.4rem;}
+.wp-block-image img{border-radius:.3rem; border-bottom:2px solid rgba(0,0,0,0.14); box-shadow:var(--picture-shadow);}
+.wp-block-image figcaption{margin-top:.8rem; margin-bottom:0; font-size:1.4rem;}
