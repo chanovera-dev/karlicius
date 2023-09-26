@@ -24,7 +24,7 @@
 /* código */
 .single-post .content .wp-block-code > code{padding:1rem; border-radius:.8rem; background-color:var(--background-card);}
 /* listas */
-.single-post .content ul{margin:0; padding:0; list-style:none;}
+.single-post .content ul{margin:0; padding:0;}
 /* tablas */
 .single-post .content tbody td{border:none;}
 .single-post .content tbody tr{border-radius:.8rem;}
