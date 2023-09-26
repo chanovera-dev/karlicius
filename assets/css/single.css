@@ -28,7 +28,7 @@
 /* listas */
 .single-post .content ul{margin:0; padding-left:1.4rem;}
 /* tablas */
-.single-post .content tbody td{border:none;}
+.single-post .content tbody td{border:none; font-size:1.4rem;}
 .single-post .content tbody tr{border-radius:.8rem;}
 .single-post .content tbody tr:nth-child(odd) td{background-color:var(--background-card);}
 .single-post .content tbody tr:nth-child(odd) td:first-child{border-radius:.8rem 0 0 .8rem;}
@@ -64,4 +64,3 @@ body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alig
 .wp-block-table{display:grid; margin:3rem 0;}
 .wp-block-table .wp-element-caption{order:1; margin:.5rem 0; text-align:center; font-weight:600; font-size:var(--wp--preset--font-size--x-large);}
 .wp-block-table table{order:2;}
-.wp-block-table th{border:none;}
