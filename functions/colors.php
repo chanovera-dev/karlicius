@@ -39,11 +39,11 @@ function theme_colors() {
                 --background-color-tag-archive:#ea287e;
 
                 /* contacto */
-                --box-shadow-picure:0 1px 1px hsl(0deg 0% 0% / 0.1),
-                                    0 1px 2px hsl(0deg 0% 0% / 0.1),
-                                    0 2px 4px hsl(0deg 0% 0% / 0.1),
-                                    0 6px 8px hsl(0deg 0% 0% / 0.1),
-                                    0 8px 16px hsl(0deg 0% 0% / 0.1);
+                --box-shadow-picture:0 1px 1px hsl(0deg 0% 0% / 0.1),
+                                     0 1px 2px hsl(0deg 0% 0% / 0.1),
+                                     0 2px 4px hsl(0deg 0% 0% / 0.1),
+                                     0 6px 8px hsl(0deg 0% 0% / 0.1),
+                                     0 8px 16px hsl(0deg 0% 0% / 0.1);
 
                 /* producto */
                 --box-shadow-onsale: 0 4px  30px  rgba(21, 80, 120, .1),
