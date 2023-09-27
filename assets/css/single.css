@@ -22,7 +22,7 @@
 /* notas */
 .single-post .content .note{padding:1rem; background-color:var(--background-note); border-radius:.8rem;}
 /* código */
-.single-post .content .wp-block-code > code{padding:1rem; border-radius:.8rem; background-color:var(--background-card);}
+.single-post .content .wp-block-code > code{padding:1rem; border-radius:.8rem; background-color:var(--background-card); box-shadow:var(--card-shadow);}
 /* listas */
 .single-post .content ul{margin:0; padding-left:1.4rem;}
 /* tablas */
