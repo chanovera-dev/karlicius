@@ -11,7 +11,7 @@
 .single-post .content > .title-wrapper{margin-top:4rem; margin-bottom:3rem;}
 /* tarjetas */
 .single-post .content .card{position:relative; width:100%; background-color:var(--background-card); padding:1rem 0; border-radius:.8rem; box-shadow:var(--card-shadow);}
-.single-post .content .card:after{position:absolute; width:24px; height:24px; top:1rem; right:1rem;}
+.single-post .content .card:after{position:absolute; width:16px; height:16px; top:1rem; right:1rem;}
 .single-post .content .card > *:not(ul,ol){max-width:100%; padding:0 1rem;}
 .single-post .content .card > *:not(:last-child){margin-bottom:2rem;}
 .single-post .content .card .title-wrapper{border-bottom:1px solid var(--background-note);}
@@ -20,7 +20,8 @@
 .single-post .content .card .note-wrapper{padding:0 1rem;}
 .single-post .content .card .note{border-radius:.4rem; box-shadow:rgba(0,0,0,.15) 0 2px 4px inset; width:100%;}
 /* notas */
-.single-post .content .note{padding:1rem; background-color:var(--background-note); box-shadow:var(--note-shadow); border-radius:.8rem; width:100%;}
+.single-post .content > .note{position:relative; padding:1rem; background-color:var(--background-note); box-shadow:var(--note-shadow); border-radius:.8rem; width:100%;}
+.single-post .content > .note:after{position:absolute; width:16px; height:16px; top:1rem; right:1rem;}
 /* código */
 .single-post .content .wp-block-code > code{position:relative; width:100%; padding:1rem; border-radius:.8rem; background-color:var(--background-card); box-shadow:var(--card-shadow);}
 .single-post .content .wp-block-code > code:after{position:absolute; width:16px; height:16px; top:1rem; right:1rem;}
