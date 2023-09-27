@@ -11,7 +11,7 @@
 .single-post .content > .title-wrapper{margin-top:4rem; margin-bottom:3rem;}
 /* tarjetas */
 .single-post .content .card{position:relative; background-color:var(--background-card); padding:1rem 0; border-radius:.8rem; box-shadow:var(--card-shadow);}
-.single-post .content .card:after{position:absolute; width:16px; height:16px; top:1rem; right:1rem;}
+.single-post .content .card:after{position:absolute; width:24px; height:24px; top:1rem; right:1rem;}
 .single-post .content .card > *:not(ul,ol){max-width:100%; padding:0 1rem;}
 .single-post .content .card > *:not(:last-child){margin-bottom:2rem;}
 .single-post .content .card .title-wrapper{border-bottom:1px solid var(--background-note);}
