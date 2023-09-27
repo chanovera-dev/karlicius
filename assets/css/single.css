@@ -20,7 +20,7 @@
 .single-post .content .card .note-wrapper{padding:0 1rem;}
 .single-post .content .card .note{border-radius:.4rem; box-shadow:rgba(0,0,0,.15) 0 2px 4px inset; width:100%;}
 /* notas */
-.single-post .content .note{padding:1rem; background-color:var(--background-note); box-shadow:var(--card-shadow); border-radius:.8rem; width:100%;}
+.single-post .content .note{padding:1rem; background-color:var(--background-note); box-shadow:var(--note-shadow); border-radius:.8rem; width:100%;}
 /* código */
 .single-post .content .wp-block-code > code{position:relative; width:100%; padding:1rem; border-radius:.8rem; background-color:var(--background-card); box-shadow:var(--card-shadow);}
 .single-post .content .wp-block-code > code:after{position:absolute; width:16px; height:16px; top:1rem; right:1rem;}

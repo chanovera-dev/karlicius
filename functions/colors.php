@@ -36,7 +36,13 @@ function theme_colors() {
                 --background-note:#e1e1e1;
                 --color-answer:#ea287e;
                 --linear-gradient-question:linear-gradient(rgba(0,0,0,.07), rgba(0,0,0,0));
-                --card-shadow:rgba(0,0,0,.08) 0 -2px 0 inset,
+                --card-shadow:  rgba(0,0,0,.08) 0 -2px 0 inset,
+                                0 1px 1px hsl(0deg 0% 0% / 0.05),
+                                0 1px 2px hsl(0deg 0% 0% / 0.05),
+                                0 2px 4px hsl(0deg 0% 0% / 0.05),
+                                0 6px 8px hsl(0deg 0% 0% / 0.05),
+                                0 8px 16px hsl(0deg 0% 0% / 0.05);
+                --note-shadow:  rgba(0,0,0,.05) 0 -2px 0 inset,
                                 0 1px 1px hsl(0deg 0% 0% / 0.05),
                                 0 1px 2px hsl(0deg 0% 0% / 0.05),
                                 0 2px 4px hsl(0deg 0% 0% / 0.05),
