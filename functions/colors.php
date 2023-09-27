@@ -92,7 +92,7 @@ function theme_colors() {
             .single-post .content .question:after{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/patch-question-day.svg');}
             .wp-block-image:after{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/image-day.svg');}
             .single-post .content .card:after{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/card-text-day.svg');}
-            .single-post .content .wp-block-code > code:after{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/braces-day.svg');}
+            .single-post .content .wp-block-code.java > code:after{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/braces-day.svg');}
         </style>
     <?php
 }
