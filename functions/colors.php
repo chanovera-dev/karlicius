@@ -99,7 +99,7 @@ function theme_colors() {
             .wp-block-image:after{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/image-day.svg');}
             .single-post .content .card:after{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/card-text-day.svg');}
             .single-post .content .wp-block-code.java > code:after{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/braces-day.svg');}
-            .single-post .content > .note:after{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/journal-plus-day.svg');}
+            .single-post .content .note:after{content: ''; background-image: url('<?php echo get_template_directory_uri(); ?>/assets/icons/journal-plus-day.svg');}
         </style>
     <?php
 }
