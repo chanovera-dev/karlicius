@@ -9,6 +9,6 @@
 .navigation.pagination .nav-links .page-numbers.current,
 .woocommerce-pagination .page-numbers li .page-numbers.current{background-image:var(--background-forms); border:1px solid var(--color-answer); color:#fff;}
 .navigation.pagination .nav-links .page-numbers:hover,
-.woocommerce-pagination .page-numbers li .page-numbers:hover{background-image:var(--background-forms); border:1px solid var(---color-answer); color:#fff;}
+.woocommerce-pagination .page-numbers li .page-numbers:hover{border:1px solid var(---color-answer); color:var(--color-answer);}
 :is(.navigation.pagination .nav-links, .woocommerce-pagination .page-numbers) :is(.page-numbers.prev, .page-numbers.next){width:auto; padding:0 3rem;}
 :is(.navigation.pagination .nav-links, .woocommerce-pagination .page-numbers) :is(.page-numbers.prev, .page-numbers.next):hover{border:1px solid var(--color-title);}
