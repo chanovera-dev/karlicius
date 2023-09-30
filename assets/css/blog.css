@@ -34,10 +34,8 @@
     .blog .posts :is(:nth-child(1),:nth-child(10)) .home-post-content .post-categories li a{font-size:1.6rem;}
     .blog .posts :is(:nth-child(1),:nth-child(10)) .home-post-content .permalink .title{font-size:2.2rem;}
     .blog .posts :is(:nth-child(1),:nth-child(10)) .home-post-content div > p{font-size:1.6rem;}
-    .blog .posts .home-post:nth-child(3){grid-row:span 2;}
-    .blog .posts .home-post:nth-child(4){grid-row:span 2;}
-    .blog .posts .home-post:nth-child(6){grid-column:span 2;}
-    .blog .posts .home-post:nth-child(7){grid-column:span 2;}
+    .blog .posts :is(:nth-child(3),:nth-child(4),:nth-child(12)){grid-row:span 2;}
+    .blog .posts :is(:nth-child(6),:nth-child(7)){grid-column:span 2;}
     .blog .posts :is(:nth-child(2),:nth-child(5),:nth-child(8),:nth-child(9),:nth-child(11)) .home-post-content div > p{display:none;}
     .blog .posts :is(:nth-child(1),:nth-child(10)) .home-post-content .post-categories li a{padding:.5rem 1rem;}
 }
