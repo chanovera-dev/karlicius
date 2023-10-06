@@ -41,8 +41,9 @@
 .single-post .content .question p{padding:1rem;}
 .single-post .content .question > :nth-child(1){background:var(--linear-gradient-question); font-size:1.4rem; font-weight:300;}
 .single-post .content .question > :nth-child(2){color:var(--color-answer);}
-.single-post .content .question > ol{padding:1rem 1rem 1rem 2.4rem;}
+.single-post .content .question > ol{padding:1rem 1rem 1rem 2.4rem; margin:0;}
 .single-post .content .question > ol > li:not(:last-child){margin-bottom:1rem;}
+.single-post .content .question > ol > li > ul{font-size:1.4rem;}
 
 /* ajustes a wordpress */
 .has-global-padding{padding-right:0; padding-left:0;}
