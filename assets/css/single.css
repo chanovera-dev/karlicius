@@ -18,6 +18,7 @@
 .single-post .content .card ul{padding:0 2.4rem;}
 .single-post .content .card .note-wrapper{padding:0 1rem;}
 .single-post .content .card .note{position:relative; padding:1rem; background-color:var(--background-note); border-radius:.4rem; box-shadow:rgba(0,0,0,.15) 0 2px 4px inset;}
+.single-post .content .card tbody tr:nth-child(odd) td:first-child{background-color:var(--background-note);}
 /* notas */
 .single-post .content > .note{position:relative; padding:1rem; background-color:var(--background-note); box-shadow:var(--note-shadow); border-radius:.8rem;}
 .single-post .content .note:after{position:absolute; width:16px; height:16px; top:1rem; right:1rem;}
