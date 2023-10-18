@@ -55,7 +55,7 @@
 .single-post .content .question > ol > li:not(:last-child){margin-bottom:1rem;}
 .single-post .content .question > ol > li > ul{font-size:1.4rem; margin-top:1rem;}
 .single-post .content .question > ol > li > ul > li:not(:last-child){margin-bottom:.7rem;}
-.single-post .content .question .function{display:inline-flex; flex-wrap:wrap; align-items:baseline; gap:0 .7rem; background:var(--linear-gradient-question);}
+.single-post .content .question .function{display:inline-flex; flex-wrap:wrap; align-items:baseline; width:100%; background:var(--linear-gradient-question);}
 .single-post .content .question .function .wp-block-katex-display-block .katex-display{color:var(--color-main);}
 .single-post .content .question .wp-block-katex-display-block .katex-display{padding:0 1rem; color:var(--color-answer);}
 /* KaTeX */
