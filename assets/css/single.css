@@ -56,7 +56,7 @@
 .single-post .content .question > ol > li > ul{font-size:1.4rem; margin-top:1rem;}
 .single-post .content .question > ol > li > ul > li:not(:last-child){margin-bottom:.7rem;}
 /* KaTeX */
-/* .single-post .content > .katex-display{display:flex; justify-content:center; margin-bottom:4rem;} */
+.single-post .content > .katex-display{margin-bottom:4rem;}
 
 /* ajustes a wordpress */
 .has-global-padding{padding-right:0; padding-left:0;}
