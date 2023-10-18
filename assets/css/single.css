@@ -23,7 +23,7 @@
 .single-post .content .card .wp-block-table:last-child{margin-bottom:0;}
 .single-post .content .card tbody tr:nth-child(odd) td:is(:first-child,:last-child){background-color:var(--background-note);}
 .single-post .content .card tbody td .katex-display{margin:0;}
-.single-post .content .card tbody td .katex-display > .katex{text-align:left;}
+.single-post .content .card tbody td .katex-display > .katex{text-align:left; background-color:inherit;}
 
 
 /* notas */
