@@ -18,7 +18,7 @@
 .single-post .content .card ul{padding:0 2.4rem;}
 .single-post .content .card .note-wrapper{padding:0 1rem;}
 .single-post .content .card .note{position:relative; padding:1rem; background-color:var(--background-note); border-radius:.4rem; box-shadow:rgba(0,0,0,.15) 0 2px 4px inset;}
-.single-post .content .card > .wp-block-katex-display-block > .katex-display{display:flex; justify-content:center;}
+.single-post .content .card > .wp-block-katex-display-block > .katex-display{display:flex; justify-content:center; margin-bottom:3rem;}
 .single-post .content .card > .wp-block-katex-display-block > .katex-display > .katex{background-color:var(--background-note); padding:1rem; border-radius:.6rem;}
 .single-post .content .card .wp-block-table{margin-top:2rem; margin-bottom:2rem;}
 .single-post .content .card .wp-block-table:last-child{margin-bottom:0;}
