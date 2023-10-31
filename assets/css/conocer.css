@@ -7,7 +7,7 @@
 #main .container .section .article{display:grid; gap:2rem;}
 #main .container .section .article .thumbnail{width:100%; height:auto; aspect-ratio:16/9; object-fit:cover;}
 #main .container .section .article .title{font-weight:700; color:var(--color-main);}
-#main .container .section .article .publicate-date{margin-top:2rem; margin-bottom:1rem;}
+#main .container .section .article .publicate-date_widget{margin-top:2rem; margin-bottom:1rem;}
 
 @media(min-width:768px){
     #main .container .section{grid-template-columns:1fr 1fr; align-items:center;}
