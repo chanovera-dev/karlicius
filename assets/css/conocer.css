@@ -1,4 +1,8 @@
 #main > .container:nth-child(odd){background-color:#fff;}
 #main > .container:nth-child(even){background-color:#f6f6f6;}
-#main .container .section{color:var(--color-main);}
+#main .container .section{color:var(--color-main); display:grid; gap:5rem;}
 #main .container .section ul{margin:0; padding:0; list-style:none;}
+
+@media(min-width:768px){
+    #main .container .section{grid-template-columns:1fr 1fr; align-items:center;}
+}
