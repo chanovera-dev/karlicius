@@ -11,7 +11,7 @@
     </div>
     <div class="container">
         <section class="section padding-section">
-            <img src="<?php ?>" alt="foto" srcset="">
+            <img src="https://www.chanovera.com/wp-content/uploads/2023/10/logo-conocer.png" alt="logo de conocer para vivir" srcset="">
             <ul class="about-list">
                 <li><a href="#">Quienes somos</a></li>
                 <li><a href="#">Qué hacemos</a></li>
@@ -22,8 +22,8 @@
         <section class="section padding-section">
             <ul class="resources-list">
                 <li><a href="#">Recursos</a></li>
-                <li><a href="#"></a>Grupos</li>
-                <li><a href="#"></a>Ayuda</li>
+                <li><a href="#">Grupos</a></li>
+                <li><a href="#">Ayuda</a></li>
             </ul>
         </section>
     </div>
