@@ -1,4 +1,4 @@
-<?php /*Template name: Conocer para vivir */ get_header(); ?>
+<?php /* Template name: Conocer */ get_header(); ?>
 <main id="main">
     <div class="container">
         <section class="section padding-section">
