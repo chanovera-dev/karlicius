@@ -2,7 +2,13 @@
 #main > .container:nth-child(even){background-color:#f6f6f6;}
 #main .container .section{color:var(--color-main); display:grid; gap:5rem;}
 #main .container .section ul{margin:0; padding:0; list-style:none;}
+#main .container .section iframe{width:100; height:auto; aspect-ratio:16/9;}
+#main .container .section .article{display:grid; gap:2rem;}
+#main .container .section .article .thumbnail{width:100%; height:auto; aspect-ratio:16/9; object-fit:cover;}
+#main .container .section .article .title{font-weight:700; color:var(--color-main);}
+#main .container .section .article .publicate-date{margin-top:2rem; margin-bottom:1rem;}
 
 @media(min-width:768px){
     #main .container .section{grid-template-columns:1fr 1fr; align-items:center;}
+    #main .container .section .article{grid-template-columns:200px 1fr;}
 }

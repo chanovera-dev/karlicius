@@ -48,8 +48,8 @@
                     endif;
                 ?>
                 <div class="content">
-                    <?php include(TEMPLATEPATH . '/parts/widgets/publicate-date.php'); ?>
                     <a class="permalink" href="<?php the_permalink() ?>" target="_blank"><?php the_title( '<h3 class="title">', '</h3>' ); ?></a>
+                    <?php include(TEMPLATEPATH . '/parts/widgets/publicate-date.php'); ?>
                     <?php the_excerpt(); ?>
                 </div>
                 
