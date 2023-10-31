@@ -1,5 +1,5 @@
 <?php /* Template name: Conocer */ get_header(); ?>
-<main id="main" class="main-content">
+<main id="main">
     <div class="container">
         <section class="section padding-section">
             <ul class="slideshow">
