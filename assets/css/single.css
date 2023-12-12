@@ -25,8 +25,9 @@
 .single-post .content .card tbody tr:nth-child(odd) td:is(:first-child,:last-child){background-color:var(--background-note);}
 .single-post .content .card tbody td .katex-display{margin:0;}
 .single-post .content .card tbody td .katex-display > .katex{text-align:left;}
-
-
+/* plugin enlighter */
+.single-post .content .enlighter-code{overflow:scroll hidden;}
+.single-post .content .enlighter-code .enlighter{width:200%;}
 /* notas */
 .single-post .content > .note{position:relative; padding:1rem; background-color:var(--background-note); box-shadow:var(--note-shadow); border-radius:.8rem;}
 .single-post .content .note:after{position:absolute; width:16px; height:16px; top:1rem; right:1rem;}
