@@ -15,7 +15,7 @@ Tags:
 */
 
 /* G E N E R A L E S */
-*,:before,:after{box-sizing:border-box;}
+*,:before,:after{box-sizing:border-box;margin:0;}
 html{scroll-behavior:smooth;}
 body{position:relative;overflow-x:hidden;}
 :is(header,footer,aside) :is(ol,ul){padding-left:0;list-style:none;}
@@ -27,6 +27,11 @@ img{display:block;height:auto;}
 /* C A B E C E R A */
 #main-header{position:sticky;top:0;}
 #main-header .section{display:flex;align-items:center;justify-content:space-between;height:50px;}
+
+
+
+/* A N E X O S · C A R R I T O · W I S H L I S T */
+.attachment-list li a{display:inline-flex;gap:7px;}
 
 
 /* M E N Ú    M O B I L E */
