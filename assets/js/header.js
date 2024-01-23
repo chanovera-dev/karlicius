@@ -1,3 +1,3 @@
 function menuMobileButton(toggleButton) {
-    toggleButton.classList.toggle('change');
+    toggleButton.querySelector('.bars').classList.toggle('change');
 }
