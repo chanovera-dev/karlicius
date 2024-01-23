@@ -14,6 +14,20 @@ Text Domain: karlicius
 Tags:
 */
 
+/* G E N E R A L E S */
+*,:before,:after{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{position:relative;overflow-x:hidden;}
+:is(header,footer,aside) :is(ol,ul){padding-left:0;list-style:none;}
+.container .section{width:min(100% - 30px, 1096px);margin-inline:auto;}
+img{display:block;height:auto;}
+
+
+
+/* C A B E C E R A */
+#main-header{position:sticky;top:0;}
+
+
 
 /* M E N Ú    M O B I L E */
 
@@ -30,3 +44,6 @@ Tags:
 .menu-mobile__button .bars.change .bar1{transform:translateY(9px);}
 .menu-mobile__button .bars.change .bar3{transform:translateY(-3px) rotate(90deg);}
 .menu-mobile__button .bars.change :is(.bar1,.bar2,.bar3){background-color:var(--wp--preset--color--text);}
+
+/* menú */
+.menu-searchform-group{position:fixed;top:0;right:0;background-color:var(--wp--preset--color--background);}
