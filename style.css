@@ -46,4 +46,5 @@ img{display:block;height:auto;}
 .menu-mobile__button .bars.change :is(.bar1,.bar2,.bar3){background-color:var(--wp--preset--color--text);}
 
 /* menú */
-.menu-searchform-group{position:fixed;top:0;right:0;background-color:var(--wp--preset--color--background);}
+.menu-searchform__group{position:fixed;top:0;right:-100%;background-color:var(--wp--preset--color--background);transition:all .3s ease;}
+.menu-searchform__group.open{right:0;}
