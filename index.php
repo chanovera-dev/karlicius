@@ -9,6 +9,6 @@ echo '
             <h1>' . esc_html__('Bienvenido al index de ', 'karlicius'); bloginfo('name'); echo '</h1>
         </section>
     </div>
-<main>';
+</main>';
 
 get_footer();
