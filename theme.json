@@ -1,0 +1,187 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/theme.json",
+    "version": 2,
+    "settings": {
+        "appearanceTools": true,
+        "color": {
+            "palette": [
+                {
+                    "name": "Background",
+                    "slug": "background",
+                    "color": "#ffffff"
+                },
+                {
+                    "name": "Text",
+                    "slug": "text",
+                    "color": "#323232"
+                },
+                {
+                    "name": "Links",
+                    "slug": "links",
+                    "color": "#2ea8fa"
+                }
+            ]
+        },
+        "layout": {
+            "contentSize": "691px",
+            "wideSize": "1096px"
+        },
+        "typography": {
+            "lineHeight": false,
+            "fontFamilies": [
+                {
+                    "fontFace": [
+                        {
+                            "fontFamily": "Roboto",
+                            "fontStyle": "normal",
+                            "fontWeight": "100",
+                            "src": ["file:./assets/fonts/roboto/roboto-v30-latin-100.woff2"]
+                        },
+                        {
+                            "fontFamily": "Roboto",
+                            "fontStyle": "italic",
+                            "fontWeight": "100",
+                            "src": ["file:./assets/fonts/roboto/roboto-v30-latin-100italic.woff2"]
+                        },
+                        {
+                            "fontFamily": "Roboto",
+                            "fontStyle": "normal",
+                            "fontWeight": "300",
+                            "src": ["file:./assets/fonts/roboto/roboto-v30-latin-300.woff2"]
+                        },
+                        {
+                            "fontFamily": "Roboto",
+                            "fontStyle": "italic",
+                            "fontWeight": "300",
+                            "src": ["file:./assets/fonts/roboto/roboto-v30-latin-300italic.woff2"]
+                        },
+                        {
+                            "fontFamily": "Roboto",
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+                            "src": ["file:./assets/fonts/roboto/roboto-v30-latin-regular.woff2"]
+                        },
+                        {
+                            "fontFamily": "Roboto",
+                            "fontStyle": "italic",
+                            "fontWeight": "400",
+                            "src": ["file:./assets/fonts/roboto/roboto-v30-latin-italic.woff2"]
+                        },
+                        {
+                            "fontFamily": "Roboto",
+                            "fontStyle": "normal",
+                            "fontWeight": "500",
+                            "src": ["file:./assets/fonts/roboto/roboto-v30-latin-500.woff2"]
+                        },
+                        {
+                            "fontFamily": "Roboto",
+                            "fontStyle": "italic",
+                            "fontWeight": "500",
+                            "src": ["file:./assets/fonts/roboto/roboto-v30-latin-500italic.woff2"]
+                        },
+                        {
+                            "fontFamily": "Roboto",
+                            "fontStyle": "normal",
+                            "fontWeight": "700",
+                            "src": ["file:./assets/fonts/roboto/roboto-v30-latin-700.woff2"]
+                        },
+                        {
+                            "fontFamily": "Roboto",
+                            "fontStyle": "italic",
+                            "fontWeight": "700",
+                            "src": ["file:./assets/fonts/roboto/roboto-v30-latin-700italic.woff2"]
+                        },
+                        {
+                            "fontFamily": "Roboto",
+                            "fontStyle": "normal",
+                            "fontWeight": "900",
+                            "src": ["file:./assets/fonts/roboto/roboto-v30-latin-900.woff2"]
+                        },
+                        {
+                            "fontFamily": "Roboto",
+                            "fontStyle": "italic",
+                            "fontWeight": "900",
+                            "src": ["file:./assets/fonts/roboto/roboto-v30-latin-900italic.woff2"]
+                        }
+                    ],
+                    "fontFamily": "\"Roboto\", sans-serif",
+					"name": "Roboto",
+					"slug": "roboto"
+                }
+            ],
+            "fontSizes": [
+                {
+                    "fluid": {
+						"min": "0.75rem",
+						"max": "0.875rem"
+					},
+                    "name": "Small",
+                    "size": "0.875rem",
+                    "slug": "small"
+                },
+                {
+                    "fluid": {
+						"min": "0.9375rem",
+						"max": "1rem"
+					},
+                    "name": "Medium",
+                    "size": "1rem",
+                    "slug": "medium"
+                },
+                {
+                    "fluid": {
+						"min": "1.125rem",
+						"max": "1.25rem"
+					},
+                    "name": "Large",
+                    "size": "1.25rem",
+                    "slug": "large"
+                },
+                {
+                    "fluid": {
+						"min": "1.375rem",
+						"max": "1.5625rem"
+					},
+                    "name": "Extra Large",
+                    "size": "1.5625rem",
+                    "slug": "x-large"
+                },
+                {
+                    "fluid": {
+						"min": "1.6875rem",
+						"max": "1.875rem"
+					},
+                    "name": "Extra Extra Large",
+                    "size": "1.875rem",
+                    "slug": "xx-large"
+                }
+            ],
+            "writingMode": true
+        }
+    },
+    "styles": {
+        "color": {
+			"background": "var(--wp--preset--color--background)",
+			"text": "var(--wp--preset--color--text)"
+		},
+        "elements": {
+            "link": {
+				":hover": {
+					"typography": {
+						"textDecoration": "none"
+					}
+				},
+				"color": {
+					"text": "var(--wp--preset--color--links)"
+				}
+			}
+        },
+        "typography": {
+			"fontFamily": "var(--wp--preset--font-family--roboto)",
+			"fontSize": "var(--wp--preset--font-size--medium)",
+			"fontStyle": "normal",
+			"fontWeight": "400",
+			"lineHeight": "1.55"
+		}
+    }
+}
