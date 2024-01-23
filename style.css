@@ -23,8 +23,8 @@ Tags:
 .menu-mobile__button .bars:hover :is(.bar1, .bar2, .bar3){background-color:var(--wp--preset--color--text);}
 .menu-mobile__button .bars > div:not(:last-child){margin-bottom:5px;}
 /* botón del menú · activo */
-.menu-mobile__button .bars.active{transform:rotate(45deg);}
-.menu-mobile__button .bars.active .bar2{width:0;}
-.menu-mobile__button .bars.active .bar1{transform:translateY(9px);}
-.menu-mobile__button .bars.active .bar3{transform:translateY(-3px) rotate(90deg);}
-.menu-mobile__button .bars.active :is(.bar1, .bar2, .bar3){background-color:var(--wp--preset--color--text);}
+.menu-mobile__button .bars.change{transform:rotate(45deg);}
+.menu-mobile__button .bars.change .bar2{width:0;}
+.menu-mobile__button .bars.change .bar1{transform:translateY(9px);}
+.menu-mobile__button .bars.change .bar3{transform:translateY(-3px) rotate(90deg);}
+.menu-mobile__button .bars.change :is(.bar1, .bar2, .bar3){background-color:var(--wp--preset--color--text);}
