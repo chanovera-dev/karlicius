@@ -13,3 +13,18 @@ License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 Text Domain: karlicius
 Tags:
 */
+
+
+
+/* botón del menú */
+.mobile-menu--button{position:relative; display:grid; place-content:center; margin-right:auto; cursor:pointer; z-index:1;}
+.mobile-menu--button .bars{display:inline-block; width:18px; height:14px; transition:all .3s ease;}
+.mobile-menu--button .bars :is(.bar1, .bar2, .bar3){width:18px; height:1px; transition:.4s; background-color:var(--wp--preset--color--text);}
+.mobile-menu--button .bars:hover :is(.bar1, .bar2, .bar3){background-color:var(--wp--preset--color--text);}
+.mobile-menu--button .bars > div:not(:last-child){margin-bottom:5px;}
+/* botón del menú · activo */
+.mobile-menu--button .bars.active{transform:rotate(45deg);}
+.mobile-menu--button .bars.active .bar2{width:0;}
+.mobile-menu--button .bars.active .bar1{transform:translateY(9px);}
+.mobile-menu--button .bars.active .bar3{transform:translateY(-3px) rotate(90deg);}
+.mobile-menu--button .bars.active :is(.bar1, .bar2, .bar3){background-color:var(--wp--preset--color--text);}
