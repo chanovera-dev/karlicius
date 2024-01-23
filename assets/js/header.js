@@ -5,5 +5,7 @@ function menuMobileButton(toggleButton) {
 
     if (!menuMobile.classList.contains('open')) {
         menuMobile.classList.add('open');
+    } else {
+        menuMobile.classList.remove('open');
     }
 }
