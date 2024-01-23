@@ -1,5 +1,5 @@
 <?php
-    get_header();
+    get_header(); 
     echo '<main id="main">
         <section class="container main-content">
             <article class="section padding-section">
