@@ -13,5 +13,10 @@ echo '
     </head>
     <body id="body" '; body_class(); echo '>
         <header id="main-header" class="container">
-            <section class="section"></section>
+            <section class="section">';
+                include(TEMPLATEPATH . '/sections/header/brand.php');
+                include(TEMPLATEPATH . '/sections/header/menu.php');
+                include(TEMPLATEPATH . '/sections/header/menu-button.php');
+            echo '
+            </section>
         </header>';
