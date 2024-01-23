@@ -59,4 +59,4 @@ img{display:block;height:auto;}
 .menu-searchform__group.open{right:0;}
 .menu-searchform__group form{order:1;}
 .menu-searchform__group nav{order:2;}
-.menu-searchform__group nav ul li a{display:flex;align-items:center;height:5rem;}
+.menu-searchform__group nav ul li a{display:flex;align-items:center;height:42px;}
