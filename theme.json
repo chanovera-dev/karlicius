@@ -165,6 +165,12 @@
 			"text": "var(--wp--preset--color--text)"
 		},
         "elements": {
+            "h1": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--xx-large)",
+					"lineHeight": "1.15"
+				}
+			},
             "link": {
 				":hover": {
 					"typography": {

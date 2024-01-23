@@ -3,7 +3,7 @@
 get_header();
 
 echo '
-<main id="main">
+<main id="main-content">
     <div class="container">
         <section class="section">
             <h1>' . esc_html__('Bienvenido al index de ', 'karlicius'); bloginfo('name'); echo '</h1>
