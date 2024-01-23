@@ -31,9 +31,10 @@ img{display:block;height:auto;}
 
 
 /* A N E X O S · C A R R I T O · W I S H L I S T */
-.attachment-list li a{display:inline-flex;gap:7px;}
+.attachment-list__wrapper{margin-left:auto;}
+.attachment-list li a.counter{display:inline-flex;gap:7px;color:var(--wp--preset--color--text);}
 .attachment-list li a.counter .wrapper{position:relative;top:-10px;}
-.attachment-list li a.counter .wrapper .number{font-size:12px;}
+.attachment-list li a.counter .wrapper .number{font-size:13px;color:var(--wp--preset--color--links);}
 
 
 /* M E N Ú    M O B I L E */
