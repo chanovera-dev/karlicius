@@ -32,7 +32,8 @@ img{display:block;height:auto;}
 
 /* A N E X O S · C A R R I T O · W I S H L I S T */
 .attachment-list li a{display:inline-flex;gap:7px;}
-.attachment-list li a.counter .wrapper .number{font-size:10px;}
+.attachment-list li a.counter .wrapper{position:relative;top:-10px;}
+.attachment-list li a.counter .wrapper .number{font-size:12px;}
 
 
 /* M E N Ú    M O B I L E */
