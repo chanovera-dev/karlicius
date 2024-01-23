@@ -169,7 +169,13 @@
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--xx-large)",
 					"lineHeight": "1.15"
-				}
+				},
+                "spacing": {
+                    "margin": {
+                        "top": "0",
+                        "bottom": "0"
+                    }
+                }
 			},
             "link": {
 				":hover": {
