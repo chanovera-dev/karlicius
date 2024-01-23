@@ -1,7 +1,5 @@
-<div class="menu-mobile--button">
-    <div class="bars" onclick="buttonMenu(toggleButton)">
-        <div class="bar1"></div>
-        <div class="bar2"></div>
-        <div class="bar3"></div>
-    </div>
-</div>
+<button class="menu-mobile__button" onclick="menuMobileButton(toggleButton)">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+</button>
