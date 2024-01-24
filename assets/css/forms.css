@@ -69,7 +69,7 @@ input[type=number]{
     outline:none;
 }
 
-/* formulario de envio */
+/* formulario de envio · nominal */
 input[type=submit]{
     padding:0 20px;
     font-family:var(--wp--preset--font-family--roboto);
@@ -80,8 +80,18 @@ input[type=submit]{
     color:#fff;
     border-radius:3px;
     height:38px;
+    transition:all .3s ease;
 }
+
+/* formulario de envio · hover */
 input[type=submit]:hover{
     background-color:var(--wp--preset--color--button-hover);
     border:1px solid var(--wp--preset--color--button-hover);
+}
+
+/* formulario de envio · focus */
+input[type=submit]:focus{
+    outline:none;
+    border:1px solid var(--wp--preset--color--border-focus);
+    box-shadow:var(--wp--preset--shadow--input);
 }
