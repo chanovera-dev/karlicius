@@ -67,7 +67,7 @@ input[type=search]::placeholder,
 textarea::placeholder{
     font-size:var(--wp--preset--font-size--medium);
     font-family:var(--wp--preset--font-family--roboto);
-    color:var(--wp-preset--color--attenuated);
+    color:var(--wp--preset--color--attenuated);
     transition:all .3s ease;
 }
 
