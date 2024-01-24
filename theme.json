@@ -19,6 +19,30 @@
                     "name": "Links",
                     "slug": "links",
                     "color": "#2ea8fa"
+                },
+                {
+                    "name": "Border color",
+                    "slug": "border",
+                    "color": "#dddddd"
+                },
+                {
+                    "name": "Attenuated color",
+                    "slug": "attenuated",
+                    "color": "#b3b3b3"
+                },
+                {
+                    "color": "#80bdff",
+                    "name": "Border input on focus",
+                    "slug": "border-focus"
+                }
+            ]
+        },
+        "shadow": {
+            "presets": [
+                {
+                    "name": "Input",
+                    "slug": "input",
+                    "shadow": "0 0 0 .35rem rgba(0,123,255,.25)"
                 }
             ]
         },
