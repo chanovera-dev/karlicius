@@ -5,7 +5,7 @@ input[type=tel],
 input[type=url],
 input[type=search],
 textarea{
-    border-radius:3px;
+    border-radius:0;
     border:1px solid var(--wp--preset--color--border);
     background-color:var(--wp--preset--color--background);
     font-family:var(--wp--preset--font-family--roboto);
