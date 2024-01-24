@@ -23,22 +23,22 @@
                 {
                     "name": "Border color",
                     "slug": "border",
-                    "color": "#dddddd"
+                    "color": "#ced4da"
+                },
+                {
+                    "color": "#ebebeb",
+                    "name": "Border on hover",
+                    "slug": "border-hover"
+                },
+                {
+                    "color": "#80bdff",
+                    "name": "Border on focus",
+                    "slug": "border-focus"
                 },
                 {
                     "name": "Attenuated color",
                     "slug": "attenuated",
                     "color": "#b3b3b3"
-                },
-                {
-                    "color": "#80bdff",
-                    "name": "Border input on focus",
-                    "slug": "border-focus"
-                },
-                {
-                    "color": "#ebebeb",
-                    "name": "Line",
-                    "slug": "line"
                 }
             ]
         },
