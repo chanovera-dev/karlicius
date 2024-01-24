@@ -81,3 +81,7 @@ input[type=submit]{
     border-radius:3px;
     height:38px;
 }
+input[type=submit]:hover{
+    background-color:var(--wp--preset--color--button-hover);
+    border:1px solid var(--wp--preset--color--button-hover);
+}

@@ -44,6 +44,11 @@
                     "name": "Button",
                     "slug": "button",
                     "color": "#124666"
+                },
+                {
+                    "name": "Button on hover",
+                    "slug": "button-hover",
+                    "color": "#195a83"
                 }
             ]
         },
