@@ -5,7 +5,7 @@ function kenko_theme_custom_breakpoints() {
         <style>
             :root{
                 /* cabecera */
-                --margin-left--attachment-list:auto;
+                --height--header:50px;
             }
 
             @media screen and (min-width: 31px) and (max-width: 1023px){
@@ -45,6 +45,8 @@ function kenko_theme_custom_breakpoints() {
 
             @media(min-width:1024px){
                 :root{
+                    /* cabecera */
+                    --height--header:70px;
                 }
                 /* cabecera */
                 .menu-mobile__button{display:none;}
