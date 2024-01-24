@@ -50,6 +50,8 @@ function kenko_theme_custom_breakpoints() {
                 }
                 /* cabecera */
                 .menu-mobile__button{display:none;}
+                #main-header .section{display:grid;grid-template-columns:1fr auto 1fr;}
+                
                 /* M E N Ú    D E S K T O P */
                 .menu-searchform__group nav ul{display:flex;align-items:center;gap:3rem;}
 
