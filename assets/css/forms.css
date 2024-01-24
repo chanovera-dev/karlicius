@@ -71,7 +71,7 @@ input[type=number]{
 
 /* formulario de envio */
 input[type=submit]{
-    padding:0 16px;
+    padding:0 20px;
     font-family:var(--wp--preset--font-family--roboto);
     font-size:var(--wp--preset--font-size--medium);
     font-weight:500;
