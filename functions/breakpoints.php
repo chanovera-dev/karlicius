@@ -10,7 +10,7 @@ function kenko_theme_custom_breakpoints() {
                 /* M E N Ú    M O B I L E */
 
                 /* botón para abrir el menú mobile */
-                .menu-mobile__button{position:relative;display:var(--display--menu-mobile-button);padding:0;border:0;background-color:transparent;width:18px;height:14px;z-index:4;}
+                .menu-mobile__button{position:relative;padding:0;border:0;background-color:transparent;width:18px;height:14px;z-index:4;}
                 .menu-mobile__button:hover{cursor:pointer;}
                 .menu-mobile__button .bars{position:relative;display:inline-block;width:18px;height:14px;transition:all .3s ease;}
                 .menu-mobile__button .bars :is(.bar1,.bar2,.bar3){width:18px;height:1px;transition:.4s;background-color:var(--wp--preset--color--text);}
@@ -43,9 +43,9 @@ function kenko_theme_custom_breakpoints() {
 
             @media(min-width:1024px){
                 :root{
-                    /* cabecera */
-                    --display--menu-mobile-button:none;
                 }
+                /* cabecera */
+                .menu-mobile__button{display:none;}
             }
 
             @media(min-width:1200px){
