@@ -34,6 +34,11 @@
                     "color": "#80bdff",
                     "name": "Border input on focus",
                     "slug": "border-focus"
+                },
+                {
+                    "color": "#ebebeb",
+                    "name": "Line",
+                    "slug": "line"
                 }
             ]
         },
