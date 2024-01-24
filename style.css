@@ -60,3 +60,5 @@ img{display:block;height:auto;}
 .menu-searchform__group form{order:1;}
 .menu-searchform__group nav{order:2;}
 .menu-searchform__group nav ul li a{display:flex;align-items:center;height:42px;}
+.menu-searchform__group form.search-form{display:grid;grid-template-columns:1fr auto;gap:7px;}
+.menu-searchform__group form.search-form input[type=text]{width:100%;}
