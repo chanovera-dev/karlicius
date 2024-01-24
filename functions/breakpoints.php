@@ -45,8 +45,6 @@ function kenko_theme_custom_breakpoints() {
 
             @media(min-width:1024px){
                 :root{
-                    /* cabecera */
-                    --margin-left--attachment-list:0;
                 }
                 /* cabecera */
                 .menu-mobile__button{display:none;}
