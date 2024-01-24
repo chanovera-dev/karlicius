@@ -53,7 +53,7 @@ function kenko_theme_custom_breakpoints() {
                 /* M E N Ú    D E S K T O P */
                 .menu-searchform__group{display:flex;align-items:center;gap:30px;}
                 .menu-searchform__group nav ul{display:flex;align-items:center;gap:30px;}
-                .menu-searchform__group form.search-form{{display:flex;align-items:center;gap:7px;}
+                .menu-searchform__group form.search-form{display:flex;align-items:center;gap:7px;}
 
             }
 
