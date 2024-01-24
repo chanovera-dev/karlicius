@@ -30,13 +30,13 @@ textarea::placeholder{
     transition:all .3s ease;
 }
 
-/* inputs de entrada · nominal */
+/* inputs de entrada · hover */
 input[type=text]:hover,
 input[type=email]:hover,
 input[type=tel]:hover,
 input[type=url]:hover,
 input[type=search]:hover,
-textarea:hover{border:1px solid var(--wp--preset--color--line);}
+textarea:hover{border:1px solid var(--wp--preset--color--border-hover);}
 
 /* inputs de entrada · focus */
 input[type=text]:focus,
