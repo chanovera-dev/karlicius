@@ -39,6 +39,11 @@
                     "name": "Attenuated color",
                     "slug": "attenuated",
                     "color": "#b3b3b3"
+                },
+                {
+                    "name": "Button",
+                    "slug": "button",
+                    "color": "#0a283b"
                 }
             ]
         },
