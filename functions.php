@@ -74,3 +74,9 @@ register_nav_menus(
         'social' => __( 'Social', 'karlicius' ), 
     ) 
 );
+
+
+
+// A N E X O S
+// establecer los breakpoints
+require_once(get_template_directory() . '/functions/breakpoints.php');
