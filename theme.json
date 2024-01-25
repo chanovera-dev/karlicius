@@ -16,6 +16,11 @@
                     "color": "#323232"
                 },
                 {
+                    "name": "Non central text",
+                    "slug": "text-b",
+                    "color": "#848a92"
+                },
+                {
                     "name": "Links",
                     "slug": "links",
                     "color": "#2ea8fa"
