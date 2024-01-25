@@ -1,1 +1,1 @@
-#main .container .section{display:grid;gap:5rem;grid-template-columns:var(--grid-template-columns--posts);}
+#main .container .section{display:grid;gap:50px;grid-template-columns:var(--grid-template-columns--posts);}
