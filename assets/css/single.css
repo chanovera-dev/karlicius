@@ -36,7 +36,7 @@
 .single-post .content tbody td{border:none; font-size:14px;}
 .single-post .content .card tbody td{border:none; font-size:16px;}
 .single-post .content tbody tr{border-radius:3px;}
-.single-post .content tbody tr:nth-child(odd) td{background-color:var(--wp--preset--color--card);}
+.single-post .content tbody tr:nth-child(odd) td{background-color:var(--wp--preset--color--tabs);}
 
 .single-post .content tbody td:nth-child(1){font-weight:600;}
 .single-post .content .wp-block-table{display:grid; margin-top:30px; margin-bottom:40px;}

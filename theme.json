@@ -79,6 +79,11 @@
                     "name": "Question color",
                     "slug": "question",
                     "color": "#f1e6f3"
+                },
+                {
+                    "name": "Color tabs",
+                    "slug": "tabs",
+                    "color": "#f8ffde"
                 }
             ]
         },
