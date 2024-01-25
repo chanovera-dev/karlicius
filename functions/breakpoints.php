@@ -30,7 +30,8 @@ function karlicius_theme_custom_breakpoints() {
                 .menu-searchform__group.open{right:0;}
                 .menu-searchform__group form{order:1;}
                 .menu-searchform__group nav{order:2;}
-                .menu-searchform__group nav ul li a{display:flex;align-items:center;height:38px;}
+                .menu-searchform__group nav ul li:not(:last-child){border-bottom:1px solid var(--wp--preset--color--border);}
+                .menu-searchform__group nav ul li a{display:flex;align-items:center;height:38px;color:var(--wp--preset--color--text);}
                 .menu-searchform__group form.search-form{display:grid;grid-template-columns:1fr auto;gap:7px;}
                 .menu-searchform__group form.search-form input[type=search]{width:100%;}
             }
@@ -58,6 +59,8 @@ function karlicius_theme_custom_breakpoints() {
                 /* M E N Ú    D E S K T O P */
                 .menu-searchform__group{display:flex;align-items:center;gap:30px;}
                 .menu-searchform__group nav ul{display:flex;align-items:center;gap:30px;}
+                .menu-searchform__group nav ul li a{color:var(--wp--preset--color--attenuated);transition:all .3s ease;}
+                .menu-searchform__group nav ul li a:hover{color:var(--wp--preset--color--text);}
                 .menu-searchform__group form.search-form{display:flex;align-items:center;gap:7px;}
 
             }
