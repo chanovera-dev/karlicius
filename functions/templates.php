@@ -16,6 +16,7 @@ add_action( 'wp_enqueue_scripts', 'karlicius_posts_styles' );
 function single_styles() {
     if ( is_single() ) {
         wp_enqueue_style( 'single-styles', get_template_directory_uri() . '/assets/css/single.css' );
+        wp_enqueue_style( 'sidebar-styles', get_template_directory_uri() . '/assets/css/sidebar.css' );
     }
 }
 add_action( 'wp_enqueue_scripts', 'single_styles' );
