@@ -14,7 +14,7 @@
     echo '<div class="date">' . get_the_date() . '</div>';
 
     echo '
-        <a class="permalink" href="'; the_permalink(); echo '" target="_blank">'; the_title( '<h3 class="title">', '</h3>' ); echo '</a>';
+        <a class="permalink" href="'; the_permalink(); echo '" target="_blank">'; the_title( '<h2 class="title">', '</h2>' ); echo '</a>';
         the_excerpt();
             
     echo '

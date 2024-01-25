@@ -3,7 +3,7 @@ echo '
 <aside>
     <div class="categories">
         <div class="title-wrapper">
-            <h3 class="title">' . esc_html__('Categorías', 'karlicius') . '</h3>
+            <h2 class="title">' . esc_html__('Categorías', 'karlicius') . '</h2>
         </div>
         <ul>';
         $args = array(
@@ -33,7 +33,7 @@ echo '
     </div>
     <div class="archive-list-widget">
         <div class="title-wrapper">
-            <h3 class="title">' . esc_html__('Archivo', 'karlicius') . '</h3>
+            <h2 class="title">' . esc_html__('Archivo', 'karlicius') . '</h2>
         </div>
         <ul>';
             wp_get_archives();
