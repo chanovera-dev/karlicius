@@ -64,6 +64,11 @@
                     "name": "Line",
                     "slug": "line",
                     "color": "#f0f0f0"
+                },
+                {
+                    "name": "Notes color",
+                    "slug": "note",
+                    "color": "#fde8b7"
                 }
             ]
         },
