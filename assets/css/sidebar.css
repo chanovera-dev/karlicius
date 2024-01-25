@@ -3,4 +3,4 @@
 #main aside > div .title-wrapper{margin-bottom:20px;}
 #main aside > div ul li:not(:last-child){border-bottom:1px solid var(--wp--preset--color--line);}
 #main aside > div ul li a{display:flex;align-items:center;gap:7px;height:38px;color:var(--wp--preset--color--attenuated);transition:all .3s ease;}
-#main aside > div ul li a{color:var(--wp--preset--color--text);}
+#main aside > div ul li a:hover{color:var(--wp--preset--color--text);}
