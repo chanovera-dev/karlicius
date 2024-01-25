@@ -4,7 +4,7 @@
 /* paginadores */
 .nav-links .page-numbers.current{color:var(--wp--preset--color--text);}
 .nav-links .page-numbers{display:grid;place-content:center;width:35px;height:35px;color:var(--wp--preset--color--attenuated);border-radius:3px;transition:all .3s ease;}
-.nav-links .page-numbers.next{width:auto;padding:0 13px;}
+.nav-links :is(.prev.page-numbers,.page-numbers.next){width:auto;padding:0 13px;}
 
 /* paginadores · hover */
 .nav-links .page-numbers:hover{background-color:var(--wp--preset--color--pagination-hover);color:var(--wp--preset--color--text);}
