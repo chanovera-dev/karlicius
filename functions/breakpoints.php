@@ -6,6 +6,10 @@ function kenko_theme_custom_breakpoints() {
             :root{
                 /* cabecera */
                 --height--header:50px;
+
+                /*  blog */
+                --separation-posts:3.6rem;
+                --gap--posts-wrapper:3.6rem;
             }
 
             @media screen and (min-width: 31px) and (max-width: 1023px){
@@ -37,6 +41,10 @@ function kenko_theme_custom_breakpoints() {
 
             @media(min-width:768px){
                 :root{
+                    /* blog */
+                    --separation-posts:7rem 3rem;
+                    --gap--posts-wrapper:3rem;
+                    --grid-template-columns--posts:1fr 1fr;
                 }
             }
 
@@ -47,6 +55,10 @@ function kenko_theme_custom_breakpoints() {
                 :root{
                     /* cabecera */
                     --height--header:70px;
+
+                    /* blog */
+                    --gap--posts-wrapper:3rem 5rem;
+                    --grid-template-columns--posts-wrapper:1fr 28.4rem;
                 }
                 /* cabecera */
                 .menu-mobile__button{display:none;}

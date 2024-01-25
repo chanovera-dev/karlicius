@@ -82,3 +82,5 @@ register_nav_menus(
 // A N E X O S
 // establecer los breakpoints
 require_once(get_template_directory() . '/functions/breakpoints.php');
+// Anexo para definir los componentes personalizados en las plantillas
+require_once(get_template_directory() . '/functions/templates.php');
