@@ -68,8 +68,6 @@ function karlicius_theme_custom_breakpoints() {
 
             @media(min-width:1200px){
                 :root{
-                    /* posts */
-                    --grid-template-columns--posts:1fr 330px;
                 }
             }
         </style>
