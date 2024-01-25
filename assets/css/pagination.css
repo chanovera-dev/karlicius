@@ -1,5 +1,6 @@
 /* contenedor de paginación */
-.nav-links{text-align:center;}
+.nav-links{display:flex;justify-content:center;}
 
 /* paginadores */
 .nav-links .page-numbers{display:grid;place-content:center;width:30px;height:30px;}
+.nav-links .page-numbers.next{width:auto;padding:0 16px;}
