@@ -13,7 +13,7 @@
 .single-post .content .card .title-wrapper .title{font-weight:500;}
 .single-post .content .card ul{padding:0 24px;}
 .single-post .content .card .note-wrapper{padding:0 10px;}
-.single-post .content .card .note{position:relative; padding:10px; background-color:var(--wp--preset--color--card); border-radius:4px; box-shadow:rgba(0,0,0,.15) 0 2px 4px inset;}
+.single-post .content .card .note{position:relative; padding:10px; background-color:var(--wp--preset--color--note-card); border-radius:4px; box-shadow:rgba(0,0,0,.15) 0 2px 4px inset;}
 .single-post .content .card > .wp-block-katex-display-block > .katex-display{display:flex; justify-content:center; margin-bottom:40px;}
 .single-post .content .card > .wp-block-katex-display-block > .katex-display > .katex{background-color:var(--wp--preset--color--card); padding:10px; border-radius:6px;}
 .single-post .content .card .wp-block-table{margin-top:20px; margin-bottom:20px;}

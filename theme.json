@@ -81,6 +81,11 @@
                     "color": "#fff4db"
                 },
                 {
+                    "name": "Note inside card color",
+                    "slug": "note-card",
+                    "color": "#f5d9a0"
+                },
+                {
                     "name": "Question color",
                     "slug": "question",
                     "color": "#f1e6f3"
