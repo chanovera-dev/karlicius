@@ -1,8 +1,1 @@
 /* Entradas */
-main .posts__wrapper{display:grid; gap:var(--gap--posts-wrapper);grid-template-columns:var(--grid-template-columns--posts-wrapper);margin-bottom:var(--margin-bottom--post);}
-main .posts__wrapper .posts{display:grid; gap:var(--separation-posts);grid-template-columns:var(--grid-template-columns--posts);}
-main .posts__wrapper .posts .thumbnail{width:100%;}
-main .posts__wrapper .posts .publicate-date_widget{margin-top:1.4rem; color:var(--wp--preset--color--attenuated);}
-main .posts__wrapper .posts .permalink{color:var(--wp--preset--color--text); transition: all .3s ease;}
-main .posts__wrapper .posts .permalink .title{font-size:1.8rem; font-weight:500; line-height:2.2rem; margin:.6rem 0 1.2rem;}
-main .posts__wrapper .posts p{line-height:2.4rem;}
