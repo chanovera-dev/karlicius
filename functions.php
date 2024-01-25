@@ -84,3 +84,9 @@ register_nav_menus(
 require_once(get_template_directory() . '/functions/breakpoints.php');
 // Anexo para definir los componentes personalizados en las plantillas
 require_once(get_template_directory() . '/functions/templates.php');
+
+
+
+// Delimita el tamaño del excerpt a 25 palabras
+function limite_excerpt($limite) { return 20; }
+add_filter ('excerpt_length', 'limite_excerpt', 999);
