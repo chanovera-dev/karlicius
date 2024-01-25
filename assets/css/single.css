@@ -46,8 +46,7 @@
 .single-post .content .question{position:relative; border-radius:3px; background-color:var(--wp--preset--color--card); box-shadow:var(--wp--preset--shadow--card); overflow:hidden;}
 .single-post .content .question:after{position:absolute; width:16px; height:16px; top:10px; right:10px;}
 .single-post .content .question p{padding:10px;}
-.single-post .content .question > :nth-child(1){background:var(--linear-gradient-question);font-weight:100;}
-.single-post .content .question > :nth-child(2){color:var(--color-answer);}
+.single-post .content .question > :nth-child(1){font-weight:300;}
 .single-post .content .question > ol{padding:10px 10px 10px 26px; margin:0;}
 .single-post .content .question > ol > li:not(:last-child){margin-bottom:10px;}
 .single-post .content .question > ol > li > ul{font-size:14px; margin-top:10px;}
