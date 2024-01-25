@@ -43,7 +43,7 @@
 /* citas */
 .single-post .content .wp-block-quote{margin-bottom:30px;}
 /* preguntas y respuestas */
-.single-post .content .question{position:relative; border-radius:3px; background-color:var(--wp--preset--color--card); box-shadow:var(--wp--preset--shadow--card); overflow:hidden;}
+.single-post .content .question{position:relative; border-radius:3px; background-color:var(--wp--preset--color--question); box-shadow:var(--wp--preset--shadow--card); overflow:hidden;}
 .single-post .content .question:after{position:absolute; width:16px; height:16px; top:10px; right:10px;}
 .single-post .content .question p{padding:10px;}
 .single-post .content .question > :nth-child(1){font-weight:300;}
@@ -51,10 +51,10 @@
 .single-post .content .question > ol > li:not(:last-child){margin-bottom:10px;}
 .single-post .content .question > ol > li > ul{font-size:14px; margin-top:10px;}
 .single-post .content .question > ol > li > ul > li:not(:last-child){margin-bottom:7px;}
-.single-post .content .question .function{display:inline-flex; flex-wrap:wrap; align-items:baseline; width:100%; background:var(--linear-gradient-question);}
+.single-post .content .question .function{display:inline-flex; flex-wrap:wrap; align-items:baseline; width:100%;}
 .single-post .content .question .function .wp-block-katex-display-block .katex-display{color:var(--wp--preset--color--text); padding:0;}
 .single-post .content .question .function p:last-child{padding-left:0;}
-.single-post .content .question .wp-block-katex-display-block .katex-display{padding:0 10px; color:var(--color-answer);}
+.single-post .content .question .wp-block-katex-display-block .katex-display{padding:0 10px;}
 .single-post .content .question .wp-block-katex-display-block .katex-display > .katex{text-align:left;}
 /* KaTeX */
 .single-post .content > .wp-block-katex-display-block > .katex-display{margin-bottom:40px;}

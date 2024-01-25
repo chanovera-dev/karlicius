@@ -74,6 +74,11 @@
                     "name": "Note color",
                     "slug": "note",
                     "color": "#fff4db"
+                },
+                {
+                    "name": "Question color",
+                    "slug": "question",
+                    "color": "#e2d8e4"
                 }
             ]
         },
