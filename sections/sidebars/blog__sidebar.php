@@ -1,7 +1,7 @@
 <?php
 echo '
 <aside>
-    <div class="categories">
+    <div class="categories__list">
         <div class="title-wrapper">
             <h2 class="title">' . esc_html__('Categorías', 'karlicius') . '</h2>
         </div>
@@ -31,7 +31,7 @@ echo '
         echo '
         </ul>
     </div>
-    <div class="archive-list">
+    <div class="archive__list">
         <div class="title-wrapper">
             <h2 class="title">' . esc_html__('Archivo', 'karlicius') . '</h2>
         </div>
