@@ -5,7 +5,7 @@
 .single-post .content > *:not(:last-child){margin-bottom:20px;}
 .single-post .content > .title-wrapper{margin-top:40px;margin-bottom:30px;}
 /* tarjetas */
-.single-post .content .card{position:relative; background-color:var(--wp--preset--color--card); padding:1rem 0; border-radius:.8rem; box-shadow:var(--wp--preset--shadow--card);}
+.single-post .content .card{position:relative;background-color:var(--wp--preset--color--card);padding:10px 0;border-radius:8px;box-shadow:var(--wp--preset--shadow--card);}
 .single-post .content .card:after{position:absolute; width:16px; height:16px; top:1rem; right:1rem;}
 .single-post .content .card > *:not(ul,ol){max-width:100%; padding:0 1rem;}
 .single-post .content .card > *:not(:last-child){margin-bottom:2rem;}
