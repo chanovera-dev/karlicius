@@ -9,7 +9,7 @@
 .single-post .content .card:after{position:absolute;width:16px;height:16px;top:10px;right:10px;}
 .single-post .content .card > *:not(ul,ol){max-width:100%; padding:0 10px;}
 .single-post .content .card > *:not(:last-child){margin-bottom:20px;}
-.single-post .content .card .title-wrapper{border-bottom:1px solid var(--wp--preset--color--border);}
+.single-post .content .card .title-wrapper{border-bottom:1px solid var(--wp--preset--color--line-card);}
 .single-post .content .card .title-wrapper .title{font-weight:500;}
 .single-post .content .card ul{padding:0 24px;}
 .single-post .content .card .note-wrapper{padding:0 10px;}

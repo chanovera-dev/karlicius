@@ -71,6 +71,11 @@
                     "color": "#fde8b7"
                 },
                 {
+                    "name": "Line card color",
+                    "slug": "line-card",
+                    "color": "#ebc771"
+                },
+                {
                     "name": "Note color",
                     "slug": "note",
                     "color": "#fff4db"
