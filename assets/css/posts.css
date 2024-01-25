@@ -1,7 +1,7 @@
 /* contenedores */
 #main .container .section{display:grid;gap:50px;grid-template-columns:var(--grid-template-columns--posts);padding:30px 0 50px;}
 #main .container .section .posts__wrapper{display:grid;gap:50px;}
-#main .container .section .posts__wrapper .posts{display:grid;gap:50px 30px;grid-template-columns:repeat(auto-fill, minmax(230px, 1fr));}
+#main .container .section .posts__wrapper .posts{display:grid;gap:50px 30px;grid-template-columns:repeat(auto-fill, minmax(240px, 1fr));}
 
 /* posts */
 #main .container .section .posts__wrapper .posts .post{display:grid;gap:10px;place-content:baseline;}
