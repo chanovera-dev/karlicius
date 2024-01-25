@@ -58,7 +58,7 @@ echo '
                 echo '<li class="comment__wrapper">';
                 echo get_avatar( get_the_author_meta('email'), '43' );
                 echo '<div class="comment"><p><b>' . get_comment_author_link($comment->comment_ID) . '</b>';
-                echo '<a href="' . get_permalink($comment->comment_post_ID) . '#comment-' . $comment->comment_ID . '">' . get_the_title($comment->comment_post_ID) . '</a></p>';
+                echo '<a href="' . get_permalink($comment->comment_post_ID) . '#comment-' . $comment->comment_ID . '">' . esc_html__(' en ', 'karlicius') . get_the_title($comment->comment_post_ID) . '</a></p>';
                 echo '<p>' . $comment->comment_content . '</p>';
                 echo '</div>';
                 echo '</li>';
