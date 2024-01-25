@@ -1,2 +1,3 @@
 /* contenedor sidebar */
 #main aside{display:grid;gap:50px;place-content:baseline;grid-template-columns:repeat(auto-fill, minmax(240px, 1fr));}
+#main aside > div .title-wrapper{margin-bottom:20px;}
