@@ -18,4 +18,4 @@
 #main aside > div ul li.comment__wrapper .comment p:not(:last-child){margin-bottom:10px;}
 
 /* lista de contacto */
-#main aside > div ul.address li{display:flex;align-items:center;gap:7px;color:var(--wp--preset--color--text-b);}
+#main aside > div ul.address li{display:flex;align-items:center;gap:7px;color:var(--wp--preset--color--text-b);height:38px;}
