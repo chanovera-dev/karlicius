@@ -49,6 +49,11 @@
                     "name": "Button on hover",
                     "slug": "button-hover",
                     "color": "#195a83"
+                },
+                {
+                    "name": "Pagination on hover",
+                    "slug": "pagination-hover",
+                    "color": "#f6f6f6"
                 }
             ]
         },

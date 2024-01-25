@@ -6,4 +6,4 @@
 .nav-links .page-numbers.next{width:auto;padding:0 13px;}
 
 /* paginadores · hover */
-.nav-links .page-numbers:hover{background-color:var(--wp--preset--color--border);}
+.nav-links .page-numbers:hover{background-color:var(--wp--preset--color--pagination-hover);}
