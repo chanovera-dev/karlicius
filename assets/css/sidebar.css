@@ -19,3 +19,4 @@
 
 /* lista de contacto */
 #main aside > div ul.address li{display:flex;align-items:center;gap:7px;color:var(--wp--preset--color--text-b);height:38px;}
+#main aside > div ul.address li:last-child{padding-left:24px;}
