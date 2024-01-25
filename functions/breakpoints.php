@@ -41,15 +41,17 @@ function karlicius_theme_custom_breakpoints() {
             }
 
             @media(min-width:991px){
-            }
-
-            @media(min-width:1024px){
                 :root{
                     /* cabecera */
                     --height--header:70px;
 
                     /* posts */
                     --grid-template-columns--posts:1fr 284px;
+                }
+            }
+
+            @media(min-width:1024px){
+                :root{
                 }
                 /* cabecera */
                 .menu-mobile__button{display:none;}
