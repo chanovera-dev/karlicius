@@ -2,5 +2,8 @@
 .nav-links{display:flex;justify-content:center;}
 
 /* paginadores */
-.nav-links .page-numbers{display:grid;place-content:center;width:30px;height:30px;}
-.nav-links .page-numbers.next{width:auto;padding:0 16px;}
+.nav-links .page-numbers{display:grid;place-content:center;width:30px;height:30px;color:var(--wp--preset--color--text);border-radius:3px;}
+.nav-links .page-numbers.next{width:auto;padding:0 13px;}
+
+/* paginadores · hover */
+.nav-links .page-numbers:hover{background-color:var(--wp--preset--color--attenuated);}
