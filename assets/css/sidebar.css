@@ -6,7 +6,7 @@
 
 /* listas */
 #main aside > div ul li:not(:last-child){border-bottom:1px solid var(--wp--preset--color--line);}
-#main aside > div ul li > a{display:flex;align-items:center;gap:7px;height:38px;color:#6e7379;transition:all .3s ease;}
+#main aside > div ul li > a{display:flex;align-items:center;gap:7px;height:38px;color:#848a92;transition:all .3s ease;}
 #main aside > div ul li > a:hover{color:var(--wp--preset--color--text);}
 
 /* comentarios */
