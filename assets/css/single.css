@@ -68,7 +68,7 @@ body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alig
 .wp-block-code code{margin:0; overflow-y:hidden; overflow-wrap:inherit;}
 .comments{position:relative;}
 /* citas */
-.wp-block-quote{position:relative; margin-left:0; margin-right:0; padding:10px; border-radius:3px; background-color:var(--wp--preset--color--card); box-shadow:var(--wp--preset--shadow--card);}
+.wp-block-quote{position:relative; margin-left:0; margin-right:0; padding:10px;padding-right:20px; border-radius:3px; background-color:var(--wp--preset--color--card); box-shadow:var(--wp--preset--shadow--card);}
 .wp-block-quote:after{position:absolute; content:"\201D"; font-family:auto; font-size:40px; top:-5px; right:5px;}
 /* imágenes */
 .wp-block-image.aligncenter{margin-inline:auto;}
