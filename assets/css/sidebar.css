@@ -10,5 +10,5 @@
 #main aside > div ul li > a:hover{color:var(--wp--preset--color--text);}
 
 /* comentarios */
-#main aside > div ul li.comment__wrapper{margin-left:63px;position:relative;}
+#main aside > div ul li.comment__wrapper{padding:7px 0;padding-left:63px;position:relative;}
 #main aside > div ul li.comment__wrapper .avatar{position:absolute;top:0;left:0;}
