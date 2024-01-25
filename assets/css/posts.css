@@ -1,1 +1,1 @@
-/* Entradas */
+#main .container .section{display:grid;gap:5rem;grid-template-columns:var(--grid-template-columns--posts);}

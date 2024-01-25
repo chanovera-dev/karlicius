@@ -1,6 +1,6 @@
 <?php
 
-function kenko_theme_custom_breakpoints() {
+function karlicius_theme_custom_breakpoints() {
     ?>
         <style>
             :root{
@@ -47,6 +47,9 @@ function kenko_theme_custom_breakpoints() {
                 :root{
                     /* cabecera */
                     --height--header:70px;
+
+                    /* posts */
+                    --grid-template-columns--posts:1fr 284px;
                 }
                 /* cabecera */
                 .menu-mobile__button{display:none;}
@@ -61,9 +64,11 @@ function kenko_theme_custom_breakpoints() {
 
             @media(min-width:1200px){
                 :root{
+                    /* posts */
+                    --grid-template-columns--posts:1fr 330px;
                 }
             }
         </style>
     <?php
 }
-add_action('wp_head', 'kenko_theme_custom_breakpoints');
+add_action('wp_head', 'karlicius_theme_custom_breakpoints');
