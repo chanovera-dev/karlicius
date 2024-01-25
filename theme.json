@@ -68,6 +68,11 @@
                 {
                     "name": "Card color",
                     "slug": "card",
+                    "color": "#fde8b7"
+                },
+                {
+                    "name": "Note color",
+                    "slug": "note",
                     "color": "#fff4db"
                 }
             ]

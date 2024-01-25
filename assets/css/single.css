@@ -25,7 +25,7 @@
 .single-post .content .enlighter-code{overflow:scroll hidden;}
 .single-post .content .enlighter-code .enlighter{width:200%;}
 /* notas */
-.single-post .content > .note{position:relative; padding:10px; background-color:var(--wp--preset--color--card); box-shadow:var(--wp--preset--shadow--card); border-radius:8px;}
+.single-post .content > .note{position:relative; padding:10px; background-color:var(--wp--preset--color--note); box-shadow:var(--wp--preset--shadow--card); border-radius:8px;}
 .single-post .content .note:after{position:absolute; width:16px; height:16px; top:10px; right:10px;}
 /* código */
 .single-post .content .wp-block-code > code{position:relative; padding:10px; border-radius:8px; background-color:var(--wp--preset--color--card); box-shadow:var(--wp--preset--shadow--card);}
