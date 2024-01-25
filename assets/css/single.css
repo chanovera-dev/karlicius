@@ -85,9 +85,9 @@ body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alig
 @media screen and (min-width: 31px) and (max-width: 1023px){
     .wp-block-image img{width:100%;}
     .single-post .content tbody tr{display:grid;}
-    .single-post .content tbody tr:nth-child(odd) td:first-child{border-radius:8px 8px 0 0;}
+    .single-post .content tbody tr:nth-child(odd) td:first-child{border-radius:3px 3px 0 0;}
     .single-post .content .card tbody tr:nth-child(odd) td:last-child{border-radius:6px 6px 0 0;}
-    .single-post .content tbody tr:nth-child(odd) td:last-child{border-radius:0 0 8px 8px;}
+    .single-post .content tbody tr:nth-child(odd) td:last-child{border-radius:0 0 3px 3px;}
     .single-post .content .card tbody tr:nth-child(odd) td:last-child{border-radius:0 0 6px 6px;}
 }
 
