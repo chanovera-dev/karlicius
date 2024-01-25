@@ -55,13 +55,14 @@ echo '
         <ul class="latest-comments__list">';
             global $comment;
             foreach ($comments as $comment) {
-                echo '<li class="comment__wrapper">';
-                echo get_avatar( get_the_author_meta('email'), '43' );
-                echo '<div class="comment"><p><b>' . get_comment_author_link($comment->comment_ID) . '</b>';
-                echo '<a href="' . get_permalink($comment->comment_post_ID) . '#comment-' . $comment->comment_ID . '">' . esc_html__(' en ', 'karlicius') . get_the_title($comment->comment_post_ID) . '</a></p>';
-                echo '<p>' . $comment->comment_content . '</p>';
-                echo '</div>';
-                echo '</li>';
+                echo '
+                <li class="comment__wrapper">' .
+                    get_avatar( get_the_author_meta('email'), '43' ) . '
+                    <div class="comment"><p><b>' . get_comment_author_link($comment->comment_ID) . '</b>' . esc_html__(' en ', 'karlicius') . '
+                        <a href="' . get_permalink($comment->comment_post_ID) . '#comment-' . $comment->comment_ID . '">' . get_the_title($comment->comment_post_ID) . '</a></p>' . '
+                        <p>' . $comment->comment_content . '</p>
+                    </div>
+                </li>';
             }
         echo '
         </ul>';
