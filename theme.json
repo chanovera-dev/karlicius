@@ -54,6 +54,11 @@
                     "name": "Pagination on hover",
                     "slug": "pagination-hover",
                     "color": "#f1f1f1"
+                },
+                {
+                    "name": "Line",
+                    "slug": "line",
+                    "color": "#f0f0f0"
                 }
             ]
         },
