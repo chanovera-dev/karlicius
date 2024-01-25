@@ -66,8 +66,8 @@
                     "color": "#f0f0f0"
                 },
                 {
-                    "name": "Notes color",
-                    "slug": "note",
+                    "name": "Card color",
+                    "slug": "card",
                     "color": "#fde8b7"
                 }
             ]
@@ -78,6 +78,11 @@
                     "name": "Input",
                     "slug": "input",
                     "shadow": "0 0 0 3.5px rgba(0,123,255,.25)"
+                },
+                {
+                    "name": "Shadow of card",
+                    "slug": "card",
+                    "shadow": "rgba(0,0,0,.08) 0 -2px 0 inset, 0 1px 1px hsl(0deg 0% 0% / 0.05), 0 1px 2px hsl(0deg 0% 0% / 0.05), 0 2px 4px hsl(0deg 0% 0% / 0.05), 0 6px 8px hsl(0deg 0% 0% / 0.05), 0 8px 16px hsl(0deg 0% 0% / 0.05)"
                 }
             ]
         },
