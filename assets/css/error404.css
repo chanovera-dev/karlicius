@@ -4,4 +4,5 @@
 .not-found__icon{background-color:var(--wp--preset--color--line);border-radius:50%;width:52px;height:52px;display:grid;place-content:center;margin-inline:auto;}
 .not-found h2{text-align:center; margin-top:14px;font-size:var(--wp--preset--font-size--x-large);}
 .not-found p{max-width:387px; margin:18px auto 20px; text-align:center;}
-.not-found a{background-color:var(--wp--preset--color--button);border:1px solid var(--wp--preset--color--button);color:#fff;display:inline-flex;align-items:center;gap:10px;border-radius:3px;padding:0 16px;height:38px;}
+.not-found a{background-color:var(--wp--preset--color--button);border:1px solid var(--wp--preset--color--button);color:#fff;display:inline-flex;align-items:center;gap:10px;border-radius:3px;padding:0 16px;height:38px;transition:all .3s ease;}
+.not-found a:hover{background-color:var(--wp--preset--color--button-hover);border:1px solid var(--wp--preset--color--button-hover);}
