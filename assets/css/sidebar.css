@@ -2,7 +2,7 @@
 #main aside{display:grid;gap:50px;place-content:baseline;grid-template-columns:repeat(auto-fill, minmax(240px, 1fr));}
 
 /* sidebar del contenedor del título */
-#main .header-post .section aside{grid-template-columns:1fr;grid-template-rows:1fr;}
+#main .header-post .section aside{grid-template-columns:1fr;grid-template-rows:1fr;gap:20px 50px;}
 
 /* títulos */
 #main aside > div .title-wrapper{margin-bottom:20px;}
