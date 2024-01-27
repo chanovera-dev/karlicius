@@ -3,7 +3,7 @@
 
 /* E N C A B E Z A D O */
 /* autor */
-#main .header-post .section .author{position:relative;padding-left:63px;}
+#main .header-post .section .author{position:relative;padding-left:63px;margin-top:10px;}
 #main .header-post .section .author .avatar{position:absolute;top:0;left:0;}
 #main .header-post .section .author .author-ocupation{font-size:var(--wp--preset--font-size--small);opacity:.5;}
 /* fecha */
