@@ -37,3 +37,10 @@ img{display:block;height:auto;}
 .attachment-list li a.counter:hover{color:var(--wp--preset--color--text);}
 .attachment-list li a.counter .wrapper{position:relative;top:-10px;}
 .attachment-list li a.counter .wrapper .number{font-size:13px;color:var(--wp--preset--color--links);}
+
+
+
+/* P I E   D E   P Á G I N A */
+#main-footer{background-color:#323232;color:#464646;}
+/* copyright */
+#main-footer .copyright{padding:10px 0;text-align:center;}
