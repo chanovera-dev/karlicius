@@ -84,6 +84,8 @@ register_nav_menus(
 require_once(get_template_directory() . '/functions/breakpoints.php');
 // Anexo para definir los componentes personalizados en las plantillas
 require_once(get_template_directory() . '/functions/templates.php');
+// Anexo para definir los backgrounds en las plantillas
+require_once(get_template_directory() . '/functions/backgrounds.php');
 
 
 
