@@ -25,4 +25,5 @@
 #main aside > div ul.address li:last-child{padding-left:24px;}
 
 /* sección de compartir artículo dentro de la cabecera del artículo */
-#main .header-post .section aside .share{align-self:end;display:flex;gap:20px;}
+#main .header-post .section aside .share{align-self:end;display:flex;gap:20px;line-height:1;}
+#main .header-post .section aside .share a:where(:not(.wp-element-button)):any-link{height:16px;}
