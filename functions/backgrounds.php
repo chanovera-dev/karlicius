@@ -11,6 +11,7 @@ function karlicius_theme_custom_backgrounds() {
                 .single-post #main-header .attachment-list li a.counter:hover{opacity:1;}
                 .single-post #main-header .menu-mobile__button .bars :is(.bar1,.bar2,.bar3){background-color:#fff;opacity:.5;}
                 .single-post #main-header .menu-mobile__button .bars:hover :is(.bar1,.bar2,.bar3){opacity:1;}
+                .single-post #main-header .menu-mobile__button .bars.change :is(.bar1,.bar2,.bar3){background-color:var(--wp--preset--color--text);opacity:1;}
                 .single-post #main .header-post.container{position:relative;padding-top:var(--height--header);background:linear-gradient(to bottom, #0000005b, #00000000), url('<?php the_post_thumbnail_url( 'full' ); ?>'); background-repeat:no-repeat; background-position:50% 50%; background-size:cover;}
                 .single-post #main .header-post.container .background-blur{position:absolute;top:0;left:0;width:100%;height:100%;z-index:0;}
                 .single-post #main .header-post.container .section{position:relative;z-index:1;color:#fff;}
