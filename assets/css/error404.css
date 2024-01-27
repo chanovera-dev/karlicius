@@ -1,4 +1,4 @@
-#body{display:grid; min-height:100vh; align-content:flex-start; grid-template-rows:auto 1fr auto; background-color:var(--wp--preset--color--line);}
+#body{display:grid;min-height:100vh;align-content:flex-start;grid-template-rows:auto 1fr auto;background-color:var(--wp--preset--color--background);}
 .not-found__wrapper{background-color:var(--wp--preset--color--background);padding:50px 0;}
 .not-found{padding:var(--padding-not-found); text-align:center;}
 .not-found__icon{background-color:var(--wp--preset--color--line);border-radius:50%;width:52px;height:52px;display:grid;place-content:center;margin-inline:auto;}
