@@ -7,7 +7,7 @@ function karlicius_theme_custom_backgrounds() {
             
             <?php else: ?>
                 /* cabecera */
-                .single-post #main-header{position:fixed;width:100%;background-color:transparent;border-bottom:1px solid #ffffff3d;}
+                .single-post #main-header{position:fixed;width:100%;background-color:transparent;border-bottom:1px solid #ffffff21;}
                 .single-post #main-header .attachment-list li a.counter{color:#fff;opacity:.5;}
                 .single-post #main-header .attachment-list li a.counter:hover{opacity:1;}
                 .single-post #main-header .menu-mobile__button .bars :is(.bar1,.bar2,.bar3){background-color:#fff;opacity:.5;}
