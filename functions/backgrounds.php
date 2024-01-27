@@ -18,13 +18,14 @@ function karlicius_theme_custom_backgrounds() {
                 .single-post #main .header-post.container .section aside .share a:where(:not(.wp-element-button)):any-link{color:#fff;}
 
                 @supports ( (-webkit-backdrop-filter:saturate(180%) blur(20px)) or (backdrop-filter:saturate(180%) blur(20px)) ){
-                .background-blur{background:rgba(0,0,0,.4); backdrop-filter:saturate(180%) blur(20px); -webkit-backdrop-filter:saturate(180%) blur(20px);}
+                    :is(.single-post.scroll-down,.single-post.scroll-up) #main-header{background:rgba(0,0,0,.8); backdrop-filter:saturate(180%) blur(20px); -webkit-backdrop-filter:saturate(180%) blur(20px);}
+                    .background-blur{background:rgba(0,0,0,.4); backdrop-filter:saturate(180%) blur(20px); -webkit-backdrop-filter:saturate(180%) blur(20px);}
+                }
 
                 @media(min-width:1024px){
                     .single-post #main-header .menu-searchform__group nav ul li a{color:#fff;opacity:.5;}
                     .single-post #main-header .menu-searchform__group nav ul li a:hover{opacity:1;}
                 }
-            }
             <?php endif; ?>
 
         </style>
