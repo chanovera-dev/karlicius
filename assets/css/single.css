@@ -2,7 +2,7 @@
 #main .container .section{padding:25px 0;display:grid;gap:50px;grid-template-columns:var(--grid-template-columns--posts);}
 
 /* E N C A B E Z A D O */
-#main .header-post.container .section{gap:20px 50px;}
+#main .header-post.container .section{gap:20px 50px;padding-top:50px;}
 /* autor */
 #main .header-post .section .author{position:relative;padding-left:63px;margin-top:10px;}
 #main .header-post .section .author .avatar{position:absolute;top:0;left:0;}
