@@ -10,6 +10,7 @@
 /* fecha */
 #main .header-post .section .date{line-height:1;margin-top:20px;opacity:.5;}
 
+/* C U E R P O */
 /* títulos */
 .single-post .content > *:not(:last-child){margin-bottom:20px;}
 .single-post .content > .title-wrapper{margin-top:40px;margin-bottom:30px;}
@@ -90,6 +91,9 @@ body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alig
 .wp-block-table table{order:2;}
 /* function */
 body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){margin-left:0!important; margin-right:0!important;}
+
+/* C O M E N T A R I O S */
+#main .comments-post{background-color:var(--wp--preset--color--background-b);}
 
 @media screen and (min-width: 31px) and (max-width: 1023px){
     .wp-block-image img{width:100%;}
