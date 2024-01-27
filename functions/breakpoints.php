@@ -52,6 +52,8 @@ function karlicius_theme_custom_breakpoints() {
 
             @media(min-width:1024px){
                 :root{
+                    /* cabecera del artículo */
+                    --justify-self--share:end;
                 }
                 /* cabecera */
                 .menu-mobile__button{display:none;}

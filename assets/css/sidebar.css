@@ -2,7 +2,7 @@
 #main aside{display:grid;gap:50px;place-content:baseline;grid-template-columns:repeat(auto-fill, minmax(240px, 1fr));}
 
 /* sidebar del contenedor del título */
-#main .header-post .section aside{grid-template-rows:1fr;}
+#main .header-post .section aside{grid-template-columns:1fr;grid-template-rows:1fr;}
 
 /* títulos */
 #main aside > div .title-wrapper{margin-bottom:20px;}
@@ -25,5 +25,5 @@
 #main aside > div ul.address li:last-child{padding-left:24px;}
 
 /* sección de compartir artículo dentro de la cabecera del artículo */
-#main .header-post .section aside .share{align-self:end;display:flex;gap:20px;line-height:1;}
+#main .header-post .section aside .share{align-self:end;display:flex;gap:20px;line-height:1;justify-self:var(--justify-self--share);}
 #main .header-post .section aside .share a:where(:not(.wp-element-button)):any-link{height:16px;}
