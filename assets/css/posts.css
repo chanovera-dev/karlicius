@@ -5,5 +5,5 @@
 
 /* posts */
 #main .container .section .posts__wrapper .posts .post{display:grid;gap:10px;place-content:baseline;}
-#main .container .section .posts__wrapper .posts .post .thumbnail{width:100%;aspect-ratio:16/9;object-fit:cover;}
+#main .container .section .posts__wrapper .posts .post .thumbnail{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:3px;}
 #main .container .section .posts__wrapper .posts .post .date{font-size:var(--wp--preset--font-size--small);color:var(--wp--preset--color--attenuated);}
