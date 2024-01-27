@@ -1,6 +1,7 @@
 <main id="main">
     <article>
         <div class="header-post container">
+            <div class="background-blur"></div>
             <section class="section">
                 <div class="title-and-data__wrapper">
                     <?php 
