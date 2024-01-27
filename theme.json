@@ -11,6 +11,11 @@
                     "color": "#ffffff"
                 },
                 {
+                    "name": "Bacground alt",
+                    "slug": "backgrount-b",
+                    "color": "#f6f6f6"
+                },
+                {
                     "name": "Text",
                     "slug": "text",
                     "color": "#323232"
