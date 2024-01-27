@@ -1,8 +1,9 @@
 /* secciones */
 #main .container .section{padding:25px 0;display:grid;gap:50px;grid-template-columns:var(--grid-template-columns--posts);}
 
-/* encabezado */
-#main .header-post .section .date{line-height:1;margin-top:20px;}
+/* E N C A B E Z A D O */
+/* fecha */
+#main .header-post .section .date{line-height:1;margin-top:20px;opacity:.5;}
 
 /* títulos */
 .single-post .content > *:not(:last-child){margin-bottom:20px;}
