@@ -11,7 +11,7 @@
         '<img class="thumbnail" src="'; the_post_thumbnail_url( 'media' ); echo '" alt="Imagen del artículo" loading="lazy" width="300" height="200">';
     endif;
 
-    echo '<div class="date">' . get_the_date() . '</div>';
+    include(TEMPLATEPATH . '/sections/widgets/date.php');
 
     echo '
         <a class="permalink" href="'; the_permalink(); echo '" target="_blank">'; the_title( '<h2 class="title">', '</h2>' ); echo '</a>';
