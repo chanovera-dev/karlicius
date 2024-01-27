@@ -24,3 +24,5 @@
 #main aside > div ul.address li{display:flex;align-items:center;gap:7px;color:var(--wp--preset--color--text-b);height:38px;}
 #main aside > div ul.address li:last-child{padding-left:24px;}
 
+/* sección de compartir artículo dentro de la cabecera del artículo */
+#main .header-post .section aside .share{align-self:end;display:flex;gap:20px;}
