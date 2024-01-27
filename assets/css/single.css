@@ -93,7 +93,7 @@ body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alig
 body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){margin-left:0!important; margin-right:0!important;}
 
 /* C O M E N T A R I O S */
-#main .comments-post{background-color:var(--wp--preset--color--background-b);}
+#main .comments-post.container{background-color:var(--wp--preset--color--background-b);}
 
 @media screen and (min-width: 31px) and (max-width: 1023px){
     .wp-block-image img{width:100%;}
