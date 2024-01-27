@@ -94,6 +94,8 @@ body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alig
 
 /* C O M E N T A R I O S */
 #main .comments-post.container{background-color:var(--wp--preset--color--background-b);}
+/* formulario de comentarios */
+#commentform :is(.comment-notes,.comment-form-comment,.comment-form-author,.comment-form-email,.comment-form-url,.comment-form-cookies-consent){margin-bottom:20px;}
 
 @media screen and (min-width: 31px) and (max-width: 1023px){
     .wp-block-image img{width:100%;}
