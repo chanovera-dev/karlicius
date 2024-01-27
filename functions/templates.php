@@ -20,3 +20,13 @@ function single_styles() {
     }
 }
 add_action( 'wp_enqueue_scripts', 'single_styles' );
+
+
+
+// Estilos para la página 404
+function kenko_page404_styles() {
+    if ( is_404() ) {
+        wp_enqueue_style( 'error404-styles', get_template_directory_uri() . '/assets/css/error404.css' );
+    }
+}
+add_action( 'wp_enqueue_scripts', 'kenko_page404_styles' );
