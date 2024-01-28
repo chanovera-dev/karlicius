@@ -7,7 +7,7 @@
 #contact__group.container .section .sites-and-form .services-pictures figure img{width:100%;}
 #contact__group.container .section .sites-and-form .services-pictures figure figcaption{position:absolute;bottom:2px;left:2px;padding:5px 10px;border-radius:3px;}
 #contact__group.container .section .sites-and-form .services-pictures figure:nth-child(1) figcaption{top:0;bottom:inherit;}
-#contact__group.container .section .sites-and-form .services-pictures  :is(figure:nth-child(n+4)) figcaption{background-color:black;}
+#contact__group.container .section .sites-and-form .services-pictures :is(figure:nth-child(n+4)) figcaption{background-color:black;}
 #contact__group.container .section .sites-and-form .services-pictures figure:nth-child(3){width:80%;position:relative;bottom:3rem;}
 /* formulario */
 #contact__group.container .section .sites-and-form .title{margin-bottom:20px;}
