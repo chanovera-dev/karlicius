@@ -30,3 +30,13 @@ function kenko_page404_styles() {
     }
 }
 add_action( 'wp_enqueue_scripts', 'kenko_page404_styles' );
+
+
+
+// Estilos para el template de la página Contacto
+function contact_styles() {
+    if ( is_page_template('contact.php') ) {
+        wp_enqueue_style( 'contact-styles', get_template_directory_uri() . '/assets/css/contact.css' );
+    }
+}
+add_action( 'wp_enqueue_scripts', 'contact_styles' );
