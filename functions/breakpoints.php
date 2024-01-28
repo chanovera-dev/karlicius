@@ -66,6 +66,20 @@ function karlicius_theme_custom_breakpoints() {
                 .menu-searchform__group nav ul li a:hover{color:var(--wp--preset--color--text);}
                 .menu-searchform__group form.search-form{display:flex;align-items:center;gap:7px;}
 
+                /* P U B L I C A C I O N E S */
+                <?php
+                    if ( is_archive() ) {
+                        ?>
+                            /* título de página */
+                            #main .container .section .title-page{grid-column:1/1;}
+                            /* posts */
+                            #main .container .section .posts__wrapper{grid-column:1/2/}
+                            /* sidebar */
+                            #main .container .section aside{grid-column:2/3;grid-row:1/3;}
+                        <?php
+                    }
+                ?>
+
                 /* footer */
                 #main-footer aside .menu{margin-left:auto;position:relative;right:-10px;}
                 #main-footer aside .menu h2{margin-left:10px;}
