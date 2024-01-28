@@ -107,18 +107,3 @@ function custom_archives_link($link_html, $url, $text, $format, $before, $after)
     return $before . $custom_link . $after;
 }
 add_filter('get_archives_link', 'custom_archives_link', 10, 6);
-
-
-
-function show_last_updated( $content ) {
-    $u_time = get_the_time('U');
-    $u_modified_time = get_the_modified_time('U');
-    if ($u_modified_time >= $u_time + 86400) {
-      $updated_date = get_the_modified_time('F jS, Y');
-      $updated_time = get_the_modified_time('h:i a');
-      $custom_content .= '<p class="last-updated-date">' . esc_html__('Última actualización el ', 'karlicius') . $updated_date . ' a las '. $updated_time .'</p>';
-    }
-    $custom_content .= $content;
-    return $custom_content;
-  }
-  add_filter( 'the_content', 'show_last_updated' );
