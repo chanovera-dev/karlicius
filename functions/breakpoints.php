@@ -37,9 +37,8 @@ function karlicius_theme_custom_breakpoints() {
 
             @media(min-width:768px){
                 :root{
+                    --grid-template-columns--sites-and-form:1fr 1fr;
                 }
-                /* contacto */
-                #contact__group.container .section .sites-and-form{grid-template-columns:1fr 1fr;}
             }
 
             @media(min-width:991px){
