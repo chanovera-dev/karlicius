@@ -5,7 +5,7 @@
 #contact__group.container .section .sites-and-form .services-pictures figure{position:relative;width:100%;border-radius:3px;overflow:hidden;}
 #contact__group.container .section .sites-and-form .services-pictures figure:nth-child(2){position:relative;bottom:10px;width:80%;float:right;box-shadow:var(--wp--preset--shadow--card); z-index:2;}
 #contact__group.container .section .sites-and-form .services-pictures figure img{width:100%;}
-#contact__group.container .section .sites-and-form .services-pictures figure figcaption{position:absolute;bottom:2px;left:2px;padding:5px 10px;border-radius:3px;background:rgba(255,255,255,.4);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);color:var(--wp--preset--color--text);}
+#contact__group.container .section .sites-and-form .services-pictures figure figcaption{position:absolute;bottom:2px;left:2px;padding:5px 10px;border-radius:3px;background:#ffffff57;backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);color:var(--wp--preset--color--text);}
 #contact__group.container .section .sites-and-form .services-pictures figure:nth-child(1) figcaption{top:0;bottom:inherit;}
 #contact__group.container .section .sites-and-form .services-pictures figure:nth-child(3){width:80%;position:relative;bottom:3rem;}
 /* formulario */
