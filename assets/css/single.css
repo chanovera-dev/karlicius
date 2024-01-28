@@ -11,6 +11,8 @@
 #main .header-post .section .date{line-height:1;margin-top:20px;opacity:.5;}
 
 /* C U E R P O */
+
+#main .body-post .section .content *:not(:last-child){margin-bottom:20px;}
 /* títulos */
 .single-post .content > *:not(:last-child){margin-bottom:20px;}
 .single-post .content > .title-wrapper{margin-top:40px;margin-bottom:30px;}
