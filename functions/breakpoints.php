@@ -70,6 +70,7 @@ function karlicius_theme_custom_breakpoints() {
                 <?php
                     if ( is_archive() ) {
                         ?>
+                            #main .container .section{grid-template-rows:auto 1fr;}
                             /* título de página */
                             #main .container .section .title-page{grid-column:1/1;}
                             /* posts */
