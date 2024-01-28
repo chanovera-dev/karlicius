@@ -68,7 +68,7 @@ function karlicius_theme_custom_breakpoints() {
 
                 /* P U B L I C A C I O N E S */
                 <?php
-                    if ( is_archive() ) {
+                    if ( is_archive() or is_search() ) {
                         ?>
                             #main .container .section{grid-template-rows:auto 1fr;}
                             /* título de página */
