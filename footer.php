@@ -3,7 +3,6 @@
         <footer id="main-footer" class="container">
             <section class="section">
                 <aside>';
-                    include(TEMPLATEPATH . '/sections/widgets/contact.php');
                     $menu_id = get_nav_menu_locations()[ 'secondary' ];
                     $menu = wp_get_nav_menu_object( $menu_id );
                     $items = wp_get_nav_menu_items( $menu_id );
