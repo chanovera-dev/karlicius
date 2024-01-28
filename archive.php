@@ -4,7 +4,7 @@ get_header();
 echo '
 <main id="main">
     <div class="container">
-        <section class="section>';
+        <section class="section">';
             the_archive_title( '<h1>', '</h1>' );
         echo '
         </section>"
