@@ -6,7 +6,7 @@
                 <div class="title-and-data__wrapper">
                     <?php 
                         the_title('<h1 class="title-post">', '</h1>');
-
+                        show_last_updated( $content );
                     ?>
                 </div>
             </section>
