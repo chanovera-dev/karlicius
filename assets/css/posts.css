@@ -3,6 +3,9 @@
 #main .container .section .posts__wrapper{display:grid;gap:50px;grid-template-rows:1fr auto;}
 #main .container .section .posts__wrapper .posts{display:grid;gap:50px 30px;grid-template-columns:repeat(auto-fill, minmax(240px, 1fr));}
 
+/* título de página */
+#main .container .section .title-page{grid-column:1/1;}
+
 /* posts */
 #main .container .section .posts__wrapper .posts .post{display:grid;gap:10px;place-content:baseline;}
 #main .container .section .posts__wrapper .posts .post .thumbnail{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:3px;}

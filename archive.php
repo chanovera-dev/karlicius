@@ -5,10 +5,8 @@ echo '
 <main id="main">
     <div class="container">
         <section class="section">';
-            the_archive_title( '<h1>', '</h1>' );
-        echo '
-        </section>"
-        <section class="section">';
+
+            the_archive_title( '<h1 class="title-page">', '</h1>' );
         
             if ( have_posts() ) {
 
