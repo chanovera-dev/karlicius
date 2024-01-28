@@ -6,7 +6,7 @@ echo '
     <div class="container">
         <section class="section">
 
-            <h1 class="title-page">' . the_search_query(); echo '</h1>';
+            <h1 class="title-page">'; echo the_search_query(); echo '</h1>';
         
             if ( have_posts() ) {
 
