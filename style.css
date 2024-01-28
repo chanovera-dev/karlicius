@@ -48,7 +48,7 @@ img{display:block;height:auto;}
 #main-footer aside h2{margin-bottom:20px;}
 /* listas */
 #main-footer aside ul{display:grid;}
-#main-footer aside ul li{height:38px;display:inline-flex;align-items:center;color:#fff;}
+#main-footer aside ul li{height:38px;display:inline-flex;align-items:center;gap:7px;color:#fff;}
 #main-footer aside ul li a{display:inline-flex;align-items:center;gap:7px;padding:5px 10px;position:relative;border-radius:3px;left:-10px;color:#fff;transition:all .3s ease;}
 #main-footer aside ul li a:hover{background-color:#414141;}
 /* copyright */
