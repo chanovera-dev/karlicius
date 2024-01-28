@@ -17,7 +17,7 @@ Tags:
 /* G E N E R A L E S */
 *,:before,:after{box-sizing:border-box;margin:0;}
 html{scroll-behavior:smooth;}
-body{position:relative;overflow-x:hidden;}
+body{position:relative;overflow-x:hidden;background-color:var(--wp--preset--color--background);}
 :is(header,footer,aside) :is(ol,ul){padding-left:0;list-style:none;}
 .container .section{width:min(100% - 30px, 1096px);margin-inline:auto;}
 img{display:block;height:auto;}
