@@ -47,6 +47,7 @@ img{display:block;height:auto;}
 /* títulos */
 #main-footer aside h2{margin-bottom:20px;}
 /* listas */
+#main-footer aside ul{display:grid;}
 #main-footer aside ul li{height:38px;display:inline-flex;align-items:center;}
 #main-footer aside ul li a{padding:5px 10px;position:relative;border-radius:3px;left:-10px;color:#fff;transition:all .3s ease;}
 #main-footer aside ul li a:hover{background-color:#414141;}
