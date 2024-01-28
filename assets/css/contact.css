@@ -1,3 +1,4 @@
+#body{display:grid;min-height:100vh;align-content:flex-start;grid-template-rows:auto 1fr auto;background-color:var(--wp--preset--color--background);}
 /* contenedor */
 #contact__group.container .section .sites-and-form{display:grid;gap:50px;grid-template-columns:var(--grid-template-columns--sites-and-form);}
 /* imágenes */
