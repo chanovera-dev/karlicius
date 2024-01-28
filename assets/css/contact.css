@@ -1,5 +1,5 @@
 /* contenedor */
-#contact__group.container .section .sites-and-form{overflow:hidden;display:grid;gap:50px;grid-template-columns:var(--grid-template-columns--sites-and-form);}
+#contact__group.container .section .sites-and-form{display:grid;gap:50px;grid-template-columns:var(--grid-template-columns--sites-and-form);}
 /* imágenes */
 #contact__group.container .section .sites-and-form .services-pictures{position:relative;}
 #contact__group.container .section .sites-and-form .services-pictures figure{position:relative;width:100%;border-radius:6px;overflow:hidden;}
