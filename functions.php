@@ -116,9 +116,9 @@ function show_last_updated( $content ) {
     if ($u_modified_time >= $u_time + 86400) {
       $updated_date = get_the_modified_time('F jS, Y');
       $updated_time = get_the_modified_time('h:i a');
-      $custom_content .= '<p class="last-updated-date">' . esc_html__('Última actualización en ', 'karlicius') . $updated_date . ' at '. $updated_time .'</p>';
+      $custom_content .= '<p class="last-updated-date">' . esc_html__('Última actualización el ', 'karlicius') . $updated_date . ' a las '. $updated_time .'</p>';
     }
     $custom_content .= $content;
     return $custom_content;
   }
-  add_filter( 'the_content', 'show_last_updated' );
+  add_filter( 'the_title', 'show_last_updated' );
