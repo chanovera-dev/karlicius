@@ -6,7 +6,7 @@ echo '
     <div class="container">
         <section class="section">
 
-            <h1 class="title-page">'; echo esc_thml__('Búsqueda encontrada sobre ', 'karlicius'); echo the_search_query(); echo '</h1>';
+            <h1 class="title-page">' . esc_html__('Búsqueda encontrada sobre ', 'karlicius'); echo the_search_query(); echo '</h1>';
         
             if ( have_posts() ) {
 
