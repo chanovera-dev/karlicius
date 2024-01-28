@@ -67,7 +67,8 @@ function karlicius_theme_custom_breakpoints() {
                 .menu-searchform__group form.search-form{display:flex;align-items:center;gap:7px;}
 
                 /* footer */
-                #main-footer aside .menu{margin-left:auto;}
+                #main-footer aside .menu{margin-left:auto;position:relative;right:-10px;}
+                #main-footer aside .menu h2{margin-left:10px;}
             }
 
             @media(min-width:1200px){
