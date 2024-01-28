@@ -8,14 +8,17 @@
                     $items = wp_get_nav_menu_items( $menu_id );
                     if (!empty($items)) {
                         echo '
-                        <h2>' . $menu->name . '</h2>';
-                        wp_nav_menu(
-                            array(
-                                'container' => 'nav', 
-                                'container_class' => 'secondary', 
-                                'theme_location' => 'secondary',
-                            ) 
-                        ); 
+                        <div class="menu">
+                            <h2>' . $menu->name . '</h2>';
+                            wp_nav_menu(
+                                array(
+                                    'container' => 'nav', 
+                                    'container_class' => 'secondary', 
+                                    'theme_location' => 'secondary',
+                                ) 
+                            );
+                        echo '
+                        </div>';
                     }
                 echo '
                 </aside>
