@@ -121,4 +121,3 @@ function show_last_updated( $content ) {
     $custom_content .= $content;
     return $custom_content;
   }
-  add_filter( 'the_content', 'show_last_updated' );
