@@ -37,6 +37,13 @@ add_action( 'wp_enqueue_scripts', 'kenko_page404_styles' );
 function contact_styles() {
     if ( is_page_template('contact.php') ) {
         wp_enqueue_style( 'contact-styles', get_template_directory_uri() . '/assets/css/contact.css' );
+        // habilita contact form 7 en esta plantilla
+        if ( function_exists( 'wpcf7_enqueue_scripts' ) ) {
+            wpcf7_enqueue_scripts();
+          }
+        if ( function_exists( 'wpcf7_enqueue_styles' ) ) {
+            wpcf7_enqueue_styles();
+        }
     }
 }
 add_action( 'wp_enqueue_scripts', 'contact_styles' );
