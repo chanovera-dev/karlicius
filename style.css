@@ -27,6 +27,9 @@ img{display:block;height:auto;}
 /* C A B E C E R A */
 #main-header{position:sticky;top:0;background-color:var(--wp--preset--color--background);transition:all .3s ease;z-index:2;}
 #main-header .section{display:flex;align-items:center;justify-content:space-between;height:var(--height--header);gap:30px;}
+/* scroll */
+:is(.scroll-down,.scroll-up) #main-header,
+:is(.scroll-down,.scroll-up) #main-header{background:var(--wp--preset--color--translucid); backdrop-filter:saturate(180%) blur(20px); -webkit-backdrop-filter:saturate(180%) blur(20px);}
 
 
 
