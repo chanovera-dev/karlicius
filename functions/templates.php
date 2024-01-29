@@ -17,7 +17,7 @@ function single_styles() {
     if ( is_single() or is_page() ) {
         wp_enqueue_style( 'single-styles', get_template_directory_uri() . '/assets/css/single.css' );
         wp_enqueue_style( 'sidebar-styles', get_template_directory_uri() . '/assets/css/sidebar.css' );
-        wp_enqueue_style("enlighterjs");
+        // wp_enqueue_style("enlighterjs");
         // wp_register_style("enlighterjs");
     }
 }
