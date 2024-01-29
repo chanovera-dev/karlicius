@@ -7,3 +7,5 @@
 #main .container .section .posts__wrapper .posts .post{display:grid;gap:10px;place-content:baseline;}
 #main .container .section .posts__wrapper .posts .post .thumbnail{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:3px;}
 #main .container .section .posts__wrapper .posts .post .date{font-size:var(--wp--preset--font-size--small);color:var(--wp--preset--color--attenuated);}
+#main .container .section .posts__wrapper .posts .post .permalink{display:inline-flex;transition:all .3s ease;}
+#main .container .section .posts__wrapper .posts .post .permalink:focus{outline:none;box-shadow:var(--wp--preset--shadow--card);}
