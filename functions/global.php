@@ -23,6 +23,13 @@ function karlicius_theme_custom_global() {
             }
 
 
+
+            /* B R A N D */
+            #main-header .section .site-brand a{transition:all .3s ease;}
+            #main-header .section .site-brand a:focus{outline:none;background-color:var(--wp--preset--color--links);color:#fff;}
+
+
+
             /* A N E X O S · C A R R I T O · W I S H L I S T */
             .attachment-list__wrapper{margin-left:auto;z-index:1;}
             .attachment-list{height:21px;}
