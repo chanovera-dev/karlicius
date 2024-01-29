@@ -109,6 +109,7 @@ function karlicius_theme_custom_forms() {
             /* formulario de envio · focus */
             input[type=submit]:focus{
                 outline:none;
+                background-color:var(--wp--preset--color--links);
                 border:1px solid var(--wp--preset--color--border-focus);
                 box-shadow:var(--wp--preset--shadow--input);
             }
