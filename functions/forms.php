@@ -13,6 +13,7 @@ function karlicius_theme_custom_forms() {
                 input[type=url],
                 input[type=search],
                 textarea){margin-top:5px;}
+            p:has(label) .screen-reader-text{display:none;}
 
             /* inputs de entrada · nominal */
             input[type=text],
