@@ -25,7 +25,7 @@ function karlicius_theme_custom_global() {
 
 
             /* B R A N D */
-            #main-header .section .site-brand a{padding:7px 10px;border-radius:3px;position:relative;top:-7px;transition:all .3s ease;}
+            #main-header .section .site-brand a{padding:7px 10px;border-radius:3px;position:relative;left:-10px;transition:all .3s ease;}
             #main-header .section .site-brand a:focus{outline:none;background-color:var(--wp--preset--color--links);color:#fff;}
 
 
