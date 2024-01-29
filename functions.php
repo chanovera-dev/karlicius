@@ -119,5 +119,16 @@ add_filter( 'wpcf7_load_css', '__return_false' );
 
 
 
-add_filter( 'enlighterjs-css_load_js', '__return_false' );
-add_filter( 'enlighterjs-css_load_css', '__return_false' );
+function ver_archivos_cargados(){
+    global $wp_styles;
+    global $wp_scripts;
+    echo 'STYLES:';
+    echo '<pre>';
+    var_dump($wp_styles->queue);
+    echo '</pre>';
+    echo 'SCRIPTS:';
+    echo '<pre>';
+    var_dump($wp_scripts->queue);
+    echo '</pre>';
+}
+add_action("wp_footer", "ver_archivos_cargados");
