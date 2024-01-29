@@ -119,13 +119,3 @@ add_filter( 'wpcf7_load_css', '__return_false' );
 
 
 
-function desactivar_enlighter_except_single() {
-    // Verifica si NO estás en una entrada única (single.php)
-    if (!is_single()) {
-        // Desactiva el plugin Enlighter
-        deactivate_plugins('enlighter/enlighter.php');
-    }
-}
-
-// Engancha la función al gancho 'init'
-add_action('init', 'desactivar_enlighter_except_single');
