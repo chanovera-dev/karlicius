@@ -85,6 +85,8 @@ require_once(get_template_directory() . '/functions/breakpoints.php');
 require_once(get_template_directory() . '/functions/templates.php');
 // Anexo para definir los backgrounds en las plantillas
 require_once(get_template_directory() . '/functions/backgrounds.php');
+/* anexo para cargar el css que se usa en todas las páginas */
+require_once(get_template_directory() . '/functions/global.php');
 /* anexo para cargar el css de formularios */
 require_once(get_template_directory() . '/functions/forms.php');
 
