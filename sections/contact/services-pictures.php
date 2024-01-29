@@ -4,7 +4,7 @@
         <figcaption><p><?= __('Diseño web', 'renata'); ?></p></figcaption>
     </figure>
     <figure>
-        <img class="picture" src="<?php echo get_theme_mod('tech-support', get_bloginfo('template_url') . '/assets/img/techSupport.jpg'); ?>" alt="Soporte técnico">
+        <img class="picture" src="<?php echo get_theme_mod('tech-support', get_bloginfo('template_url') . '/assets/img/techSupport.webp'); ?>" alt="Soporte técnico">
         <figcaption><p><?= __('Soporte técnico en línea', 'renata'); ?></p></figcaption>
     </figure>
     <figure>
