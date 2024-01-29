@@ -124,10 +124,6 @@ function remove_custom_styles(){
         wp_dequeue_style("enlighterjs");
         wp_deregister_style("enlighterjs");
     }
-    wp_dequeue_style("wp-emoji-styles");
-    wp_deregister_style("wp-emoji-styles");
-    wp_dequeue_style("core-block-supports-duotone");
-    wp_deregister_style("core-block-supports-duotone");
 }
 add_action("wp_print_styles", "remove_custom_styles");
 
