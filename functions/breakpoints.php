@@ -58,12 +58,7 @@ function karlicius_theme_custom_breakpoints() {
                 }
                 /* cabecera */
                 .menu-mobile__button{display:none;}
-                <?php
-                    if (is_plugin_active('woocommerce/woocommerce.php')) {
-                        echo '#main-header.container .section{display:grid;grid-template-columns:1fr auto 1fr;}';
-                    } else {}
-                ?>
-
+                #main-header.container .section{display:grid;grid-template-columns:1fr auto 1fr;}
 
                 /* M E N Ú    D E S K T O P */
                 .menu-searchform__group{display:flex;align-items:center;gap:30px;}
