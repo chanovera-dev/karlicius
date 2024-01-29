@@ -135,16 +135,16 @@ add_action("wp_print_styles", "remove_custom_styles");
 
 
 
-function ver_archivos_cargados(){
-    global $wp_styles;
-    global $wp_scripts;
-    echo 'STYLES:';
-    echo '<pre>';
-    var_dump($wp_styles->queue);
-    echo '</pre>';
-    echo 'SCRIPTS:';
-    echo '<pre>';
-    var_dump($wp_scripts->queue);
-    echo '</pre>';
-}
-add_action("wp_footer", "ver_archivos_cargados");
+// function ver_archivos_cargados(){
+//     global $wp_styles;
+//     global $wp_scripts;
+//     echo 'STYLES:';
+//     echo '<pre>';
+//     var_dump($wp_styles->queue);
+//     echo '</pre>';
+//     echo 'SCRIPTS:';
+//     echo '<pre>';
+//     var_dump($wp_scripts->queue);
+//     echo '</pre>';
+// }
+// add_action("wp_footer", "ver_archivos_cargados");
