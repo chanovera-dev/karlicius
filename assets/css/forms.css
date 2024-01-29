@@ -1,6 +1,13 @@
 /* etiquetas */
 p:has(label){margin-bottom:20px;}
-label{color:var(--wp--preset--color--text-b);}
+p:has(label) label{color:var(--wp--preset--color--text-b);}
+p:has(label) :is(
+    input[type=text],
+    input[type=email],
+    input[type=tel],
+    input[type=url],
+    input[type=search],
+    textarea){margin-top:5px;}
 
 /* inputs de entrada · nominal */
 input[type=text],
@@ -19,7 +26,6 @@ textarea{
     padding:0 10px;
     border-radius:3px;
     transition:all .3s ease;
-    margin-top:5px;
 }
 textarea{padding:10px;height:auto;}
 
