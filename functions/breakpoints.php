@@ -30,8 +30,9 @@ function karlicius_theme_custom_breakpoints() {
                 .menu-searchform__group form{order:1;}
                 .menu-searchform__group nav{order:2;}
                 .menu-searchform__group nav ul li:not(:last-child){border-bottom:1px solid var(--wp--preset--color--line);}
-                .menu-searchform__group nav ul li a{display:inline-flex;align-items:center;height:38px;padding:0 10px;border-radius:3px;color:var(--wp--preset--color--text);transition:all .3s;}
-                .menu-searchform__group nav ul li :is(a:hover,a:focus){background-color:var(--wp--preset--color--links);color:#fff;}
+                .menu-searchform__group nav ul li a{position:relative;left:-1px;display:inline-flex;align-items:center;height:38px;padding:0 10px;border-radius:3px;color:var(--wp--preset--color--text-b);transition:all .3s;}
+                .menu-searchform__group nav ul li a:hover{color:var(--wp--preset--color--text);}
+                .menu-searchform__group nav ul li a:focus{outline:none;background-color:var(--wp--preset--color--links);color:#fff;}
                 .menu-searchform__group form.search-form{display:grid;grid-template-columns:1fr auto;gap:7px;}
                 .menu-searchform__group form.search-form input[type=search]{width:100%;}
             }
@@ -64,8 +65,9 @@ function karlicius_theme_custom_breakpoints() {
                 /* M E N Ú    D E S K T O P */
                 .menu-searchform__group{display:flex;align-items:center;gap:30px;}
                 .menu-searchform__group nav ul{display:flex;align-items:center;gap:30px;}
-                .menu-searchform__group nav ul li a{color:var(--wp--preset--color--text-b);transition:all .3s ease;}
+                .menu-searchform__group nav ul li a{display:inline-flex;align-items:center;height:38px;padding:0 10px;border-radius:3px;color:var(--wp--preset--color--text-b);transition:all .3s ease;}
                 .menu-searchform__group nav ul li a:hover{color:var(--wp--preset--color--text);}
+                .menu-searchform__group nav ul li a:focus{outline:none;background-color:var(--wp--preset--color--links);color:#fff;}
                 .menu-searchform__group form.search-form{display:flex;align-items:center;gap:7px;}
 
                 /* P U B L I C A C I O N E S */
