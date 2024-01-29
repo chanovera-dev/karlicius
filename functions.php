@@ -15,8 +15,6 @@ add_action( 'wp_enqueue_scripts', 'load_components_header' );
 function load_components_footer(){
     // JS de efectos en la cabecera
     wp_enqueue_script( 'header-scripts', get_template_directory_uri() . '/assets/js/header.js', array(), '1.0', true );
-    // css de formularios
-    wp_enqueue_style( 'forms-styles', get_template_directory_uri() . '/assets/css/forms.css' );
 }
 add_action( 'get_footer', 'load_components_footer' );
 
@@ -86,6 +84,8 @@ require_once(get_template_directory() . '/functions/breakpoints.php');
 require_once(get_template_directory() . '/functions/templates.php');
 // Anexo para definir los backgrounds en las plantillas
 require_once(get_template_directory() . '/functions/backgrounds.php');
+/* anexo para cargar el css de formularios */
+require_once(get_template_directory() . '/functions/forms.php');
 
 
 
