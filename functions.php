@@ -120,8 +120,10 @@ add_filter( 'wpcf7_load_css', '__return_false' );
 
 
 function remove_custom_styles(){
-    wp_dequeue_style("enlighterjs");
-    wp_deregister_style("enlighterjs");
+    if (!is_single()) {
+        wp_dequeue_style("enlighterjs");
+        wp_deregister_style("enlighterjs");
+    }
 }
 add_action("wp_print_styles", "remove_custom_styles");
 
