@@ -97,6 +97,8 @@ body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alig
 #main .comments-post.container{background-color:var(--wp--preset--color--background-b);}
 /* Deja un comentario */
 #reply-title{font-size:var(--wp--preset--font-size--large);font-weight:500;margin-bottom:30px;}
+/**/
+.comment-notes{margin-bottom:20px;}
 
 @media screen and (min-width: 31px) and (max-width: 1023px){
     .wp-block-image img{width:100%;}
