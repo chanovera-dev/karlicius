@@ -18,7 +18,7 @@ function single_styles() {
         wp_enqueue_style( 'single-styles', get_template_directory_uri() . '/assets/css/single.css' );
         wp_enqueue_style( 'sidebar-styles', get_template_directory_uri() . '/assets/css/sidebar.css' );
         wp_enqueue_style("enlighterjs");
-        wp_register_style("enlighterjs");
+        // wp_register_style("enlighterjs");
     }
 }
 add_action( 'wp_enqueue_scripts', 'single_styles' );
