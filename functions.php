@@ -123,6 +123,8 @@ function remove_custom_styles(){
     if (!is_single()) {
         wp_dequeue_style("enlighterjs");
         wp_deregister_style("enlighterjs");
+        wp_dequeue_style("katex");
+        wp_deregister_style("katex");
     }
     wp_dequeue_style("wp-emoji-styles");
     wp_deregister_style("wp-emoji-styles");
