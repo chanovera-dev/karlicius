@@ -99,6 +99,11 @@
                     "name": "Color tabs",
                     "slug": "tabs",
                     "color": "#f6f3a1"
+                },
+                {
+                    "name": "Figcaption",
+                    "slug": "figcaption",
+                    "color": "#ffffff57"
                 }
             ]
         },
