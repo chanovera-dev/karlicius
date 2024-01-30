@@ -135,13 +135,14 @@ add_action("wp_print_styles", "remove_custom_styles");
 
 
 
-add_action('wp_print_scripts', 'remove_custom_scripts');
 function remove_custom_scripts() {
     if (!is_single()) {
         wp_dequeue_script('katex');
         wp_dequeue_script('enlighterjs');
     }
 }
+add_action('wp_print_scripts', 'remove_custom_scripts');
+
 
 
 // function ver_archivos_cargados(){
