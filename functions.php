@@ -7,7 +7,7 @@ function load_components_header() {
     wp_register_style( 'global', get_template_directory_uri() . '/style.css', '', 1, 'all' );
     wp_enqueue_style( 'global' );
     if (!is_single()) {
-        wp_dequeue_script('katex');
+        wp_dequeue_script('katex-js');
         remove_action('wp_footer', 'enlighterjs', 11);
     }
 
