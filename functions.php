@@ -126,7 +126,6 @@ function remove_custom_styles(){
         wp_dequeue_style("katex");
         wp_deregister_style("katex");
         remove_action('wp_footer', 'katex', 5);
-        remove_action('wp_footer', 'enlighterjs', 11);
     }
     wp_dequeue_style("wp-emoji-styles");
     wp_deregister_style("wp-emoji-styles");
