@@ -138,7 +138,7 @@ add_action("wp_print_styles", "remove_custom_styles");
 add_action('wp_enqueue_scripts', 'remove_custom_scripts');
 function remove_custom_scripts() {
     if (!is_single()) {
-        wp_dequeue_script('katex-js');
+        wp_dequeue_script('katex');
         remove_action('wp_footer', 'enlighterjs', 11);
     }
 }
