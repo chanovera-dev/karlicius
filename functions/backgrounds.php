@@ -8,6 +8,8 @@ function karlicius_theme_custom_backgrounds() {
             <?php else: ?>
                 /* cabecera */
                 :is(.single-post,.page-template-default) #main-header{position:fixed;width:100%;background-color:transparent;border-bottom:1px solid #ffffff21;}
+                :is(.single-post,.page-template-default) #main-header .section .site-brand a{color:#fff;opacity:.5;}
+                :is(.single-post,.page-template-default) #main-header .section .site-brand a:hover{opacity:1;}
                 :is(.single-post,.page-template-default) #main-header .attachment-list li a.counter{color:#fff;opacity:.5;}
                 :is(.single-post,.page-template-default) #main-header .attachment-list li a.counter:hover{opacity:1;}
                 :is(.single-post,.page-template-default) #main-header .menu-mobile__button .bars :is(.bar1,.bar2,.bar3){background-color:#fff;opacity:.5;}
