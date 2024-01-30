@@ -6,11 +6,6 @@ function load_components_header() {
     wp_dequeue_style( 'wp-block-library' );
     wp_register_style( 'global', get_template_directory_uri() . '/style.css', '', 1, 'all' );
     wp_enqueue_style( 'global' );
-    if (!is_single()) {
-        wp_dequeue_script('katex-js');
-        remove_action('wp_footer', 'enlighterjs', 11);
-    }
-
 }
 add_action( 'wp_enqueue_scripts', 'load_components_header' );
 
@@ -138,6 +133,15 @@ function remove_custom_styles(){
 }
 add_action("wp_print_styles", "remove_custom_styles");
 
+
+
+add_action('wp_enqueue_scripts', 'remove_custom_scripts');
+function remove_custom_scripts() {
+    if (!is_single()) {
+        wp_dequeue_script('katex-js');
+        remove_action('wp_footer', 'enlighterjs', 11);
+    }
+}
 
 
 // function ver_archivos_cargados(){
