@@ -6,6 +6,11 @@ function load_components_header() {
     wp_dequeue_style( 'wp-block-library' );
     wp_register_style( 'global', get_template_directory_uri() . '/style.css', '', 1, 'all' );
     wp_enqueue_style( 'global' );
+    if (!is_single()) {
+        remove_action('wp_footer', 'katex', 5);
+        remove_action('wp_footer', 'enlighterjs', 11);
+    }
+
 }
 add_action( 'wp_enqueue_scripts', 'load_components_header' );
 
@@ -125,7 +130,6 @@ function remove_custom_styles(){
         wp_deregister_style("enlighterjs");
         wp_dequeue_style("katex");
         wp_deregister_style("katex");
-        remove_action('wp_footer', 'katex', 5);
     }
     wp_dequeue_style("wp-emoji-styles");
     wp_deregister_style("wp-emoji-styles");
