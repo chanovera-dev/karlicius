@@ -42,7 +42,7 @@ function karlicius_theme_custom_global() {
 
 
             /* P I E   D E   P Á G I N A */
-            #main-footer{background-color:#323232;color:#868686;}
+            #main-footer{background-color:#323232;color:#a7a7a7;}
             /* aside */
             #main-footer aside{padding:30px 0;display:flex;flex-wrap:wrap;gap:50px;}
             /* títulos */
