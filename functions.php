@@ -113,7 +113,7 @@ add_filter('get_archives_link', 'custom_archives_link', 10, 6);
 
 
 
-// deshabilita contact form 7 en todas las páginas | revisar components.php para ver que páginas tienen habilitado contact form 7
+// deshabilita contact form 7 en todas las páginas | revisar templates.php para ver que páginas tienen habilitado contact form 7
 add_filter( 'wpcf7_load_js', '__return_false' );
 add_filter( 'wpcf7_load_css', '__return_false' );
 
