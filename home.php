@@ -3,6 +3,7 @@ get_header();
 
 echo '
 <main id="main">
+<p>prueba</p>
     <div class="container">
         <section class="section">';
         
