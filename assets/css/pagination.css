@@ -8,3 +8,6 @@
 
 /* paginadores · hover */
 .nav-links .page-numbers:hover{background-color:var(--wp--preset--color--pagination-hover);color:var(--wp--preset--color--text);}
+
+/* paginadores · footer */
+.nav-links .page-numbers:focus{outline:none;background-color:var(--wp--preset--color--button-focus);color:#fff;}
