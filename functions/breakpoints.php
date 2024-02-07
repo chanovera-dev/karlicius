@@ -10,7 +10,7 @@ function karlicius_theme_custom_breakpoints() {
 
             @media screen and (min-width: 31px) and (max-width: 1023px){
                 /* M E N Ú    D E S K T O P */
-                .menu-searchform__group{display:none;}
+                #main-header .menu-searchform__group{display:none;}
             }
 
             @media(min-width:768px){
