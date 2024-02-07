@@ -23,7 +23,7 @@ function karlicius_theme_custom_global() {
             /* B R A N D */
             #main-header .section .site-brand a{padding:7px 10px;border-radius:3px;position:relative;left:-10px;font-weight:500;color:var(--wp-preset--color--text-b);transition:all .3s ease;}
             #main-header .section .site-brand a:hover{color:var(--wp-preset--color--text);}
-            #main-header .section .site-brand a:focus{outline:none;background-color:var(--wp--preset--color--links);color:#fff;}
+            #main-header .section .site-brand a:focus{outline:none;background-color:var(--wp--preset--color--button-focus);color:#fff;}
 
 
 
@@ -71,7 +71,7 @@ function karlicius_theme_custom_global() {
             .menu-mobile-searchform__group nav ul li:not(:last-child){border-bottom:1px solid var(--wp--preset--color--line);}
             .menu-mobile-searchform__group nav ul li a{position:relative;left:-1px;display:inline-flex;align-items:center;height:38px;padding:0 10px;border-radius:3px;color:var(--wp--preset--color--text-b);transition:all .3s;}
             .menu-mobile-searchform__group nav ul li a:hover{color:var(--wp--preset--color--text);}
-            .menu-mobile-searchform__group nav ul li a:focus{outline:none;background-color:var(--wp--preset--color--links);color:#fff;}
+            .menu-mobile-searchform__group nav ul li a:focus{outline:none;background-color:var(--wp--preset--color--button-focus);color:#fff;}
 
 
 
