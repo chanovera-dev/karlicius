@@ -38,10 +38,13 @@ function karlicius_theme_custom_global() {
 
 
             /* B Ú S Q U E D A */
+            .menu-searchform__group form.search-form{position:relative;}
+            .menu-searchform__group form.search-form .search-submit__button{position:absolute;width:40px;height:34px;right:4px;top:4px;}
+
             #close-search__button{display:none;}
 
 
-            
+
             /* M E N Ú    M O B I L E */
 
             /* botón para abrir el menú mobile */
@@ -78,7 +81,6 @@ function karlicius_theme_custom_global() {
             .menu-searchform__group nav ul li a{display:inline-flex;align-items:center;height:38px;padding:0 10px;border-radius:3px;color:var(--wp--preset--color--text-b);transition:all .3s ease;}
             .menu-searchform__group nav ul li a:hover{color:var(--wp--preset--color--text);}
             .menu-searchform__group nav ul li a:focus{outline:none;background-color:var(--wp--preset--color--links);color:#fff;}
-            .menu-searchform__group form.search-form{display:flex;align-items:center;gap:7px;}
 
 
 
