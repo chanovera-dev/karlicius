@@ -15,6 +15,7 @@ function karlicius_theme_custom_global() {
 
             /* C A B E C E R A */
             #main-header{position:sticky;top:0;background-color:var(--wp--preset--color--background);transition:all .3s ease;z-index:2;}
+            #main-header.shadow{box-shadow:var(--wp--preset--shadow--card);}
             #main-header .section{display:flex;align-items:center;justify-content:space-between;height:var(--height--header);gap:30px;}
 
 
