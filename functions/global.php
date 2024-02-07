@@ -80,7 +80,7 @@ function karlicius_theme_custom_global() {
             .menu-searchform__group nav ul{display:flex;align-items:center;gap:10px;}
             .menu-searchform__group nav ul li a{display:inline-flex;align-items:center;height:38px;padding:0 10px;border-radius:3px;color:var(--wp--preset--color--text-b);transition:all .3s ease;}
             .menu-searchform__group nav ul li a:hover{color:var(--wp--preset--color--text);}
-            .menu-searchform__group nav ul li a:focus{outline:none;background-color:var(--wp--preset--color--links);color:#fff;}
+            .menu-searchform__group nav ul li a:focus{outline:none;background-color:var(--wp--preset--color--button-focus);color:#fff;}
 
 
 
