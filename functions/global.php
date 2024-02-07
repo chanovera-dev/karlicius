@@ -39,7 +39,7 @@ function karlicius_theme_custom_global() {
 
             /* B Ú S Q U E D A */
             form.search-form{position:relative;}
-            form.search-form input[type=search]
+            form.search-form input[type=search]{width:100%;}
             form.search-form .search-submit__button{position:absolute;width:40px;height:30px;right:4px;top:4px;}
             #close-search__button{display:none;}
 
@@ -70,8 +70,6 @@ function karlicius_theme_custom_global() {
             .menu-mobile-searchform__group nav ul li a{position:relative;left:-1px;display:inline-flex;align-items:center;height:38px;padding:0 10px;border-radius:3px;color:var(--wp--preset--color--text-b);transition:all .3s;}
             .menu-mobile-searchform__group nav ul li a:hover{color:var(--wp--preset--color--text);}
             .menu-mobile-searchform__group nav ul li a:focus{outline:none;background-color:var(--wp--preset--color--links);color:#fff;}
-            .menu-mobile-searchform__group form.search-form{display:grid;grid-template-columns:1fr auto;gap:7px;}
-            .menu-mobile-searchform__group form.search-form input[type=search]{width:100%;}
 
 
 
