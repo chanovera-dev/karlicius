@@ -42,7 +42,7 @@ function karlicius_theme_custom_global() {
             form.search-form input[type=search]{width:100%;border-radius:4px;}
             form.search-form .search-submit__button{position:absolute;width:28px;height:28px;right:5px;top:5px;border:1px solid var(--wp--preset--color--button);background-color:var(--wp--preset--color--button);color:#fff;border-radius:3px;transition:all .3s ease;}
             form.search-form .search-submit__button:hover{border:1px solid var(--wp--preset--color--button-hover);background-color:var(--wp--preset--color--button-hover);}
-            form.search-form .search-submit__button:focus{border:1px solid var(--wp--preset--color--button-focus);background-color:var(--wp--preset--color--button-focus);}
+            form.search-form .search-submit__button:focus{outline:none;border:1px solid var(--wp--preset--color--button-focus);background-color:var(--wp--preset--color--button-focus);}
             #close-search__button{display:none;}
 
 
