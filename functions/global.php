@@ -19,7 +19,7 @@ function karlicius_theme_custom_global() {
             /* scroll */
             @supports ( (-webkit-backdrop-filter:saturate(180%) blur(20px)) or (backdrop-filter:saturate(180%) blur(20px)) ){
                 :is(.scroll-down,.scroll-up) #main-header,
-                :is(.scroll-down,.scroll-up) #main-header{background:var(--wp--preset--color--translucid);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);box-shadow:var(--wp--preset--shadow--card);}
+                :is(.scroll-down,.scroll-up) #main-header{background:var(--wp--preset--color--translucid);backdrop-filter:saturate(180%) blur(20px);-webkit-backdrop-filter:saturate(180%) blur(20px);}
             }
 
 
