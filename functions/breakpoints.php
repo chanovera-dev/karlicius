@@ -38,7 +38,6 @@ function karlicius_theme_custom_breakpoints() {
                 .menu-mobile__button{display:none;}
                 <?php
                 if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
-                    // Si WooCommerce está activo, haz algo aquí
                     echo '#main-header.container .section{display:grid;grid-template-columns:1fr auto 1fr;}';
                 } else {}
                 ?>

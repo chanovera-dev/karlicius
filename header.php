@@ -18,7 +18,7 @@ echo '
             <section class="section">';
                 include(TEMPLATEPATH . '/sections/header/brand.php');
                 include(TEMPLATEPATH . '/sections/header/menu.php');
-                // include(TEMPLATEPATH . '/sections/header/attachment-list.php');
+                include(TEMPLATEPATH . '/sections/header/attachment-list.php');
                 include(TEMPLATEPATH . '/sections/header/menu-button.php');
             echo '
             </section>
