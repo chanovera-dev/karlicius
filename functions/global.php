@@ -95,6 +95,7 @@ function karlicius_theme_custom_global() {
             #main-footer aside ul li{height:38px;display:inline-flex;align-items:center;gap:7px;color:#fff;}
             #main-footer aside ul li a{display:inline-flex;align-items:center;gap:7px;padding:5px 10px;position:relative;border-radius:3px;left:-10px;color:#fff;transition:all .3s ease;}
             #main-footer aside ul li a:hover{background-color:#414141;}
+            #main-footer aside ul li a:focus{outline:none;background-color:var(--wp--preset--color--button-focus);}
             /* copyright */
             #main-footer .copyright{padding:10px 0;text-align:center;border-top:1px solid #414141;}
         </style>
