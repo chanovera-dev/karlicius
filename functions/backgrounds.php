@@ -3,6 +3,9 @@
 function karlicius_theme_custom_backgrounds() {
     ?>
         <style>
+            @supports ( (-webkit-backdrop-filter:saturate(180%) blur(20px)) or (backdrop-filter:saturate(180%) blur(20px)) ){
+                :is(.scroll-down,.scroll-up) #main-header{background:rgba(255,255,255,.8); backdrop-filter:saturate(180%) blur(20px); -webkit-backdrop-filter:saturate(180%) blur(20px);}
+            }
             <?php if ( has_post_thumbnail() == false ) : ?>
             
             <?php else: ?>
