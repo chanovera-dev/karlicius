@@ -37,7 +37,7 @@ function scrollPage() {
         // up
         body.classList.remove(scrollDown);
         body.classList.add(scrollUp);
-        if ( !header.classList.contains('shadow') ) {
+        if ( !menuMobile.classList.contains('open') && !header.classList.contains('shadow') ) {
           header.classList.add('shadow');
         }
       }
