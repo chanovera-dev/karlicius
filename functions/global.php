@@ -38,9 +38,9 @@ function karlicius_theme_custom_global() {
 
 
             /* B Ú S Q U E D A */
-            .menu-searchform__group form.search-form{position:relative;}
-            .menu-searchform__group form.search-form .search-submit__button{position:absolute;width:40px;height:34px;right:4px;top:4px;}
-
+            form.search-form{position:relative;}
+            form.search-form input[type=search]
+            form.search-form .search-submit__button{position:absolute;width:40px;height:30px;right:4px;top:4px;}
             #close-search__button{display:none;}
 
 
