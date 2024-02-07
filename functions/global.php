@@ -37,6 +37,11 @@ function karlicius_theme_custom_global() {
 
 
 
+            /* B Ú S Q U E D A */
+            #close-search__button{display:none;}
+
+
+            
             /* M E N Ú    M O B I L E */
 
             /* botón para abrir el menú mobile */
