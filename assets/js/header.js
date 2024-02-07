@@ -10,7 +10,7 @@ function scrollPage() {
     const body = document.body;
     const scrollUp = "scroll-up";
     const scrollDown = "scroll-down";
-    const header = document.header;
+    const header = document.getElementById('main-header');
     const menuMobile = document.getElementById('menu-mobile-searchform__group');
     let lastScroll = 0;
     
