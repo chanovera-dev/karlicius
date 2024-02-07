@@ -28,14 +28,14 @@ function scrollPage() {
         body.classList.add(scrollDown);
         header.classList.add('shadow');
         if (menuMobile.classList.contains('open')) {
-          
+          header.classList.remove('shadow');
         }
       } else if (currentScroll < lastScroll && body.classList.contains(scrollDown)) {
         // up
         body.classList.remove(scrollDown);
         body.classList.add(scrollUp);
         if (menuMobile.classList.contains('open')) {
-          
+          header.classList.remove('shadow');
         }
       }
       lastScroll = currentScroll;
