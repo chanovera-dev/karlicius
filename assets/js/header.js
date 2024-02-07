@@ -25,15 +25,17 @@ function scrollPage() {
         // down
         body.classList.remove(scrollUp);
         body.classList.add(scrollDown);
+        header.classList.add('shadow');
         if (!menuMobile.classList.contains('open')) {
-          header.classList.add('shadow');
+          
         }
       } else if (currentScroll < lastScroll && body.classList.contains(scrollDown)) {
         // up
         body.classList.remove(scrollDown);
         body.classList.add(scrollUp);
+        header.classList.add('shadow');
         if (!menuMobile.classList.contains('open')) {
-          header.classList.add('shadow');
+          
         }
       }
       lastScroll = currentScroll;
