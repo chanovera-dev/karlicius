@@ -18,6 +18,7 @@ function scrollPage() {
       const currentScroll = window.pageYOffset;
       if (currentScroll <= 0) {
         body.classList.remove(scrollUp);
+        header.classList.remove('shadow');
         return;
       }
       
@@ -26,15 +27,14 @@ function scrollPage() {
         body.classList.remove(scrollUp);
         body.classList.add(scrollDown);
         header.classList.add('shadow');
-        if (!menuMobile.classList.contains('open')) {
+        if (menuMobile.classList.contains('open')) {
           
         }
       } else if (currentScroll < lastScroll && body.classList.contains(scrollDown)) {
         // up
         body.classList.remove(scrollDown);
         body.classList.add(scrollUp);
-        header.classList.add('shadow');
-        if (!menuMobile.classList.contains('open')) {
+        if (menuMobile.classList.contains('open')) {
           
         }
       }
