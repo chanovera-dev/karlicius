@@ -11,4 +11,4 @@
 #main .container .section .posts__wrapper .posts .post .permalink .title{display:inline;color:var(--wp--preset--color--text);border-radius:3px;transition:all .3s ease;}
 #main .container .section .posts__wrapper .posts .post .permalink .title:hover{color:var(--wp--preset--color--text-b);}
 #main .container .section .posts__wrapper .posts .post .permalink:focus{outline:none;}
-#main .container .section .posts__wrapper .posts .post .permalink:focus .title{box-shadow:0 0 0 3px var(--wp--preset--color--links);}
+#main .container .section .posts__wrapper .posts .post .permalink:focus .title{box-shadow:0 0 0 3px var(--wp--preset--color--button-focus);background-color:var(--wp--preset--color--button-focus);color:#fff;}
