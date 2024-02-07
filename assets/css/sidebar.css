@@ -9,9 +9,9 @@
 
 /* listas */
 #main aside > div ul li:not(:last-child){border-bottom:1px solid var(--wp--preset--color--line);}
-#main aside > div ul li > a{display:inline-flex;align-items:center;gap:7px;margin:6.11px 0;color:var(--wp--preset--color--text-b);border-radius:3px;box-shadow:0 0 0 3px var(--wp--preset--color--button-focus);transition:all .3s ease;}
+#main aside > div ul li > a{display:inline-flex;align-items:center;gap:7px;margin:6.11px 0;color:var(--wp--preset--color--text-b);border-radius:3px;transition:all .3s ease;}
 #main aside > div ul li > a:hover{color:var(--wp--preset--color--links);}
-#main aside > div ul li > a:focus{outline:none;background-color:var(--wp--preset--color--button-focus);color:#fff;}
+#main aside > div ul li > a:focus{outline:none;background-color:var(--wp--preset--color--button-focus);box-shadow:0 0 0 3px var(--wp--preset--color--button-focus);color:#fff;}
 
 /* comentarios */
 #main aside > div ul li.comment__wrapper:first-child{padding-top:0;}
