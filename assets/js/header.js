@@ -11,7 +11,6 @@ function scrollPage() {
     const scrollUp = "scroll-up";
     const scrollDown = "scroll-down";
     const header = document.getElementById('main-header');
-    const menuMobile = document.getElementById('menu-mobile-searchform__group');
     let lastScroll = 0;
     
     window.addEventListener("scroll", () => {
@@ -27,9 +26,6 @@ function scrollPage() {
         body.classList.remove(scrollUp);
         body.classList.add(scrollDown);
         header.classList.add('shadow');
-        if (menuMobile.classList.contains('open')) {
-          header.classList.remove('shadow');
-        }
       } else if (currentScroll < lastScroll && body.classList.contains(scrollDown)) {
         // up
         body.classList.remove(scrollDown);
