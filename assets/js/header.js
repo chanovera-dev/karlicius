@@ -34,9 +34,6 @@ function scrollPage() {
         // up
         body.classList.remove(scrollDown);
         body.classList.add(scrollUp);
-        if (menuMobile.classList.contains('open')) {
-          header.classList.remove('shadow');
-        }
       }
       lastScroll = currentScroll;
     });
