@@ -1,9 +1,11 @@
 // botón para abrir el menú mobile · vease './sections/header/menu--button.php'
 function menuMobileButton(toggleButton) {
-    let menuMobile =  document.querySelector('.menu-mobile-searchform__group')
+    const menuMobile =  document.querySelector('.menu-mobile-searchform__group')
+    const header = document.getElementById('main-header');
 
     toggleButton.querySelector('.bars').classList.toggle('change');
     menuMobile.classList.toggle('open');
+    header.classList.toggle('shadow');
 }
 
 function scrollPage() {
