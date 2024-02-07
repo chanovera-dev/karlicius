@@ -9,7 +9,7 @@
 
 /* listas */
 #main aside > div ul li:not(:last-child){border-bottom:1px solid var(--wp--preset--color--line);}
-#main aside > div ul li > a{display:inline-flex;align-items:center;gap:7px;margin:6.6px 0;;color:var(--wp--preset--color--text-b);transition:all .3s ease;}
+#main aside > div ul li > a{display:inline-flex;align-items:center;gap:7px;margin:6.1px 0;color:var(--wp--preset--color--text-b);transition:all .3s ease;}
 #main aside > div ul li > a:hover{color:var(--wp--preset--color--links);}
 #main aside > div ul li > a:focus{outline:none;background-color:var(--wp--preset--color--button-focus);color:#fff;}
 
