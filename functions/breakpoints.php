@@ -41,11 +41,11 @@ function karlicius_theme_custom_breakpoints() {
                     echo '#main-header.container .section{display:grid;grid-template-columns:1fr auto 1fr;}';
                 } else {}
                 ?>
+                /* contenedor */
+                #menu-searchform__group.menu-searchform__group.gap0{gap:0;}
                 /* menú de navegación principal */
                 .nav__wrapper{max-width:600px;transition:all .3s ease;}
                 .nav__wrapper.hide{max-width:0;overflow:hidden;}
-
-
 
                 /* formulario de búsqueda · cerrado */
                 #menu-searchform__group .search-form__wrapper .search-form{max-width:38px;transition:all .3s ease;}

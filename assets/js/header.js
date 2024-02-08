@@ -48,9 +48,11 @@ scrollPage();
 
 
 function openSearchform() {
+  const group = document.querySelector('.menu-searchform__group');
   const searchForm = document.querySelector('.search-form__wrapper');
   const nav = document.querySelector('.nav__wrapper');
 
+  group.classList.toggle('gap0');
   searchForm.classList.toggle('open'); 
   nav.classList.toggle('hide');
 }
