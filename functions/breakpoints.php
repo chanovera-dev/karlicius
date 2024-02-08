@@ -60,6 +60,7 @@ function karlicius_theme_custom_breakpoints() {
                 #menu-searchform__group .search-form__wrapper.open .search-form input[type=search]{opacity:1;padding-right:38px;}
                 #menu-searchform__group .search-form__wrapper.open .search-form .search-submit__button{width:28px;height:28px;right:43px;top:5px;border:1px solid var(--wp--preset--color--button);background-color:var(--wp--preset--color--button);color:#fff;border-radius:3px;}
                 #menu-searchform__group .search-form__wrapper.open .search-form .search-submit__button:hover{border:1px solid var(--wp--preset--color--button-hover);background-color:var(--wp--preset--color--button-hover);}
+                #menu-searchform__group .search-form__wrapper.open .search-form .search-submit__button:focus{border:1px solid var(--wp-preset--color--button-focus);background-color:var(--wp--preset--color--button-focus);}
                 #menu-searchform__group .search-form__wrapper.open #close-search__button{opacity:1;}
 
 
