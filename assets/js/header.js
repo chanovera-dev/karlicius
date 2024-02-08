@@ -49,7 +49,11 @@ function scrollPage() {
 
 
   function openSearchform() {
-    const searchForm = document.querySelector('.search-form');
+    const closeSearchform = document.getElementById('close-search__button');
+    const searchForm = document.getElementById('search-form');
 
-    searchForm.classList.toggle('open');
+    closeSearchform.onclick = () => {
+      searchForm.classList.toggle('open');
+    }
+
   }
