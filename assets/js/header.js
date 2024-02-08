@@ -48,12 +48,18 @@ scrollPage();
 
 
 
-  function openSearchform() {
-    var searchForm = document.getElementById('search-form');
-    // Agregar evento de clic al botón close-search__button
-    document.getElementById('close-search__button').addEventListener('click', function() {
-        // Alternar la clase 'open' en el formulario de búsqueda
-        searchForm.classList.toggle('open');
-    });
+function openSearchform() {
+  var searchForm = document.getElementById('search-form');
+  var closeButton = document.getElementById('close-search__button');
+
+  // Agregar evento de clic al botón close-search__button
+  closeButton.addEventListener('click', function() {
+      // Alternar la clase 'open' en el formulario de búsqueda
+      searchForm.classList.toggle('open');
+  });
 }
-openSearchform();
+
+// Llamar a la función al cargar el documento
+document.addEventListener('DOMContentLoaded', function() {
+  openSearchform();
+});
