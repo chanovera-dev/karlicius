@@ -9,8 +9,32 @@ function karlicius_theme_custom_breakpoints() {
             }
 
             @media screen and (min-width: 31px) and (max-width: 1023px){
-                /* M E N Ú    D E S K T O P */
-                #main-header .menu-searchform__group{display:none;}
+                /* M E N Ú    M O B I L E */
+
+                /* botón para abrir el menú mobile */
+                .menu-mobile__button{position:relative;padding:0;border:0;background-color:transparent;width:18px;height:14px;z-index:4;}
+                .menu-mobile__button:hover{cursor:pointer;}
+                .menu-mobile__button .bars{position:relative;display:inline-block;width:18px;height:14px;transition:all .3s ease;}
+                .menu-mobile__button .bars :is(.bar1,.bar2,.bar3){width:18px;height:1px;transition:.4s;background-color:var(--wp--preset--color--attenuated);transition:all .3s ease;}
+                .menu-mobile__button .bars:hover :is(.bar1,.bar2,.bar3){background-color:var(--wp--preset--color--text);}
+                .menu-mobile__button .bars > div:not(:last-child){margin-bottom:5px;}
+                /* botón para abrir el menú mobile · activo */
+                .menu-mobile__button .bars.change{transform:rotate(45deg);top:-2px;}
+                .menu-mobile__button .bars.change .bar2{width:0;}
+                .menu-mobile__button .bars.change .bar1{transform:translateY(9px);}
+                .menu-mobile__button .bars.change .bar3{transform:translateY(-3px) rotate(90deg);}
+
+                /* menú *
+                .menu-searchform__group{position:absolute;top:70px;right:0;width:100%;max-height:0;padding:53px 15px 20px;background-color:var(--wp--preset--color--background);display:flex;flex-direction:column;gap:30px;transition:all .3s ease;z-index:2;}
+                .menu-searchform__group.open{max-height:500px;}
+                .menu-searchform__group form{order:1;}
+                .menu-searchform__group nav{order:2;}
+                .menu-searchform__group nav ul{padding-left:0;list-style:none;}
+                .menu-searchform__group nav ul li:not(:last-child){border-bottom:1px solid var(--wp--preset--color--line);}
+                .menu-searchform__group nav ul li a{position:relative;left:-1px;display:inline-flex;align-items:center;height:38px;padding:0 10px;border-radius:3px;color:var(--wp--preset--color--text-b);transition:all .3s;}
+                .menu-searchform__group nav ul li a:hover{color:var(--wp--preset--color--text);}
+                .menu-searchform__group nav ul li a:focus{outline:none;background-color:var(--wp--preset--color--button-focus);color:#fff;}
+                */
             }
 
             @media(min-width:768px){
@@ -34,6 +58,7 @@ function karlicius_theme_custom_breakpoints() {
                     /* cabecera del artículo */
                     --justify-self--share:end;
                 }
+                /* M E N Ú    D E S K T O P */
                 /* cabecera */
                 .menu-mobile__button{display:none;}
                 <?php
@@ -41,12 +66,16 @@ function karlicius_theme_custom_breakpoints() {
                     echo '#main-header.container .section{display:grid;grid-template-columns:1fr auto 1fr;}';
                 } else {}
                 ?>
+                .menu-searchform__group{display:flex;align-items:center;gap:20px;}
+                .menu-searchform__group nav ul{display:flex;align-items:center;gap:10px;}
+                .menu-searchform__group nav ul li a{display:inline-flex;align-items:center;height:38px;padding:0 10px;border-radius:3px;color:var(--wp--preset--color--text-b);transition:all .3s ease;}
+                .menu-searchform__group nav ul li a:hover{color:var(--wp--preset--color--text);}
+                .menu-searchform__group nav ul li a:focus{outline:none;background-color:var(--wp--preset--color--button-focus);color:#fff;}
                 /* contenedor */
                 #menu-searchform__group.menu-searchform__group.gap0{gap:0;}
                 /* menú de navegación principal */
                 .nav__wrapper{max-width:600px;transition:all .3s ease;}
                 .nav__wrapper.hide{max-width:0;overflow:hidden;}
-
                 /* formulario de búsqueda · cerrado */
                 #menu-searchform__group .search-form__wrapper .search-form{max-width:38px;transition:all .3s ease;}
                 #menu-searchform__group .search-form__wrapper .search-form input[type=search]{opacity:0;}
