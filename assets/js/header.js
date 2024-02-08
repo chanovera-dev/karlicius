@@ -47,36 +47,8 @@ function scrollPage() {
 scrollPage();
 
 
-
-let firstSearchForm = document.querySelector('.search-form');
-
-if (firstSearchForm) {
-    firstSearchForm.id = 'busqueda';
-}
-
 function openSearchform() {
-  let searchForm = document.getElementById('busqueda');
+  let searchForm = document.querySelector('search-form__wrapper');
   searchForm.classList.toggle('open'); 
   console.log('abrir formulario');
-}
-
-
-
-// Selecciona el formulario de búsqueda por su ID
-var formularioBusqueda = document.querySelector('.search-form');
-
-// Si el formulario de búsqueda no tiene un ID, puedes seleccionarlo por su clase
-// var formularioBusqueda = document.querySelector('.search-form');
-
-// Ahora puedes trabajar con el formulario de búsqueda, por ejemplo, agregar un evento de envío
-if (formularioBusqueda) {
-    formularioBusqueda.addEventListener('submit', function(event) {
-        // Aquí puedes agregar el código para manejar la acción de envío del formulario
-        // Por ejemplo, prevenir que el formulario se envíe y ejecutar una función de búsqueda personalizada
-        event.preventDefault();
-        console.log('Formulario de búsqueda enviado');
-        // Agrega aquí tu lógica de búsqueda personalizada
-    });
-} else {
-    console.log('El formulario de búsqueda no se encontró');
 }

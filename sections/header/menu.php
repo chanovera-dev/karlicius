@@ -15,7 +15,10 @@
             );
         }
 
-        get_search_form();
-
+        echo '
+        <div class="search-form__wrapper">';
+            get_search_form();
+        echo '
+        </div>';
     echo '
     </div>';
