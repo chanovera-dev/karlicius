@@ -49,7 +49,7 @@ scrollPage();
 
 function openSearchform() {
   const searchForm = document.querySelector('.search-form__wrapper');
-  const nav = document.querySelector('nav__wrapper');
+  const nav = document.querySelector('.nav__wrapper');
 
   searchForm.classList.toggle('open'); 
   nav.classList.toggle('hide');
