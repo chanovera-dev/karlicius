@@ -48,7 +48,9 @@ scrollPage();
 
 
 function openSearchform() {
-  let searchForm = document.querySelector('.search-form__wrapper');
+  const searchForm = document.querySelector('.search-form__wrapper');
+  const nav = document.querySelector('nav__wrapper');
+
   searchForm.classList.toggle('open'); 
-  console.log('abrir formulario');
+  nav.classList.toggle('hide');
 }
