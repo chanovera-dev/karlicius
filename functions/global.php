@@ -16,7 +16,7 @@ function karlicius_theme_custom_global() {
             /* C A B E C E R A */
             #main-header{position:sticky;top:0;background-color:var(--wp--preset--color--background);transition:all .3s ease;z-index:2;}
             #main-header.shadow{box-shadow:var(--wp--preset--shadow--card);}
-            #main-header .section{display:flex;align-items:center;justify-content:space-between;height:var(--height--header);gap:30px;}
+            
 
 
 
@@ -44,6 +44,7 @@ function karlicius_theme_custom_global() {
             .search-form .search-submit__button:hover{border:1px solid var(--wp--preset--color--button-hover);background-color:var(--wp--preset--color--button-hover);}
             .search-form .search-submit__button:focus{outline:none;border:1px solid var(--wp--preset--color--button-focus);background-color:var(--wp--preset--color--button-focus);}
             #close-search__button{display:none;}
+
 
 
 
