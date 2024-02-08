@@ -42,6 +42,7 @@ function karlicius_theme_custom_breakpoints() {
                 } else {}
                 ?>
                 /* formulario de búsqueda */
+                .search-form__wrapper{position:relative;}
                 .search-form{max-width:38px;}
                 .search-form input[type=search]{opacity:0;}
                 #menu-searchform__group .search-form .search-submit__button{width:38px;height:38px;top:0;right:0;border:1px solid transparent;background-color:transparent;color:var(--wp--preset--color--text-b);z-index:1;}
