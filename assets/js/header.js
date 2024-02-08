@@ -48,14 +48,6 @@ scrollPage();
 
 
 
-function openSearchform() {
-  var searchForm = document.getElementById('search-form');
-  var closeButton = document.getElementById('close-search__button');
-
-  searchForm.classList.toggle('open');
+function openSearchform(toggleButton) {
+  toggleButton.querySelector('.search-form').classList.toggle('open'); 
 }
-
-// Llamar a la función al cargar el documento
-document.addEventListener('DOMContentLoaded', function() {
-  openSearchform();
-});
