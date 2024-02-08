@@ -63,15 +63,15 @@ function karlicius_theme_custom_global() {
             .menu-mobile__button .bars.change .bar3{transform:translateY(-3px) rotate(90deg);}
 
             /* menú */
-            .menu-mobile-searchform__group{position:fixed;top:0;right:-100%;width:100%;height:100svh;padding:53px 15px 20px;background-color:var(--wp--preset--color--background);display:flex;flex-direction:column;gap:30px;transition:all .3s ease;z-index:2;}
-            .menu-mobile-searchform__group.open{right:0;}
-            .menu-mobile-searchform__group form{order:1;}
-            .menu-mobile-searchform__group nav{order:2;}
-            .menu-mobile-searchform__group nav ul{padding-left:0;list-style:none;}
-            .menu-mobile-searchform__group nav ul li:not(:last-child){border-bottom:1px solid var(--wp--preset--color--line);}
-            .menu-mobile-searchform__group nav ul li a{position:relative;left:-1px;display:inline-flex;align-items:center;height:38px;padding:0 10px;border-radius:3px;color:var(--wp--preset--color--text-b);transition:all .3s;}
-            .menu-mobile-searchform__group nav ul li a:hover{color:var(--wp--preset--color--text);}
-            .menu-mobile-searchform__group nav ul li a:focus{outline:none;background-color:var(--wp--preset--color--button-focus);color:#fff;}
+            .menu-searchform__group{position:absolute;top:70px;right:0;width:100%;max-height:0;padding:53px 15px 20px;background-color:var(--wp--preset--color--background);display:flex;flex-direction:column;gap:30px;transition:all .3s ease;z-index:2;}
+            .menu-searchform__group.open{max-height:500px;}
+            .menu-searchform__group form{order:1;}
+            .menu-searchform__group nav{order:2;}
+            .menu-searchform__group nav ul{padding-left:0;list-style:none;}
+            .menu-searchform__group nav ul li:not(:last-child){border-bottom:1px solid var(--wp--preset--color--line);}
+            .menu-searchform__group nav ul li a{position:relative;left:-1px;display:inline-flex;align-items:center;height:38px;padding:0 10px;border-radius:3px;color:var(--wp--preset--color--text-b);transition:all .3s;}
+            .menu-searchform__group nav ul li a:hover{color:var(--wp--preset--color--text);}
+            .menu-searchform__group nav ul li a:focus{outline:none;background-color:var(--wp--preset--color--button-focus);color:#fff;}
 
 
 

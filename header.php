@@ -12,7 +12,6 @@ echo '
     echo '
     </head>
     <body id="body" '; body_class(); echo '>';
-        include(TEMPLATEPATH . '/sections/header/menu-mobile.php');
         echo '
         <header id="main-header" class="container">
             <section class="section">';
