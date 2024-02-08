@@ -1,11 +1,13 @@
 <div class="search-form__wrapper">
     <form role="search" method="get" id="search-form" class="search-form" action="<?php echo home_url( '/' ); ?>">
-        <input type="search" class="search-field" placeholder="<?php esc_html__('Buscar', 'karlicius') ?>" value="" name="s">
-        <button type="submit" class="search-submit__button">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
-            </svg>
-        </button>
+        <div class="wrapper">
+            <input type="search" class="search-field" placeholder="<?php esc_html__('Buscar', 'karlicius') ?>" value="" name="s">
+            <button type="submit" class="search-submit__button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                </svg>
+            </button>
+        </div>
     </form>
     <div id="close-search__button" class="close-search__button" onclick="openSearchform()">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
