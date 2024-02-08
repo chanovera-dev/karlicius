@@ -48,9 +48,14 @@ scrollPage();
 
 
 
+let firstSearchForm = document.querySelector('.search-form');
+
+if (firstSearchForm) {
+    firstSearchForm.id = 'busqueda';
+}
 
 function openSearchform() {
-  let searchForm = document.querySelector('.busqueda');
+  let searchForm = document.getElementById('busqueda');
   searchForm.classList.toggle('open'); 
   console.log('abrir formulario');
 }
