@@ -49,5 +49,6 @@ scrollPage();
 
 
 function openSearchform(toggleButton) {
-  toggleButton.querySelector('.search-form').classList.toggle('open'); 
+  const searchForm = document.querySelector('.search-form');
+  searchForm.classList.toggle('open'); 
 }
