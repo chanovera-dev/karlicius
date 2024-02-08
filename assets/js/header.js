@@ -15,7 +15,7 @@ function scrollPage() {
     const scrollUp = "scroll-up";
     const scrollDown = "scroll-down";
     const header = document.getElementById('main-header');
-    const menuMobile =  document.querySelector('.menu-mobile-searchform__group');
+    const menuMobile =  document.querySelector('.menu-searchform__group');
     let lastScroll = 0;
     
     window.addEventListener("scroll", () => {
