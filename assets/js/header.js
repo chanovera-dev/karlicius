@@ -52,11 +52,7 @@ function openSearchform() {
   var searchForm = document.getElementById('search-form');
   var closeButton = document.getElementById('close-search__button');
 
-  // Agregar evento de clic al botón close-search__button
-  closeButton.addEventListener('click', function() {
-      // Alternar la clase 'open' en el formulario de búsqueda
-      searchForm.classList.toggle('open');
-  });
+  searchForm.classList.toggle('open');
 }
 
 // Llamar a la función al cargar el documento
