@@ -30,16 +30,11 @@ function scrollPage() {
         // down
         body.classList.remove(scrollUp);
         body.classList.add(scrollDown);
-        if ( !menuMobile.classList.contains('open') ) {
-          header.classList.add('shadow');
-        }
+        header.classList.add('shadow');
       } else if (currentScroll < lastScroll && body.classList.contains(scrollDown)) {
         // up
         body.classList.remove(scrollDown);
         body.classList.add(scrollUp);
-        if ( !menuMobile.classList.contains('open') && !header.classList.contains('shadow') ) {
-          header.classList.add('shadow');
-        }
       }
       lastScroll = currentScroll;
     });
