@@ -50,7 +50,8 @@ scrollPage();
 
 
 function openSearchform() {
-  const searchForm = document.querySelector('.search-form');
+  const searchForm = document.getElementById('search-form');
   searchForm.classList.toggle('open'); 
+  console.log('abrir formulario');
 }
 openSearchform();
