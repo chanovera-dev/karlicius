@@ -50,8 +50,8 @@ scrollPage();
 
 
 function openSearchform() {
-  let searchForm = document.getElementById('close-search__button');
-  searchForm.classList.toggle('open'); 
+  let searchFor = document.getElementById('close-search__button');
+  searchFor.classList.toggle('open'); 
   console.log('abrir formulario');
 }
 openSearchform();
