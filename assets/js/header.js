@@ -48,10 +48,9 @@ scrollPage();
 
 
 
-document.addEventListener("DOMContentLoaded", function() {
-  function openSearchform() {
-      const searchForm = document.querySelector('.search-form');
-      searchForm.classList.toggle('open'); 
-  }
-  openSearchform();
-});
+
+function openSearchform() {
+  const searchForm = document.querySelector('.search-form');
+  searchForm.classList.toggle('open'); 
+}
+openSearchform();
