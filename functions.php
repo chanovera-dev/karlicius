@@ -89,6 +89,10 @@ require_once(get_template_directory() . '/functions/backgrounds.php');
 require_once(get_template_directory() . '/functions/global.php');
 /* anexo para cargar el css de formularios */
 require_once(get_template_directory() . '/functions/forms.php');
+// anexo para activar woocommerce
+if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
+    require_once(get_template_directory() . '/functions/woocommerce.php');
+} else {}
 
 
 
