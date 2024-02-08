@@ -53,4 +53,4 @@ function scrollPage() {
 
     searchForm.classList.toggle('open');
   }
-  openSearchform;
+  openSearchform();
