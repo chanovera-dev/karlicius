@@ -42,7 +42,7 @@ function karlicius_theme_custom_breakpoints() {
                 } else {}
                 ?>
                 /* menú de navegación principal */
-                .nav__wrapper{transition:all .3s ease;}
+                .nav__wrapper{transition:all 1s ease;}
                 .nav__wrapper.hide{max-width:0;overflow:hidden;}
 
 
