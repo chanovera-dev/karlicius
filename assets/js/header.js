@@ -43,17 +43,17 @@ function scrollPage() {
       }
       lastScroll = currentScroll;
     });
-  }
-  scrollPage();
+}
+scrollPage();
 
 
 
   function openSearchform() {
-    const closeSearchform = document.getElementById('close-search__button');
-    const searchForm = document.getElementById('search-form');
-
-    closeSearchform.onclick = () => {
-      searchForm.classList.toggle('open');
-    }
-
-  }
+    var searchForm = document.getElementById('search-form');
+    // Agregar evento de clic al botón close-search__button
+    document.getElementById('close-search__button').addEventListener('click', function() {
+        // Alternar la clase 'open' en el formulario de búsqueda
+        searchForm.classList.toggle('open');
+    });
+}
+openSearchform();
