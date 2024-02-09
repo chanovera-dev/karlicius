@@ -10,7 +10,7 @@ function karlicius_theme_custom_breakpoints() {
 
             @media screen and (min-width: 31px) and (max-width: 1023px){
                 /* M E N Ú    M O B I L E */
-                #main-header.container{height:50px;transition:all 1s ease;}
+                #main-header.container{height:50px;overflow:hidden;transition:all 1s ease;}
                 #main-header.container.open{
                     animation-name:animation-menu; animation-direction:normal; animation-duration:1s; animation-timing-function:ease; animation-iteration-count:1;
                     height:100svh;
