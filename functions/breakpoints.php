@@ -12,7 +12,7 @@ function karlicius_theme_custom_breakpoints() {
                 /* M E N Ú    M O B I L E */
                 #main-header.container{height:50px;overflow:hidden;transition:all 1s ease;}
                 #main-header.container.open{
-                    animation-name:animation-menu; animation-direction:normal; animation-duration:1s; animation-timing-function:ease; animation-iteration-count:1;
+                    animation-name:animation-menu; animation-direction:normal; animation-duration:.5s; animation-timing-function:ease; animation-iteration-count:1;
                     height:100svh;
                 }
                 @keyframes animation-menu{
@@ -34,8 +34,7 @@ function karlicius_theme_custom_breakpoints() {
                 .menu-mobile__button .bars.change .bar3{transform:translateY(-3px) rotate(90deg);}
 
                 /* menú */
-                .menu-searchform__group{display:grid;gap:30px;padding-top:30px;grid-column:1/-1;grid-row:2/3;max-height:0;transition:all .3s ease;}
-                .menu-searchform__group.open{max-height:500px;}
+                .menu-searchform__group{display:grid;gap:30px;padding-top:30px;grid-column:1/-1;grid-row:2/3;transition:all .3s ease;}
                 .menu-searchform__group .search-form__wrapper{order:1;}
                 .menu-searchform__group .nav__wrapper{order:2;}
                 .menu-searchform__group nav ul{padding-left:0;list-style:none;}
