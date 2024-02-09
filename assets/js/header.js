@@ -5,9 +5,6 @@ function menuMobileButton(toggleButton) {
 
     toggleButton.querySelector('.bars').classList.toggle('change');
     menuMobile.classList.toggle('open');
-    if ( !header.classList.contains('shadow') ) {
-      header.classList.add('shadow');
-    }
 }
 
 function scrollPage() {
