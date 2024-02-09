@@ -10,7 +10,7 @@ function karlicius_theme_custom_breakpoints() {
 
             @media screen and (min-width: 31px) and (max-width: 1023px){
                 /* M E N Ú    M O B I L E */
-                #main-header.container .section{display:grid;grid-template-columns:auto 1fr auto;grid-template-rows:auto 1fr;align-items:baseline;gap:30px;padding:15px 0 30px;overflow:hidden;transition:all 1 ease;}
+                #main-header.container .section{display:grid;grid-template-columns:auto 1fr auto;grid-template-rows:auto 1fr;align-items:baseline;gap:0 30px;padding:15px 0 15px;overflow:hidden;transition:all 1 ease;}
                 /* botón para abrir el menú mobile */
                 .menu-mobile__button{position:relative;padding:0;border:0;background-color:transparent;width:18px;height:14px;z-index:4;}
                 .menu-mobile__button:hover{cursor:pointer;}
@@ -25,7 +25,7 @@ function karlicius_theme_custom_breakpoints() {
                 .menu-mobile__button .bars.change .bar3{transform:translateY(-3px) rotate(90deg);}
 
                 /* menú */
-                .menu-searchform__group{display:grid;gap:30px;grid-column:1/-1;grid-row:2/3;max-height:0;transition:all .3s ease;}
+                .menu-searchform__group{display:grid;gap:30px;padding-top:30px;grid-column:1/-1;grid-row:2/3;max-height:0;transition:all .3s ease;}
                 .menu-searchform__group.open{max-height:500px;}
                 .menu-searchform__group .search-form__wrapper{order:1;}
                 .menu-searchform__group .nav__wrapper{order:2;}
