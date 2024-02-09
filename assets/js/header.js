@@ -5,6 +5,7 @@ function menuMobileButton(toggleButton) {
 
     toggleButton.querySelector('.bars').classList.toggle('change');
     menuMobile.classList.toggle('open');
+    header.classList.toggle('open');
 }
 
 function scrollPage() {
