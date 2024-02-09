@@ -1,10 +1,8 @@
 // botón para abrir el menú mobile · vease './sections/header/menu--button.php'
 function menuMobileButton(toggleButton) {
-    const menuMobile =  document.querySelector('.menu-searchform__group');
     const header = document.getElementById('main-header');
 
     toggleButton.querySelector('.bars').classList.toggle('change');
-    menuMobile.classList.toggle('open');
     header.classList.toggle('open');
 }
 
@@ -13,7 +11,6 @@ function scrollPage() {
     const scrollUp = "scroll-up";
     const scrollDown = "scroll-down";
     const header = document.getElementById('main-header');
-    const menuMobile =  document.querySelector('.menu-searchform__group');
     let lastScroll = 0;
     
     window.addEventListener("scroll", () => {
