@@ -10,7 +10,7 @@ function karlicius_theme_custom_breakpoints() {
 
             @media screen and (min-width: 31px) and (max-width: 1023px){
                 /* M E N Ú    M O B I L E */
-                #main-header.container .section{display:grid;grid-template-columns:auto 1fr auto;grid-template-rows:auto 1fr;align-items:baseline;gap:30px;padding:15px 0 30px;max-height:50px;overflow:hidden;transition:all .3s ease;}
+                #main-header.container .section{display:grid;grid-template-columns:auto 1fr auto;grid-template-rows:auto 1fr;align-items:baseline;gap:30px;padding:15px 0 30px;max-height:50px;overflow:hidden;transition:all 1 ease;}
                 #main-header.container .section.open{max-height:100svh;}
                 /* botón para abrir el menú mobile */
                 .menu-mobile__button{position:relative;padding:0;border:0;background-color:transparent;width:18px;height:14px;z-index:4;}
