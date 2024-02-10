@@ -4,7 +4,8 @@
 function load_components_header() {
     // Estilos globales
     wp_dequeue_style( 'wp-block-library' );
-    wp_dequeue_style( 'core-block-supports-duotone' );
+    wp_deregister_script('wp-polyfill');
+    wp_deregister_script('regenerator-runtime');
     //wp_register_style( 'global', get_template_directory_uri() . '/style.css', '', 1, 'all' );
     //wp_enqueue_style( 'global' );
 }
