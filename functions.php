@@ -4,8 +4,8 @@
 function load_components_header() {
     // Estilos globales
     wp_dequeue_style( 'wp-block-library' );
-    wp_register_style( 'global', get_template_directory_uri() . '/style.css', '', 1, 'all' );
-    wp_enqueue_style( 'global' );
+    //wp_register_style( 'global', get_template_directory_uri() . '/style.css', '', 1, 'all' );
+    //wp_enqueue_style( 'global' );
 }
 add_action( 'wp_enqueue_scripts', 'load_components_header' );
 
