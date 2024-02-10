@@ -1,7 +1,7 @@
 
 
 /* hero */
-#main #hero.container .section{grid-template-columns:var(--grid-template-columns--two-columns);padding:50px 0;}
+#main #hero.container .section{display:grid;grid-template-columns:var(--grid-template-columns--two-columns);padding:50px 0;}
 #main #hero.container .section .intro .excerpt{margin:20px 0;}
 #main #hero.container .section .intro .action #agendar{margin-right:20px;}
 #main #hero.container .section .intro .action a{color:var(--wp--preset--color--text-b);transition:all .3s ease;}
