@@ -53,6 +53,7 @@ add_action( 'wp_enqueue_scripts', 'contact_styles' );
 // estilos para el template de la página frontal
 function frontpage_styles() {
     if ( is_front_page() or is_page_template('front-page.php') ) {
+        wp_dequeue_style( 'single-styles' );
         wp_enqueue_style( 'frontpage-styles', get_template_directory_uri() . '/assets/css/frontpage.css' );   
     }
 }
