@@ -34,8 +34,8 @@ function karlicius_theme_custom_backgrounds() {
                     :is(.single-post,.page-template-default) #main-header .menu-searchform__group nav ul li a,
                     :is(.single-post,.page-template-default) #menu-searchform__group .search-form__wrapper .search-form .search-submit__button{color:#fff;opacity:.5;}
                     :is(.single-post,.page-template-default) #main-header .menu-searchform__group nav ul li a:hover,
-                    :is(.single-post,.page-template-default) #menu-searchform__group .search-form__wrapper .search-form .search-submit__button:hover{opacity:1;}
-                }
+                    :is(.single-post,.page-template-default) #menu-searchform__group .search-form__wrapper .search-form:hover .search-submit__button{opacity:1;}
+                } 
             <?php endif; ?>
 
         </style>
