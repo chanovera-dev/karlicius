@@ -17,7 +17,9 @@ echo '
             <section class="section">';
                 include(TEMPLATEPATH . '/sections/header/brand.php');
                 include(TEMPLATEPATH . '/sections/header/menu.php');
-                include(TEMPLATEPATH . '/sections/header/attachment-list.php');
+                if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
+                    include(TEMPLATEPATH . '/sections/header/attachment-list.php');
+                } else {}
                 include(TEMPLATEPATH . '/sections/header/menu-button.php');
             echo '
             </section>
