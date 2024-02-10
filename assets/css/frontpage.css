@@ -4,4 +4,4 @@
 #main #hero.container .section{grid-template-columns:var(--grid-template-columns--two-columns);}
 #main #hero.container .section .intro .excerpt{margin:20px 0;}
 #main #hero.container .section .intro #agendar{margin-right:20px;}
-#main #hero.container .section .hero-picture img{width:100%;} 
+#main #hero.container .section .hero-picture img{width:100%;}

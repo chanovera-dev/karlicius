@@ -109,4 +109,4 @@ input[type=submit]:focus{
 
 /* estilos de botones */
 .button{height:38px;padding:0 20px;font-size:16px;font-family:var(--wp--preset--font-family--roboto);border:1px solid var(--wp--preset--color--button);background-color:var(--wp--preset--color--button);color:#fff;transition:all .3s ease;}
-.button:hover{border:1px solid var(--wp--preset--color--button-hover);background-color:var(--wp--preset--color--button-hover);}
+.button:hover{border:1px solid var(--wp--preset--color--button-hover);background-color:var(--wp--preset--color--button-hover);} 
