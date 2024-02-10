@@ -65,6 +65,9 @@ function karlicius_theme_custom_breakpoints() {
                 :root{
                     /* cabecera del artículo */
                     --justify-self--share:end;
+
+                    /* división de columnas en el frontpage */
+                    --grid-template-columns--two-columns:1fr 1fr;
                 }
                 /* M E N Ú    D E S K T O P */
                 /* cabecera */
