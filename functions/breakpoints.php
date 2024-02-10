@@ -21,7 +21,7 @@ function karlicius_theme_custom_breakpoints() {
                 }
                 #main-header.container .section{display:grid;grid-template-columns:auto 1fr auto;grid-template-rows:auto auto;align-items:baseline;gap:30px;padding:15px 0 15px;}
                 /* botón para abrir el menú mobile */
-                .menu-mobile__button{position:relative;padding:0;border:0;background-color:transparent;width:18px;height:14px;z-index:4;}
+                .menu-mobile__button{position:relative;padding:0;grid-column:3/4;border:0;background-color:transparent;width:18px;height:14px;z-index:4;}
                 .menu-mobile__button:hover{cursor:pointer;}
                 .menu-mobile__button .bars{position:relative;display:inline-block;width:18px;height:14px;transition:all .3s ease;}
                 .menu-mobile__button .bars :is(.bar1,.bar2,.bar3){width:18px;height:1px;transition:.4s;background-color:var(--wp--preset--color--attenuated);transition:all .3s ease;}
