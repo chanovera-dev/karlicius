@@ -1,5 +1,5 @@
 
 
 /* hero */
-#main #mero.container .section{grid-template-columns:var(--grid-template-columns--two-columns);}
-#main #hero.container .section .hero-picture img{width:100%;}
+#main #hero.container .section{grid-template-columns:var(--grid-template-columns--two-columns);}
+#main #hero.container .section .hero-picture img{width:100%;} 
