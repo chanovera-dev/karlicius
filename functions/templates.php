@@ -56,4 +56,4 @@ function frontpage_styles() {
         wp_enqueue_style( 'frontpage-styles', get_template_directory_uri() . '/assets/css/frontpage.css' );   
     }
 }
-add_action( 'wp_enqueue_scripts', 'frontpage-styles' );
+add_action( 'wp_enqueue_scripts', 'frontpage_styles' ); 
