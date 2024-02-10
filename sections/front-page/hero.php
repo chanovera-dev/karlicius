@@ -2,7 +2,7 @@
     <section class="section">
         <div class="intro">
             <p><?php esc_html__('Hola, soy Chano Vera', 'karlicius'); ?></p>
-            <h1><?php esc__html('Desarrollo sitios web basados en Wordpress. Tiendas. Blogs. Servicios.', 'karlicius'); ?></h1>
+            <h1><?php esc_html__('Desarrollo sitios web basados en Wordpress. Tiendas. Blogs. Servicios.', 'karlicius'); ?></h1>
             <p><?php esc_html__('Me dedico a desarrollar sitios webs totalmente a la medida, siempre mejorando y entregando mejores productos.', 'karlicius'); ?></p>
             <div class="action">
                 <button id="agendar" onclick="agendar()"><?php esc_html__('Agenda conmigo', 'karlicius'); ?></button>
