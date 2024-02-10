@@ -113,6 +113,10 @@ function karlicius_theme_custom_forms() {
                 border:1px solid var(--wp--preset--color--border-focus);
                 box-shadow:var(--wp--preset--shadow--input);
             }
+
+            /* estilos de botones */
+            .button{height:38px;padding:0 20px;font-size:16px;font-family:var(--wp--preset--font-family--roboto);border:1px solid var(--wp--preset--color--button);background-color:var(--wp--preset--color--button);color:#fff;border-radius:3px;transition:all .3s ease;}
+            .button:hover{border:1px solid var(--wp--preset--color--button-hover);background-color:var(--wp--preset--color--button-hover);} 
         </style>
     <?php
 }
