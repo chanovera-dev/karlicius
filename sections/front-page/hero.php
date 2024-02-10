@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="hero-picture">
-            <img src="<?php echo get_theme_mod('img_hero', get_bloginfo('template_url') . '/assets/img/webDesign.webp'); ?>" alt="computadoras mostrando sitios web">
+            <img src="<?php echo get_theme_mod('img_hero', get_bloginfo('template_url') . '/assets/img/webDesign.webp'); ?>" alt="computadoras mostrando sitios web" loading="lazy">
         </div>
     </section>
 </div>
