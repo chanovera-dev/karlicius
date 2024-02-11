@@ -155,7 +155,12 @@ add_action('wp_print_scripts', 'remove_custom_scripts');
 
 
 // mueve los scripts del head al footer
-
+if (!is_admin()) add_action('wp_enqueue_scripts', 'jquery_footer');
+function jquery_footer() {
+  wp_deregister_script( 'jquery' );
+  wp_register_script( 'jquery', includes_url( '/js/jquery/jquery.js' ), false, NULL, true );
+  wp_enqueue_script( 'jquery' );
+}
 
 
 
