@@ -126,6 +126,7 @@ add_filter( 'wpcf7_load_css', '__return_false' );
 
 
 
+// deshabilita estilos
 function remove_custom_styles(){
     if (!is_single()) {
         wp_dequeue_style("enlighterjs");
@@ -142,6 +143,7 @@ add_action("wp_print_styles", "remove_custom_styles");
 
 
 
+// deshabilita scripts
 function remove_custom_scripts() {
     if (!is_single()) {
         wp_dequeue_script('katex');
@@ -149,6 +151,23 @@ function remove_custom_scripts() {
     }
 }
 add_action('wp_print_scripts', 'remove_custom_scripts');
+
+
+
+// mueve los scripts del head al footer
+function footer_enqueue_scripts() {
+
+	remove_action('wp_head', 'wp_print_scripts');
+	remove_action('wp_head', 'wp_print_head_scripts', 9);
+	remove_action('wp_head', 'wp_enqueue_scripts', 1);
+
+	add_action('wp_footer', 'wp_print_scripts', 5);
+	add_action('wp_footer', 'wp_enqueue_scripts', 5);
+	add_action('wp_footer', 'wp_print_head_scripts', 5);
+
+}
+
+add_action('after_setup_theme', 'footer_enqueue_scripts');
 
 
 
