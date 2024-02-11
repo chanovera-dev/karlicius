@@ -155,11 +155,12 @@ add_action('wp_print_scripts', 'remove_custom_scripts');
 
 
 // mueve los scripts del head al footer
-function footer_enqueue_scripts() {
-
+function mytheme_move_jquery_to_footer() {
+    wp_scripts()->add_data( 'jquery', 'group', 1 );
+    wp_scripts()->add_data( 'jquery-core', 'group', 1 );
+    wp_scripts()->add_data( 'jquery-migrate', 'group', 1 );
 }
-
-add_action('after_setup_theme', 'footer_enqueue_scripts');
+add_action( 'wp_enqueue_scripts', 'mytheme_move_jquery_to_footer' );
 
 
 
