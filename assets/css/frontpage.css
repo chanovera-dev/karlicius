@@ -6,5 +6,5 @@
 #main #hero.container .section .intro .action #agendar #calcom-embed-link:hover{border:1px solid var(--wp--preset--color--button-hover);background-color:var(--wp--preset--color--button-hover);}
 #main #hero.container .section .intro .action a{color:var(--wp--preset--color--text-b);transition:all .3s ease;}
 #main #hero.container .section .intro .action a:hover{color:var(--wp--preset--color--links);}
-#main #hero.container .section .intro .action a:focus{outline:none;background-color:var(--wp--preset--button-focus);color:#fff;}
+#main #hero.container .section .intro .action a:focus{outline:none;background-color:var(--wp--preset--color--button-focus);color:#fff;}
 #main #hero.container .section .hero-picture img{width:100%;}
