@@ -4,7 +4,7 @@
 #main #hero.container .section{display:grid;grid-template-columns:var(--grid-template-columns--two-columns);padding:50px 0;gap:50px;}
 #main #hero.container .section .intro .excerpt{margin:20px 0;}
 #main #hero.container .section .intro .action #agendar{border:none;background-color:transparent;margin-right:20px;}
-#main #hero.container .section .intro .action #agendar #calcom-embed-link{height:38px;padding:0 20px;font-size:16px;font-family:var(--wp--preset--font-family--roboto);border:1px solid var(--wp--preset--color--button);background-color:var(--wp--preset--color--button);color:#fff;border-radius:3px;transition:all .3s ease;}
+#main #hero.container .section .intro .action #agendar #calcom-embed-link{padding:8.5px 20px;font-size:16px;font-family:var(--wp--preset--font-family--roboto);border:1px solid var(--wp--preset--color--button);background-color:var(--wp--preset--color--button);color:#fff;border-radius:3px;transition:all .3s ease;}
 #main #hero.container .section .intro .action #agendar #calcom-embed-link:hover{border:1px solid var(--wp--preset--color--button-hover);background-color:var(--wp--preset--color--button-hover);}
 #main #hero.container .section .intro .action a{color:var(--wp--preset--color--text-b);transition:all .3s ease;}
 #main #hero.container .section .intro .action a:hover{color:var(--wp--preset--color--links);}

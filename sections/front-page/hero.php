@@ -5,7 +5,7 @@
             <h1><?php echo esc_html__('Desarrollo sitios web basados en Wordpress. Tiendas. Blogs. Servicios.', 'karlicius'); ?></h1>
             <p class="excerpt"><?php echo esc_html__('Me dedico a desarrollar sitios webs totalmente a la medida, siempre mejorando y entregando mejores productos.', 'karlicius'); ?></p>
             <div class="action">
-                <button id="agendar" class="button"><?php echo do_shortcode('[cal url=/chanovera/30min type=2 text="Agenda conmigo"]'); ?></button>
+                <button id="agendar"><?php echo do_shortcode('[cal url=/chanovera/30min type=2 text="Agenda conmigo"]'); ?></button>
                 <a href=""><?php echo esc_html__('Mira mi portafolio', 'karlicius'); ?></a>
             </div>
         </div>
