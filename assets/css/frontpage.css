@@ -7,6 +7,6 @@
 #main #hero.container .section .intro .action a{color:var(--wp--preset--color--text-b);border-radius:3px;transition:all .3s ease;}
 #main #hero.container .section .intro .action a:hover{color:var(--wp--preset--color--links);}
 #main #hero.container .section .intro .action a:focus{outline:none;}
-#main #hero.container .section .intro .action a:nth-child(1):focus #calcom-embed-link{background-color:var(--wp--preset--color--button-focus);}
+#main #hero.container .section .intro .action #agendar:focus #calcom-embed-link{background-color:var(--wp--preset--color--button-focus);}
 #main #hero.container .section .intro .action a:nth-child(2):focus{border-radius:1px;background-color:var(--wp--preset--color--button-focus);color:#fff;box-shadow:0 0 0 6px var(--wp--preset--color--button-focus);}
 #main #hero.container .section .hero-picture img{width:100%;}
