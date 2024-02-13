@@ -99,7 +99,7 @@ function karlicius_theme_custom_breakpoints() {
                 /* formulario de búsqueda · abierto */
                 #menu-searchform__group .search-form__wrapper.open .search-form{width:500px;max-width:500px;}
                 #menu-searchform__group .search-form__wrapper.open .search-form input[type=search]{opacity:1;padding-left:38px;padding-right:38px;}
-                #menu-searchform__group .search-form__wrapper.open .search-form .search-submit__button{width:28px;height:28px;right:5px;top:5px;border-radius:3px;}
+                #menu-searchform__group .search-form__wrapper.open .search-form .search-submit__button{width:28px;height:28px;right:5px;top:5px;border:1px solid transparent;border-radius:3px;}
                 #menu-searchform__group .search-form__wrapper.open .search-form .search-submit__button:hover{}
                 #menu-searchform__group .search-form__wrapper.open .search-form .search-submit__button:focus{}
                 #menu-searchform__group .search-form__wrapper.open #close-search__button{opacity:1;}
