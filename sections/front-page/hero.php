@@ -13,7 +13,4 @@
             <img src="<?php echo get_theme_mod('img_hero', get_bloginfo('template_url') . '/assets/img/webDesign.webp'); ?>" alt="computadoras mostrando sitios web">
         </div>
     </section>
-    <section class="section">
-        <?php echo do_shortcode('[cal url=/chanovera/30min type=1 text="Agenda conmigo"]'); ?>
-    </section>
 </div>
