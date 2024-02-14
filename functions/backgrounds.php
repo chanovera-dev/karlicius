@@ -15,6 +15,9 @@ function karlicius_theme_custom_backgrounds() {
                     :is(.home,.single-post,.page-template-default) #main-header .section .site-brand a{color:#fff;opacity:.5;}
                     :is(.home,.single-post,.page-template-default) #main-header .section .site-brand a:hover{color:#fff;opacity:1;}
                     :is(.home,.single-post,.page-template-default) #main-header .section .site-brand a:focus{opacity:1;}
+                        /* con menú abierto */
+                        :is(.home,.single-post,.page-template-default) #main-header.open .section .site-brand a{color:var(--wp--preset--color--text-b);}
+                        :is(.home,.single-post,.page-template-default) #main-header.open .section .site-brand a:hover{color:var(--wp--preset--color--text);}
                     /* carrito y wishlist */
                     :is(.home,.single-post,.page-template-default) #main-header .attachment-list li a.counter{color:#fff;opacity:.5;}
                     :is(.home,.single-post,.page-template-default) #main-header .attachment-list li a.counter:hover{opacity:1;}
