@@ -1,4 +1,4 @@
-<div id="hero" class="header-post container">
+<div id="hero" class="container">
     <section class="section">
         <div class="intro">
             <p><?php echo esc_html__('Hola, soy Chano Vera', 'karlicius'); ?></p>
@@ -9,11 +9,8 @@
                 <a href=""><?php echo esc_html__('Mira mi portafolio', 'karlicius'); ?></a>
             </div>
         </div>
-        <?php if ( has_post_thumbnail() == false ) : ?>
-            <div class="hero-picture">
-                <img src="<?php echo get_theme_mod('img_hero', get_bloginfo('template_url') . '/assets/img/webDesign.webp'); ?>" alt="computadoras mostrando sitios web">
-            </div>
-        <?php else: ?>
-        <?php endif; ?>
+        <div class="hero-picture">
+            <img src="<?php echo get_theme_mod('img_hero', get_bloginfo('template_url') . '/assets/img/webDesign.webp'); ?>" alt="computadoras mostrando sitios web">
+        </div>
     </section>
 </div>
