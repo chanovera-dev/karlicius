@@ -1,12 +1,12 @@
-<div id="hero" class="header-post container">
+<div id="hero" class="background-hero container">
     <section class="section">
         <div class="intro">
-            <p><?php echo esc_html__('Hola, soy Chano Vera', 'karlicius'); ?></p>
-            <h1><?php echo esc_html__('Desarrollo sitios web basados en Wordpress. Tiendas. Blogs. Servicios.', 'karlicius'); ?></h1>
-            <p class="excerpt"><?php echo esc_html__('Me dedico a desarrollar sitios webs totalmente a la medida, siempre mejorando y entregando mejores productos.', 'karlicius'); ?></p>
+            <p><?php echo get_theme_mod('presentation_name', 'Hola, soy Chano Vera'); ?></p>
+            <h1><?php echo get_theme_mod('presentation_ocuppation', 'Desarrollo sitios web basados en Wordpress. Tiendas. Blogs. Servicios.'); ?></h1>
+            <p class="excerpt"><?php echo get_theme_mod('presentation_excerpt', 'Me dedico a desarrollar sitios webs totalmente a la medida, siempre mejorando y entregando mejores productos.'); ?></p>
             <div class="action">
-                <a href="#" id="agendar"><?php echo do_shortcode('[cal url=/chanovera/30min type=2 text="Agenda conmigo"]'); ?></a>
-                <a href=""><?php echo esc_html__('Mira mi portafolio', 'karlicius'); ?></a>
+                <a href="#" id="agendar"><?php the_content(); ?></a>
+                <a href=""><?php echo get_theme_mod('presentation_invitation', 'Mira mi portafolio'); ?></a>
             </div>
         </div>
         <?php if ( has_post_thumbnail() == false ) : ?>
