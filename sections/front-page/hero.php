@@ -1,4 +1,4 @@
-<div id="hero" class="container">
+<div id="hero" class="header-post container">
     <section class="section">
         <div class="intro">
             <p><?php echo esc_html__('Hola, soy Chano Vera', 'karlicius'); ?></p>
