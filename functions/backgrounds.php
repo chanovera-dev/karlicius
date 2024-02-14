@@ -26,7 +26,6 @@ function karlicius_theme_custom_backgrounds() {
                 :is(.home,.single-post,.page-template-default) #main .header-post.container .section{position:relative;z-index:1;color:#fff;}
                 :is(.home,.single-post,.page-template-default) #main .header-post.container .section aside .share a:where(:not(.wp-element-button)):any-link,
                 /* front page */
-                :is(.home,.single-post,.page-template-default) #main #hero.container .section{grid-template-columns:var(--grid-template-columns--posts);}
                 :is(.home,.single-post,.page-template-default) #main #hero.container .section .intro .action a:where(:not(.wp-element-button)):any-link{color:#fff;}
 
                 @supports ( (-webkit-backdrop-filter:saturate(180%) blur(20px)) or (backdrop-filter:saturate(180%) blur(20px)) ){
