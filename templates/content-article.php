@@ -27,6 +27,12 @@
         <div class="comments-post container">
             <section class="section comments">
                 <?php comments_template(); ?>
+                <aside>
+                    <?php
+                        if ( comments_open() ) : include(TEMPLATEPATH . '/sections/widgets/contact.php');
+                        endif;
+                    ?>
+                </aside>
             </section>
         </div>
     </article>

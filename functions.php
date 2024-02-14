@@ -166,9 +166,14 @@ add_action( 'wp_default_scripts', 'mover_jquery_al_footer' );
 
 
 
-// Añade el contacto al formulario de comentarios en los artículos
-function karlicius_address_into_comments(){ include (TEMPLATEPATH. '/sections/widgets/contact.php'); }
-add_action( 'comment_form', 'karlicius_address_into_comments' );
+// Añade contenido debajo de los commentarios de los artículos
+// function karlicius_content_into_comments(){ 
+//     include (TEMPLATEPATH. '/dir/content'); 
+// }
+// add_action( 'comment_form', 'karlicius_content_into_comments' );
+
+
+
 // function ver_archivos_cargados(){
 //     global $wp_styles;
 //     global $wp_scripts;
