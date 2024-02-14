@@ -40,7 +40,7 @@ function karlicius_theme_custom_backgrounds() {
                     :is(.home,.single-post,.page-template-default) #main-header .menu-searchform__group nav ul li a:hover,
                     :is(.home,.single-post,.page-template-default) #menu-searchform__group .search-form__wrapper .search-form:hover .search-submit__button{opacity:1;}
                     :is(.home,.single-post,.page-template-default) #main-header .menu-searchform__group nav ul li a:focus,
-                    :is(.home,.single-post,.page-template-default) #menu-searchform__group .search-form__wrapper .search-form:focus .search-submit__button{opacity:1;}
+                    :is(.home,.single-post,.page-template-default) #menu-searchform__group .search-form__wrapper .search-form .search-submit__button:focus{opacity:1;}
                 } 
             <?php endif; ?>
 
