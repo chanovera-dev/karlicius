@@ -21,7 +21,7 @@ function karlicius_theme_custom_backgrounds() {
                 :is(.home,.single-post,.page-template-default) #main-header .menu-mobile__button .bars.change :is(.bar1,.bar2,.bar3){background-color:var(--wp--preset--color--text);opacity:1;}
                 /* encabezado de artículo */
                 :is(.home,.single-post,.page-template-default) #main .header-post.container{position:relative;padding-top:var(--height--header);background:url('<?php the_post_thumbnail_url( 'full' ); ?>'); background-repeat:no-repeat; background-position:50% 50%; background-size:cover;}
-                :is(.home,.single-post,.page-template-default) #main #hero.header-post.container{background:linear-gradient(to bottom, rgba(0,0,0,.6), rgba(0,0,0,0)), url('<?php the_post_thumbnail_url( 'full' ); ?>');}
+                :is(.home,.single-post,.page-template-default) #main #hero.header-post.container{background:linear-gradient(to bottom, rgba(0,0,0,.7), rgba(0,0,0,0)), url('<?php the_post_thumbnail_url( 'full' ); ?>');}
                 :is(.home,.single-post,.page-template-default) #main .header-post.container .background-blur{position:absolute;top:0;left:0;width:100%;height:100%;z-index:0;}
                 :is(.home,.single-post,.page-template-default) #main .header-post.container .section{position:relative;z-index:1;color:#fff;}
                 :is(.home,.single-post,.page-template-default) #main .header-post.container .section aside .share a:where(:not(.wp-element-button)):any-link,
