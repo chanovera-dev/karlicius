@@ -9,7 +9,7 @@ function karlicius_theme_custom_backgrounds() {
             <?php if ( has_post_thumbnail() == false ) : ?>
 
             <?php else: ?>
-                :root{
+                #header{
                     --wp--preset--color--text:#ffffff!important;
                     --wp--preset--color--text-b:#ffffff86!important;
                 }
