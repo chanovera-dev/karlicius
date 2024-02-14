@@ -10,11 +10,10 @@
             </div>
         </div>
         <?php if ( has_post_thumbnail() == false ) : ?>
-            
-        <?php else: ?>
         <div class="hero-picture">
             <img src="<?php echo get_theme_mod('img_hero', get_bloginfo('template_url') . '/assets/img/webDesign.webp'); ?>" alt="computadoras mostrando sitios web">
         </div>
+        <?php else: ?>
         <?php endif; ?>
     </section>
 </div>
