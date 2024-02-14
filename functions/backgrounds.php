@@ -10,8 +10,8 @@ function karlicius_theme_custom_backgrounds() {
 
             <?php else: ?>
                 :root{
-                    --wp--preset--color--text:#ffffff;
-                    --wp--preset--color--text-b:#ffffff86;
+                    --wp--preset--color--text:#ffffff!important;
+                    --wp--preset--color--text-b:#ffffff86!important;
                 }
                 /* cabecera del sitio con fondo · inicio · página · artículo */
                 :is(.home,.single-post,.page-template-default) #main-header{position:fixed;width:100%;background-color:transparent;border-bottom:1px solid #ffffff21;}
