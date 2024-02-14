@@ -25,16 +25,8 @@
         </div>
         <div class="pagination-post container"></div>
         <div class="comments-post container">
-            <section class="section">
-                <div class="comments">
-                    <?php comments_template(); ?>
-                </div>
-                <aside>
-                    <?php
-                        if ( comments_open() ) : include(TEMPLATEPATH . '/sections/widgets/contact.php');
-                        endif;
-                    ?>
-                </aside>
+            <section class="section comments">
+                <?php comments_template(); ?>
             </section>
         </div>
     </article>
