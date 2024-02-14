@@ -99,7 +99,7 @@ function karlicius_theme_custom_breakpoints() {
                     /* botón abrir búsqueda / cerrar búsqueda */
                     #menu-searchform__group .search-form__wrapper #close-search__button{display:grid;place-content:center;position:absolute;top:0;left:0;width:38px;height:38px;border:1px solid transparent;border-radius:3px;background-color:transparent;color:var(--wp--preset--color--text-b);transition:all .3s ease;z-index:2;}
                     #menu-searchform__group .search-form__wrapper #close-search__button:hover{color:var(--wp--preset--color--text);}
-                    #menu-searchform__group .search-form__wrapper #close-search__button:focus{outline:none;background-color:var(--wp--preset--color--button-focus);}
+                    #menu-searchform__group .search-form__wrapper #close-search__button:focus{outline:none;background-color:var(--wp--preset--color--button-focus);color:#fff;}
                     #menu-searchform__group .search-form__wrapper #close-search__button .bi-x-circle{display:none;}
                     #menu-searchform__group .search-form__wrapper #close-search__button .bi-search{}
                     
