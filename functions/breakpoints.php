@@ -94,7 +94,7 @@ function karlicius_theme_custom_breakpoints() {
                     /* caja de búsqueda */
                     #menu-searchform__group .search-form__wrapper .search-form input[type=search]{opacity:0;}
                     /* botón búscar */
-                    #menu-searchform__group .search-form__wrapper .search-form .search-submit__button{width:28px;height:28px;top:5px;right:5px;border:1px solid transparent;background-color:transparent;color:transparent;z-index:1;}
+                    #menu-searchform__group .search-form__wrapper .search-form .search-submit__button{width:28px;height:28px;top:5px;right:5px;border:1px solid transparent;border-radius:3px;background-color:transparent;color:transparent;z-index:1;}
                     #menu-searchform__group .search-form__wrapper .search-form .search-submit__button:focus{outline:none;}
                     /* botón abrir búsqueda / cerrar búsqueda */
                     #menu-searchform__group .search-form__wrapper #close-search__button{display:grid;place-content:center;position:absolute;top:0;left:0;width:38px;height:38px;border:1px solid transparent;border-radius:3px;background-color:transparent;color:var(--wp--preset--color--text-b);transition:all .3s ease;z-index:2;}
@@ -104,14 +104,19 @@ function karlicius_theme_custom_breakpoints() {
                     #menu-searchform__group .search-form__wrapper #close-search__button .bi-search{}
                     
                 /* formulario de búsqueda · abierto */
+                /* contenedor */
                 #menu-searchform__group .search-form__wrapper.open .search-form{width:500px;max-width:500px;}
+                /* caja de búsqueda */
                 #menu-searchform__group .search-form__wrapper.open .search-form input[type=search]{opacity:1;padding-left:38px;padding-right:38px;}
-                #menu-searchform__group .search-form__wrapper.open .search-form .search-submit__button{border-radius:3px;}
-                #menu-searchform__group .search-form__wrapper.open .search-form .search-submit__button:hover{}
+                /* botón buscar */
+                #menu-searchform__group .search-form__wrapper.open .search-form .search-submit__button{color:var(--wp--preset--color--text-b);}
+                #menu-searchform__group .search-form__wrapper.open .search-form .search-submit__button:hover{color:var(--wp--preset--color--text);}
                 #menu-searchform__group .search-form__wrapper.open .search-form .search-submit__button:focus{border:1px solid var(--wp-preset--color--button-focus);background-color:var(--wp--preset--color--button-focus);color:#fff;}
-                #menu-searchform__group .search-form__wrapper.open #close-search__button{color:var(--wp--preset--color--text-b);}
+                #menu-searchform__group .search-form__wrapper.open #close-search__button{color:var(--wp--preset--color--text-b);width:28px;height:28px;top:5px;left:5px;}
                 #menu-searchform__group .search-form__wrapper.open #close-search__button:hover{color:var(--wp--preset--color--text-b);}
                 #menu-searchform__group .search-form__wrapper.open #close-search__button:focus{background-color:var(--wp--preset--color--button-focus);color:#fff;}
+                #menu-searchform__group .search-form__wrapper #close-search__button .bi-x-circle{display:inherit;}
+                #menu-searchform__group .search-form__wrapper.open #close-search__button .bi-search{display:none;}
 
 
 
