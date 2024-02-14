@@ -11,6 +11,7 @@
 #main .header-post .section .date{line-height:1;margin-top:20px;opacity:.5;}
 
 /* C U E R P O */
+#main .body-post .section .content{overflow:hidden;}
 #main .body-post .section .content > *:not(:last-child){margin-bottom:20px;}
 /* títulos */
 #main .body-post .section .content > h2{font-size:var(--wp--preset--font-size--x-large);margin-top:40px;border-bottom:2px solid var(--wp--preset--color--text);}

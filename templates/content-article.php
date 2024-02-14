@@ -20,7 +20,7 @@
                 <div class="content">
                     <?php the_content(); ?>
                 </div>
-                <aside>Sidebar atículos</aside>
+                <aside></aside>
             </section>
         </div>
         <div class="pagination-post container"></div>
