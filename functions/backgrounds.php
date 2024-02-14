@@ -7,6 +7,7 @@ function karlicius_theme_custom_backgrounds() {
                 :is(.scroll-down,.scroll-up) #main-header{background:rgba(255,255,255,.8); backdrop-filter:saturate(180%) blur(20px); -webkit-backdrop-filter:saturate(180%) blur(20px);}
             }
             <?php if ( has_post_thumbnail() == false ) : ?>
+                
             <?php else: ?>
                 /* cabecera */
                 :is(.home,.single-post,.page-template-default) #main-header{position:fixed;width:100%;background-color:transparent;border-bottom:1px solid #ffffff21;}
