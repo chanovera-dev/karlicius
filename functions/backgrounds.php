@@ -48,6 +48,7 @@ function karlicius_theme_custom_backgrounds() {
                 @media(min-width:1024px){
                     :is(.single-post,.page-template-default) .menu-searchform__group nav ul li a{color:#ffffff86;}
                     :is(.single-post,.page-template-default) .menu-searchform__group nav ul li a:hover{color:#fff;}
+                    :is(.single-post,.page-template-default) .menu-searchform__group nav ul li a:focus{color:#fff;}
                 }
             <?php endif; ?>
 
