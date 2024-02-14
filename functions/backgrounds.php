@@ -23,7 +23,7 @@ function karlicius_theme_custom_backgrounds() {
                 :is(.home,.single-post,.page-template-default) #main #hero.header-post.container{background:linear-gradient(to bottom, rgba(0,0,0,.5), rgba(0,0,0,0)), url('<?php the_post_thumbnail_url( 'full' ); ?>');}
                 :is(.home,.single-post,.page-template-default) #main .header-post.container .background-blur{position:absolute;top:0;left:0;width:100%;height:100%;z-index:0;}
                 :is(.home,.single-post,.page-template-default) #main .header-post.container .section{position:relative;z-index:1;color:#fff;}
-                :is(.home,.single-post,.page-template-default) #main .header-post.container .section aside .share a:where(:not(.wp-element-button)):any-link{color:#fff;}
+                :is(.home,.single-post,.page-template-default) #main .header-post.container .section a:where(:not(.wp-element-button)):any-link{color:#fff;}
 
                 @supports ( (-webkit-backdrop-filter:saturate(180%) blur(20px)) or (backdrop-filter:saturate(180%) blur(20px)) ){
                     :is(.home.scroll-down,.home.scroll-up) #main-header,
