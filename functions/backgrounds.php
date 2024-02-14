@@ -7,12 +7,13 @@ function karlicius_theme_custom_backgrounds() {
                 :is(.scroll-down,.scroll-up) #main-header{background:rgba(255,255,255,.8); backdrop-filter:saturate(180%) blur(20px); -webkit-backdrop-filter:saturate(180%) blur(20px);}
             }
             <?php if ( has_post_thumbnail() == false ) : ?>
-                
+
             <?php else: ?>
                 /* cabecera */
                 :is(.home,.single-post,.page-template-default) #main-header{position:fixed;width:100%;background-color:transparent;border-bottom:1px solid #ffffff21;}
                 :is(.home,.single-post,.page-template-default) #main-header .section .site-brand a{color:#fff;opacity:.5;}
                 :is(.home,.single-post,.page-template-default) #main-header .section .site-brand a:hover{color:#fff;opacity:1;}
+                :is(.home,.single-post,.page-template-default) #main-header .section .site-brand a:focus{opacity:1;}
                 :is(.home,.single-post,.page-template-default) #main-header .attachment-list li a.counter{color:#fff;opacity:.5;}
                 :is(.home,.single-post,.page-template-default) #main-header .attachment-list li a.counter:hover{opacity:1;}
                 :is(.home,.single-post,.page-template-default) #main-header .menu-mobile__button .bars :is(.bar1,.bar2,.bar3){background-color:#fff;opacity:.5;}
@@ -38,6 +39,8 @@ function karlicius_theme_custom_backgrounds() {
                     :is(.home,.single-post,.page-template-default) #menu-searchform__group .search-form__wrapper .search-form .search-submit__button{color:#fff;opacity:.5;}
                     :is(.home,.single-post,.page-template-default) #main-header .menu-searchform__group nav ul li a:hover,
                     :is(.home,.single-post,.page-template-default) #menu-searchform__group .search-form__wrapper .search-form:hover .search-submit__button{opacity:1;}
+                    :is(.home,.single-post,.page-template-default) #main-header .menu-searchform__group nav ul li a:focus,
+                    :is(.home,.single-post,.page-template-default) #menu-searchform__group .search-form__wrapper .search-form:focus .search-submit__button{opacity:1;}
                 } 
             <?php endif; ?>
 
