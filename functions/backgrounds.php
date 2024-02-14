@@ -38,6 +38,7 @@ function karlicius_theme_custom_backgrounds() {
                     :is(.home.scroll-down,.home.scroll-up) #main-header, 
                     :is(.single-post.scroll-down,.single-post.scroll-up) #main-header,
                     :is(.page-template-default.scroll-down,.page-template-default.scroll-up) #main-header{background:rgba(0,0,0,.8); backdrop-filter:saturate(180%) blur(20px); -webkit-backdrop-filter:saturate(180%) blur(20px);}
+                    :is(.home,.single-post,.page-template-default) #main-header.open{background:rgba(255,255,255,.8); backdrop-filter:saturate(180%) blur(20px); -webkit-backdrop-filter:saturate(180%) blur(20px);}
                     .background-blur{background:rgba(0,0,0,.4); backdrop-filter:saturate(180%) blur(20px); -webkit-backdrop-filter:saturate(180%) blur(20px);}
                 }
 
