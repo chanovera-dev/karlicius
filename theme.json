@@ -117,7 +117,7 @@
                 {
                     "name": "Input",
                     "slug": "input",
-                    "shadow": "0 0 7px rgba(0,123,255,.25)"
+                    "shadow": "0 0 7px rgba(0,123,255,.25)" 
                 },
                 {
                     "name": "Shadow of card",
