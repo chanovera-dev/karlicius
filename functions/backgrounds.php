@@ -35,8 +35,8 @@ function karlicius_theme_custom_backgrounds() {
                 }
 
                 @media(min-width:1024px){
-                    :is(.home,.single-post,.page-template-default) #main-header .menu-searchform__group nav ul li a,
-                    :is(.home,.single-post,.page-template-default) #menu-searchform__group .search-form__wrapper .search-form .search-submit__button{color:#fff;opacity:.5;}
+                    :is(.home,.single-post,.page-template-default) #main-header .menu-searchform__group nav ul li a{color:#fff;opacity:.5;}
+                    :is(.home,.single-post,.page-template-default) #menu-searchform__group .search-form__wrapper .search-form .search-submit__button{color:var(--wp--preset--color--text-b);opacity:.5;}
                     :is(.home,.single-post,.page-template-default) #main-header .menu-searchform__group nav ul li a:hover,
                     :is(.home,.single-post,.page-template-default) #menu-searchform__group .search-form__wrapper .search-form:hover .search-submit__button{opacity:1;}
                     :is(.home,.single-post,.page-template-default) #main-header .menu-searchform__group nav ul li a:focus,
