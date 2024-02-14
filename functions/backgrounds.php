@@ -33,7 +33,6 @@ function karlicius_theme_custom_backgrounds() {
                 }
 
                 @media(min-width:1024px){
-                    :is(.home,.single-post,.page-template-default) #main #hero.header-post.container{background:linear-gradient(to right, #0000005b, #00000000), url('<?php the_post_thumbnail_url( 'full' ); ?>');}
                     :is(.home,.single-post,.page-template-default) #main-header .menu-searchform__group nav ul li a,
                     :is(.home,.single-post,.page-template-default) #menu-searchform__group .search-form__wrapper .search-form .search-submit__button{color:#fff;opacity:.5;}
                     :is(.home,.single-post,.page-template-default) #main-header .menu-searchform__group nav ul li a:hover,
