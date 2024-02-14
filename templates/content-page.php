@@ -1,6 +1,6 @@
 <main id="main">
     <article>
-        <div class="header-post container" style="background:linear-gradient(45deg, rgba(187, 37, 36, 0.63), rgba(187, 37, 36, 0.83)), url('<?php the_post_thumbnail_url( 'full' ); ?>'); background-repeat:no-repeat; background-position:50% 50%; background-size:cover;">
+        <div class="header-post container">
             <div class="background-blur"></div>
             <section class="section">
                 <div class="title-and-data__wrapper">
