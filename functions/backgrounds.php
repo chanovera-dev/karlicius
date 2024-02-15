@@ -57,7 +57,7 @@ function karlicius_theme_custom_backgrounds() {
                         /* abierto */
                         :is(.single-post,.page-template-default) #menu-searchform__group .search-form__wrapper.open #close-search__button{color:var(--wp--preset--color--text-b);}
                         :is(.single-post,.page-template-default) #menu-searchform__group .search-form__wrapper.open #close-search__button:hover{color:var(--wp--preset--color--text);}
-                        
+                        :is(.single-post,.page-template-default) #menu-searchform__group .search-form__wrapper.open #close-search__button:focus{color:#fff;}
                 }
             <?php endif; ?>
 
