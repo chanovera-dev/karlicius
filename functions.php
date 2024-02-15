@@ -166,6 +166,74 @@ add_action( 'wp_default_scripts', 'mover_jquery_al_footer' );
 
 
 
+// Registra los sidebars
+function widgets_areas(){
+    
+    register_sidebar(
+        array(
+            'name' => __('Blog Sidebar','karlicius'),
+            'id' => 'sidebar-1',
+            'description' => __('Sidebar Widget Area','karlicius'),
+            'before_title' => '<h2>',
+            'after_title' => '</h2>',
+            'before_widget' => '',
+            'after_widget' => '',
+        )
+    );
+    
+    register_sidebar(
+        array(
+            'name' => __('Post Sidebar','karlicius'),
+            'id' => 'sidebar-2',
+            'description' => __('Sidebar Widget Area','karlicius'),
+            'before_title' => '<h2>',
+            'after_title' => '</h2>',
+            'before_widget' => '',
+            'after_widget' => '',
+        )
+    );
+    
+    register_sidebar(
+        array(
+            'name' => __('Biografía','karlicius'),
+            'id' => 'biography',
+            'description' => __('Sidebar Widget Area','karlicius'),
+            'before_title' => '<h2>',
+            'after_title' => '</h2>',
+            'before_widget' => '',
+            'after_widget' => '',
+        )
+    );
+
+    register_sidebar(
+        array(
+            'name' => __('Trabajos','karlicius'),
+            'id' => 'works',
+            'description' => __('Sidebar Widget Area','karlicius'),
+            'before_title' => '<h2>',
+            'after_title' => '</h2>',
+            'before_widget' => '',
+            'after_widget' => '',
+        )
+    );
+    
+    register_sidebar(
+        array(
+            'name' => __('Certificaciones','karlicius'),
+            'id' => 'certifications',
+            'description' => __('Sidebar Widget Area','karlicius'),
+            'before_title' => '<h2>',
+            'after_title' => '</h2>',
+            'before_widget' => '',
+            'after_widget' => '',
+        )
+    );
+    
+}
+add_action( 'widgets_init', 'widgets_areas' );
+
+
+
 // Añade contenido debajo de los commentarios de los artículos
 // function karlicius_content_into_comments(){ 
 //     include (TEMPLATEPATH. '/dir/content'); 
