@@ -47,17 +47,17 @@ function karlicius_theme_custom_backgrounds() {
 
                 @media(min-width:1024px){
                     /* menú */
-                    :is(.single-post,.page-template-default) .menu-searchform__group nav ul li a{color:#ffffff86;}
-                    :is(.single-post,.page-template-default) .menu-searchform__group nav ul li a:hover{color:#fff;}
-                    :is(.single-post,.page-template-default) .menu-searchform__group nav ul li a:focus{color:#fff;}
+                    :is(.home,.single-post,.page-template-default) .menu-searchform__group nav ul li a{color:#ffffff86;}
+                    :is(.home,.single-post,.page-template-default) .menu-searchform__group nav ul li a:hover{color:#fff;}
+                    :is(.home,.single-post,.page-template-default) .menu-searchform__group nav ul li a:focus{color:#fff;}
                     /* formulario de búsqueda */
-                    :is(.single-post,.page-template-default) #menu-searchform__group .search-form__wrapper #close-search__button{color:#ffffff86;}
-                    :is(.single-post,.page-template-default) #menu-searchform__group .search-form__wrapper #close-search__button:hover{color:#fff;}
-                    :is(.single-post,.page-template-default) #menu-searchform__group .search-form__wrapper #close-search__button:focus{color:#fff;}
+                    :is(.home,.single-post,.page-template-default) #menu-searchform__group .search-form__wrapper #close-search__button{color:#ffffff86;}
+                    :is(.home,.single-post,.page-template-default) #menu-searchform__group .search-form__wrapper #close-search__button:hover{color:#fff;}
+                    :is(.home,.single-post,.page-template-default) #menu-searchform__group .search-form__wrapper #close-search__button:focus{color:#fff;}
                         /* abierto */
-                        :is(.single-post,.page-template-default) #menu-searchform__group .search-form__wrapper.open #close-search__button{color:var(--wp--preset--color--text-b);}
-                        :is(.single-post,.page-template-default) #menu-searchform__group .search-form__wrapper.open #close-search__button:hover{color:var(--wp--preset--color--text);}
-                        :is(.single-post,.page-template-default) #menu-searchform__group .search-form__wrapper.open #close-search__button:focus{color:#fff;}
+                        :is(.home,.single-post,.page-template-default) #menu-searchform__group .search-form__wrapper.open #close-search__button{color:var(--wp--preset--color--text-b);}
+                        :is(.home,.single-post,.page-template-default) #menu-searchform__group .search-form__wrapper.open #close-search__button:hover{color:var(--wp--preset--color--text);}
+                        :is(.home,.single-post,.page-template-default) #menu-searchform__group .search-form__wrapper.open #close-search__button:focus{color:#fff;}
                 }
             <?php endif; ?>
 
