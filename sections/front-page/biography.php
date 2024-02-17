@@ -14,11 +14,6 @@
                     echo '
                     </div>';
                 }
-                echo '
-                <aside>';
-                    include(TEMPLATEPATH . '/sections/widgets/contact.php');
-                echo '
-                </aside>';
             ?>   
         </div>
         <?php
@@ -36,6 +31,15 @@
                 echo '
                 </div>';
             }
+        ?>
+    </section>
+    <section class="section contact">
+        <?php
+            echo '
+            <aside>';
+                include(TEMPLATEPATH . '/sections/widgets/contact.php');
+            echo '
+            </aside>';
         ?>
     </section>
 </div>
