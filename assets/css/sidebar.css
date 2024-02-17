@@ -9,6 +9,7 @@
 
 /* listas */
 #main aside > div ul li:not(:last-child){border-bottom:1px solid var(--wp--preset--color--line);}
+#main aside > div ul li{display:flex;align-items:center;gap:7px;color:var(--wp--preset--color--text-b);height:38px;}
 #main aside > div ul li > a{display:inline-flex;align-items:center;gap:7px;margin:6.11px 0;color:var(--wp--preset--color--text-b);border-radius:2px;transition:all .3s ease;}
 #main aside > div ul li > a:hover{color:var(--wp--preset--color--links);}
 #main aside > div ul li > a:focus{outline:none;background-color:var(--wp--preset--color--button-focus);box-shadow:0 0 0 3px var(--wp--preset--color--button-focus);color:#fff;}
@@ -22,7 +23,6 @@
 #main aside > div ul li.comment__wrapper .comment p:not(:last-child){margin-bottom:10px;}
 
 /* lista de contacto */
-#main aside > div ul.address li{display:flex;align-items:center;gap:7px;color:var(--wp--preset--color--text-b);height:38px;}
 #main aside > div ul.address li:last-child{padding-left:24px;}
 
 /* sección de compartir artículo dentro de la cabecera del artículo */
