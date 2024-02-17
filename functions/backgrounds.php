@@ -8,7 +8,7 @@ function karlicius_theme_custom_backgrounds() {
             }
             <?php if ( has_post_thumbnail() == false ) : ?>
                 /* front page · biografía */
-                #main #biography.container{background-color:var(--wp--preset--color--background-b);}
+                .home #main #biography.container{background-color:var(--wp--preset--color--background-b);} 
             <?php else: ?>
                 /* cabecera del sitio con fondo · inicio · página · artículo */
                 :is(.home,.single-post,.page-template-default) #main-header{position:fixed;width:100%;background-color:transparent;border-bottom:1px solid #ffffff21;}
