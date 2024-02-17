@@ -45,6 +45,9 @@ function karlicius_theme_custom_backgrounds() {
                     .background-blur{background:rgba(0,0,0,.4); backdrop-filter:saturate(180%) blur(20px); -webkit-backdrop-filter:saturate(180%) blur(20px);}
                 }
 
+                /* front page · biografía */
+                #main #biography.container{background-color:var(--wp--preset--color--background-b);}
+
                 @media(min-width:1024px){
                     /* menú */
                     :is(.home,.single-post,.page-template-default) .menu-searchform__group nav ul li a{color:#ffffff86;}
