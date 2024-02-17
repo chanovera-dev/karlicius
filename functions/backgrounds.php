@@ -7,7 +7,8 @@ function karlicius_theme_custom_backgrounds() {
                 :is(.scroll-down,.scroll-up) #main-header{background:rgba(255,255,255,.8); backdrop-filter:saturate(180%) blur(20px); -webkit-backdrop-filter:saturate(180%) blur(20px);}
             }
             <?php if ( has_post_thumbnail() == false ) : ?>
-
+                /* front page · biografía */
+                #main #biography.container{background-color:var(--wp--preset--color--background-b);}
             <?php else: ?>
                 /* cabecera del sitio con fondo · inicio · página · artículo */
                 :is(.home,.single-post,.page-template-default) #main-header{position:fixed;width:100%;background-color:transparent;border-bottom:1px solid #ffffff21;}
@@ -44,9 +45,6 @@ function karlicius_theme_custom_backgrounds() {
                     :is(.home,.single-post,.page-template-default) #main-header.open{background:rgba(255,255,255,.8); backdrop-filter:saturate(180%) blur(20px); -webkit-backdrop-filter:saturate(180%) blur(20px);}
                     .background-blur{background:rgba(0,0,0,.4); backdrop-filter:saturate(180%) blur(20px); -webkit-backdrop-filter:saturate(180%) blur(20px);}
                 }
-
-                /* front page · biografía */
-                #main #biography.container{background-color:var(--wp--preset--color--background-b);}
 
                 @media(min-width:1024px){
                     /* menú */
