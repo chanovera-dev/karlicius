@@ -33,13 +33,9 @@
             }
         ?>
     </section>
-    <section class="section contact">
+    <aside class="section contact">
         <?php
-            echo '
-            <aside>';
-                include(TEMPLATEPATH . '/sections/widgets/contact.php');
-            echo '
-            </aside>';
+            include(TEMPLATEPATH . '/sections/widgets/contact.php');
         ?>
-    </section>
+    </aside>
 </div>
