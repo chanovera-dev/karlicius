@@ -18,7 +18,7 @@
         <?php
             if ( is_active_sidebar('works') ) {
                 echo '
-                <div class="certifications">';
+                <div class="latest-works">';
                     dynamic_sidebar('works');
                 echo '
                 </div>';
