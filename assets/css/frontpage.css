@@ -10,3 +10,6 @@
 #main #hero.container .section .intro .action #agendar:focus #calcom-embed-link{background-color:var(--wp--preset--color--button-focus);border:1px solid var(--wp--preset--color--button-focus);}
 #main #hero.container .section .intro .action a:nth-child(2):focus{border-radius:1px;background-color:var(--wp--preset--color--button-focus);color:#fff;box-shadow:0 0 0 6px var(--wp--preset--color--button-focus);}
 #main #hero.container .section .hero-picture img{width:100%;}
+
+/* biografía */
+#main #biography.container .section{display:grid;gap:50px;grid-template-columns:repeat(auto-fill, minmax(305px, 1fr));;}

@@ -1,7 +1,7 @@
 <div id="biography" class="container">
     <section class="section">
     <div class="bio">
-            <img src="<?php echo get_theme_mod('picture_me', get_bloginfo('template_url') . '/assets/img/me.webp'); ?>" alt="Jaquie" width="150" height="150" loading="lazy" >
+            <img src="<?php echo get_theme_mod('picture_me', get_bloginfo('template_url') . '/assets/img/me.webp'); ?>" alt="Chano" width="150" height="150" loading="lazy" >
             <h2 class="title"><?php echo get_theme_mod('name', 'Chano Vera'); ?></h2>
             <div class="bio-excerpt">
                 <?php echo get_theme_mod('bio_excerpt', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'); ?>
