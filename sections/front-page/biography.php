@@ -8,11 +8,17 @@
             </div>
             <?php
                 if ( is_active_sidebar('biography') ) {
-                    echo '<div class="extend-biography">';
-                    dynamic_sidebar('biography');
-                    echo '</div>';
+                    echo '
+                    <div class="extend-biography">';
+                        dynamic_sidebar('biography');
+                    echo '
+                    </div>';
                 }
-                include(TEMPLATEPATH . '/sections/widgets/contact.php');
+                echo '
+                <aside>';
+                    include(TEMPLATEPATH . '/sections/widgets/contact.php');
+                echo '
+                </aside>';
             ?>   
         </div>
         <?php
