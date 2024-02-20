@@ -1,10 +1,10 @@
 <div id="biography" class="container">
     <section class="section">
     <div class="bio">
-            <img src="<?php echo get_theme_mod('picture_me', get_bloginfo('template_url') . '/assets/img/me.webp'); ?>" alt="Chano" width="150" height="150" loading="lazy" >
+            <img src="<?php echo get_theme_mod('picture_code', get_bloginfo('template_url') . '/assets/img/code.webp'); ?>" alt="Code" width="150" height="150">
             <h2 class="title"><?php echo get_theme_mod('title_bio', '¿Por qué así?'); ?></h2>
             <div class="bio-excerpt">
-                <?php echo get_theme_mod('bio_excerpt', 'Desarrollo de esta manera para que a ti como usuario te sea fácil usarlo y escalarlo, así, yo como desarrollador puedo ofrecerte un sitio totalmente personalizado, rápido y ajustado a tu medida.'); ?>
+                <?php echo get_theme_mod('bio_excerpt', 'Desarrollo de esta manera para que a ti como usuario te sea fácil usarlo y escalarlo; así, yo como desarrollador puedo ofrecerte un sitio totalmente personalizado, rápido y ajustado a tu medida.'); ?>
             </div>
             <?php
                 if ( is_active_sidebar('biography') ) {
