@@ -1,5 +1,5 @@
 <div id="hero" class="background-hero container">
-    <section class="section">
+    <section class="hero section">
         <div class="intro">
             <p><?php echo get_theme_mod('presentation_name', 'Hola, soy Chano Vera'); ?></p>
             <h1><?php echo get_theme_mod('presentation_ocuppation', 'Desarrollo sitios web basados en Wordpress. Tiendas. Blogs. Servicios.'); ?></h1>
@@ -17,4 +17,9 @@
             
         <?php endif; ?>
     </section>
+    <aside class="section contact">
+        <?php
+            include(TEMPLATEPATH . '/sections/widgets/contact.php');
+        ?>
+    </aside>
 </div>
