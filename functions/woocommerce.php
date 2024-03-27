@@ -35,3 +35,44 @@ function woocommerce_header_add_to_cart_fragment( $fragments ) {
 	$fragments['a.cart-customlocation'] = ob_get_clean();
 	return $fragments;
 }
+
+
+
+// crea un sidebar llamado woocommerce, da de baja la sidebar original y toma su lugar
+function pinplast_widgets_init() {
+    register_sidebar( array(
+        'name'          => 'WooCommerce Sidebar',
+        'id'            => 'woocommerce_sidebar',
+        'before_widget' => '<div>',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h4>',
+        'after_title'   => '</h4>',
+    ) );
+}
+add_action( 'widgets_init', 'pinplast_widgets_init' );
+
+
+ 
+// suplantando la sidebar de woocommerce
+add_action( 'wp', function() {
+    // remueve la sidebar original
+    remove_action( 'woocommerce_sidebar', 'woocommerce_get_sidebar', 10 );
+
+    // agrega la sidebar en las páginas de tienda, archivo, etc.
+    if ( is_shop() || is_product_category() || is_tax(get_object_taxonomies( 'product' )) ) {
+        // agrega la nueva sidebar en la posición 22
+        add_action( 'woocommerce_before_main_content', function() {
+            if ( is_active_sidebar( 'woocommerce_sidebar' ) ) {
+                dynamic_sidebar( 'woocommerce_sidebar' );
+            } else {
+                get_sidebar( 'woocommerce' );
+            }
+        }, 22 );
+    }
+} );
+
+
+
+// A N E X O S
+// Estilos particulares para los templates
+require_once(get_template_directory() . '/functions/woocommerce/woocommerce-templates.php');
