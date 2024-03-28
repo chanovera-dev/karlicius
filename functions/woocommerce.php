@@ -39,17 +39,17 @@ function woocommerce_header_add_to_cart_fragment( $fragments ) {
 
 
 // crea un sidebar llamado woocommerce, da de baja la sidebar original y toma su lugar
-function pinplast_widgets_init() {
+function karlicius_widgets_init() {
     register_sidebar( array(
         'name'          => 'WooCommerce Sidebar',
         'id'            => 'woocommerce_sidebar',
         'before_widget' => '<div>',
         'after_widget'  => '</div>',
-        'before_title'  => '<h4>',
-        'after_title'   => '</h4>',
+        'before_title'  => '<h3>',
+        'after_title'   => '</h3>',
     ) );
 }
-add_action( 'widgets_init', 'pinplast_widgets_init' );
+add_action( 'widgets_init', 'karlicius_widgets_init' );
 
 
  
