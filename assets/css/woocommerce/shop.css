@@ -1,2 +1,5 @@
 /* borrar el contenedor del título de página */
 .woocommerce-products-header{display:none;}
+
+/* ajuste de la separación del gap para la página de la tienda */
+#main .container .section{gap:0 50px;}
