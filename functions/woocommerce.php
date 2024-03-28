@@ -80,8 +80,11 @@ remove_action( 'woocommerce_before_shop_loop' , 'woocommerce_result_count', 20 )
 
 // ocultar el título de las páginas de woocommerce
 add_filter( 'woocommerce_show_page_title' , 'woo_hide_page_title' );
-function woo_hide_page_title() { return false; }
-
+function woo_hide_page_title($title) {
+    if (is_shop()) $title = false;
+    return $title;
+}
+add_filter('woocommerce_show_page_title', 'bbloomer_hide_shop_page_title');
 
 
 // A N E X O S
