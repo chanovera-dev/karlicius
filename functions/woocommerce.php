@@ -75,7 +75,8 @@ add_action( 'wp', function() {
 // quitar el menú desplegable de ordenar por
 remove_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30 );
 
-
+// quitar el contador de resultados
+remove_action( 'woocommerce_before_shop_loop' , 'woocommerce_result_count', 20 );
 
 // ocultar el título de las páginas de woocommerce
 add_filter( 'woocommerce_show_page_title' , 'woo_hide_page_title' );
