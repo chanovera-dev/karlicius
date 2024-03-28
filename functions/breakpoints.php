@@ -6,6 +6,13 @@ function karlicius_theme_custom_breakpoints() {
             :root{
                 /* cabecera */
                 --height--header:50px;
+
+                /* página */
+                --margin-bottom--post:30px;
+
+                /* tienda */
+                --grid-template-columns--lists:1fr 1fr;
+                --gap--lists:10px;
             }
 
             @media screen and (min-width: 31px) and (max-width: 1023px){
@@ -48,6 +55,10 @@ function karlicius_theme_custom_breakpoints() {
             @media(min-width:768px){
                 :root{
                     --grid-template-columns--sites-and-form:1fr 1fr;
+
+                    /* tienda */
+                    --grid-template-columns--lists:repeat(auto-fill, minmax(207px, 1fr));
+                    --gap--lists:16px 12px;
                 }
             }
 
