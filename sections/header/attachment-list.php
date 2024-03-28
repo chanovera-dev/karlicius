@@ -18,7 +18,6 @@ if (is_plugin_active('woocommerce/woocommerce.php')) {
                     </svg>
                     <div class="wrapper"><span class="number">'; echo sprintf ( WC()->cart->get_cart_contents_count() );  echo '</span></div>
                 </a>
-                <a class="counter cart-customlocation" href="'; echo esc_url(wc_get_cart_url()); echo '">
             </li>
         </ul>
     </aside>'; 

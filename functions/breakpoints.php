@@ -72,7 +72,7 @@ function karlicius_theme_custom_breakpoints() {
                 /* M E N Ú    D E S K T O P */
                 /* cabecera */
                 .menu-mobile__button{display:none;}
-                #main-header .section{display:flex;align-items:center;justify-content:space-between;height:var(--height--header);gap:30px;}
+                #main-header .section{display:flex;align-items:center;justify-content:space-between;height:var(--height--header);gap:0 30px;}
                 <?php
                 if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
                     echo '#main-header.container .section{display:grid;grid-template-columns:1fr auto 1fr;}';
