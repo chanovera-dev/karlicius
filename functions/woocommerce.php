@@ -77,6 +77,12 @@ remove_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 3
 
 
 
+// ocultar el título de las páginas de woocommerce
+add_filter( 'woocommerce_show_page_title' , 'woo_hide_page_title' );
+function woo_hide_page_title() { return false; }
+
+
+
 // A N E X O S
 // Estilos particulares para los templates
 require_once(get_template_directory() . '/functions/woocommerce/woocommerce-templates.php');
